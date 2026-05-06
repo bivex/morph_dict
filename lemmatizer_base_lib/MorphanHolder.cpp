@@ -578,8 +578,13 @@ const CMorphanHolder& GetMHolder(MorphLanguageEnum l) {
     return h;
 };
 
-void GlobalLoadMorphHolder(MorphLanguageEnum l, std::string custom_directory) {
+const CMorphanHolder& GlobalLoadMorphHolder(MorphLanguageEnum l, bool only_gramtab, std::string custom_directory) {
     auto& h = GetHolder(l);
-    h.LoadOnlyLemmatizer(l, custom_directory);
+    h.m_CurrentLanguage = l;
     h.LoadOnlyGramtab(l, custom_directory);
+    if (only_gramtab) {
+        return h;
+    }
+    h.LoadOnlyLemmatizer(l, custom_directory);
+    return h;
 }
