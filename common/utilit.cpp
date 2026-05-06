@@ -316,6 +316,10 @@ bool GetLanguageByString (std::string s, MorphLanguageEnum& Result)
 		Result = morphGerman;
 		return true;
 	}
+	else if(s == "UKRAINIAN"){
+		Result = morphUkrainian;
+		return true;
+	}
 	else if(s == "GENERIC"){
 		Result = morphGeneric;
 		return true;
@@ -335,6 +339,7 @@ std::string GetStringByLanguage (MorphLanguageEnum Langua)
 		case morphRussian: return "Russian";
 		case morphEnglish: return "English";
 		case morphGerman: return  "German";
+		case morphUkrainian: return "Ukrainian";
 		case morphGeneric: return  "Generic";
 		case morphFioDisclosures: return  "FIO_DISCLOSURES";
 		default :return "unk";

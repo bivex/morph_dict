@@ -1,0 +1,2 @@
+# Ukrainian word frequency data
+# This is a placeholder. Replace with actual word frequency data.
