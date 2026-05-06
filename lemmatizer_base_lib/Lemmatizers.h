@@ -84,6 +84,12 @@ public:
     void FilterSrc(std::string &src) const;
 };
 
+class CLemmatizerUkrainian : public CLemmatizer {
+public:
+    CLemmatizerUkrainian();
+    virtual ~CLemmatizerUkrainian() {};
+};
+
 
 class CLemmatizerEnglish : public CLemmatizer {
 public:

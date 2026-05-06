@@ -490,5 +490,12 @@ CLemmatizerGerman:: CLemmatizerGerman() : CLemmatizer(morphGerman)
 {
 };
 
+CLemmatizerUkrainian::CLemmatizerUkrainian() : CLemmatizer(morphUkrainian)
+{
+    m_HyphenPrefixes.insert("ПОЛ-");
+    m_HyphenPrefixes.insert("ВІЦЕ-");
+    m_HyphenPrefixes.insert("МІНІ-");
+};
+
 
 

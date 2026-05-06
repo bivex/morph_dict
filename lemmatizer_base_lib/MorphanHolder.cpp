@@ -1,6 +1,7 @@
 #include "MorphanHolder.h"
 #include "morph_dict/morph_wizard/paradigm_consts.h"
 #include "morph_dict/agramtab/RusGramTab.h"
+#include "morph_dict/agramtab/UkrGramTab.h"
 #include "morph_dict/agramtab/GerGramTab.h"
 #include "morph_dict/agramtab/EngGramTab.h"
 #include "Paradigm.h"
@@ -42,6 +43,9 @@ void CMorphanHolder::LoadOnlyGramtab(MorphLanguageEnum langua, std::string custo
     case morphFioDisclosures:
         m_pGramTab = new CRusGramTab;;
         break;
+    case morphUkrainian:
+        m_pGramTab = new CUkrGramTab;
+        break;
     case morphGerman:
         m_pGramTab = new CGerGramTab;
         break;
@@ -74,6 +78,9 @@ void CMorphanHolder::LoadOnlyLemmatizer(MorphLanguageEnum langua, std::string cu
         break;
     case morphEnglish:
         m_pLemmatizer = new CLemmatizerEnglish;
+        break;
+    case morphUkrainian:
+        m_pLemmatizer = new CLemmatizerUkrainian;
         break;
     default:
         throw CExpc("unsupported language");
@@ -553,12 +560,14 @@ std::vector<CFuzzyResult> CMorphanHolder::CorrectMisspelledWordUtf8(std::string 
 CMorphanHolder  RusHolder;
 CMorphanHolder  EngHolder;
 CMorphanHolder  GerHolder;
+CMorphanHolder  UkrHolder;
 
 static CMorphanHolder& GetHolder(MorphLanguageEnum l) {
     switch (l) {
         case morphRussian: return RusHolder;
         case morphGerman: return GerHolder;
         case morphEnglish: return EngHolder;
+        case morphUkrainian: return UkrHolder;
         default: throw CExpc("unknown morph holder language");
     }
 }
@@ -569,14 +578,8 @@ const CMorphanHolder& GetMHolder(MorphLanguageEnum l) {
     return h;
 };
 
-
-const CMorphanHolder& GlobalLoadMorphHolder(MorphLanguageEnum l, bool only_gramtab, std::string custom_directory) {
+void GlobalLoadMorphHolder(MorphLanguageEnum l, std::string custom_directory) {
     auto& h = GetHolder(l);
-    h.m_CurrentLanguage = l;
-    h.LoadOnlyGramtab(l, custom_directory);
-    if (only_gramtab) {
-        return h;
-    }
     h.LoadOnlyLemmatizer(l, custom_directory);
-    return  h;
+    h.LoadOnlyGramtab(l, custom_directory);
 }

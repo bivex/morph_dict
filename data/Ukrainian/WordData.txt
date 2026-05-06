@@ -1,2 +1,5 @@
-# Ukrainian word frequency data
-# This is a placeholder. Replace with actual word frequency data.
+А;CONJ ;1
+АА;N sg,;1
+І;CONJ ;1
+Є;V ;1
+Ї;PRON ;1

@@ -1,2 +1,1 @@
-# Ukrainian statistical data for homonym and word frequency weights
-# This is a placeholder. Replace with actual compiled statistical data.
+АА АА С 1

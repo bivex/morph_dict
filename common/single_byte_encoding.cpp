@@ -60,6 +60,8 @@ const uint16_t LwRomDigits = 1024;
 const uint16_t LatinVowel = 2048;
 const uint16_t RussianVowel = 4096;
 const uint16_t URL_CHAR = 8192;
+const uint16_t UkrUpper = 16384;
+const uint16_t UkrLower = 32768;
 
 
 const uint16_t ASCII[256] = {
@@ -212,7 +214,7 @@ const uint16_t ASCII[256] = {
 	/*private use two (pu2) '''*/                      fWordDelim,
 	/*std::set transmit state (sts) '"'*/                   fWordDelim,
 	/*cancel character (cch) '"'*/                     fWordDelim,
-	/*message waiting (mw) ''*/                       fWordDelim,
+	/*message waiting (mw) ' '*/                       fWordDelim,
 	/*start of guarded area (spa) '-'*/                fWordDelim,
 	/*end of guarded area (epa) '-'*/                  fWordDelim,
 	/*start of std::string (sos) '_'*/                      fWordDelim,
@@ -226,35 +228,35 @@ const uint16_t ASCII[256] = {
 	/*no-break space ' '*/                             fWordDelim,
 	/*inverted exclamation mark 'Ў'*/                  fWordDelim,
 	/*cent sign 'ў'*/                                  fWordDelim,
-	/*pound sign '_'*/                                 fWordDelim,
+	/*pound sign 'Ј'*/                                 fWordDelim,
 	/*currency sign '¤'*/                              fWordDelim,
-	/*yen sign '_'*/                                   fWordDelim,
+	/*yen sign 'Ґ'*/                                   UkrUpper,
 	/*broken bar '¦'*/                                 fWordDelim,
 	/*section sign '§'*/                               fWordDelim,
-	/*diaeresis 'Ё'*/                                  fWordDelim | RusUpper | RussianVowel,
-	/*copyright sign 'c'*/                             fWordDelim,
-	/*feminine ordinal indicator 'Є'*/                 fWordDelim,
-	/*left pointing double angle quotation mark '<'*/  fWordDelim,
+	/*diaeresis 'Ё'*/                                  RusUpper | RussianVowel,
+	/*copyright sign '©'*/                             fWordDelim,
+	/*feminine ordinal indicator 'Є'*/                 UkrUpper | RussianVowel,
+	/*left pointing double angle quotation mark '«'*/  fWordDelim,
 	/*not sign '¬'*/                                   fWordDelim,
 	/*soft hyphen '-'*/                                fWordDelim,
-	/*registered sign 'R'*/                            fWordDelim,
-	/*macron 'Ї'*/                                     fWordDelim,
+	/*registered sign '®'*/                            fWordDelim,
+	/*macron 'Ї'*/                                     UkrUpper | RussianVowel,
 	/*degree sign '°'*/                                fWordDelim,
-	/*plus-minus sign '+'*/                            fWordDelim,
-	/*superscript two '_'*/                            fWordDelim,
-	/*superscript three '_'*/                          fWordDelim,
-	/*acute '_'*/                                      fWordDelim,
-	/*micro sign 'ч'*/                                 fWordDelim | GerLower | GerUpper,
+	/*plus-minus sign '±'*/                            fWordDelim,
+	/*superscript two 'І'*/                            UkrUpper | RussianVowel,
+	/*superscript three 'і'*/                          UkrLower | RussianVowel,
+	/*acute 'ґ'*/                                      UkrLower,
+	/*micro sign 'µ'*/                                 fWordDelim | GerLower | GerUpper,
 	/*pilcrow sign '¶'*/                               fWordDelim,
 	/*middle dot '·'*/                                 fWordDelim,
 	/*cedilla 'ё'*/                                    RusLower | RussianVowel,
 	/*superscript one '№'*/                            fWordDelim,
-	/*masculine ordinal indicator 'є'*/                fWordDelim,
-	/*right pointing double angle quotation mark '>'*/ fWordDelim,
-	/*vulgar fraction one quarter '_'*/                fWordDelim,
-	/*vulgar fraction one half '_'*/                   fWordDelim,
-	/*vulgar fraction three quarters '_'*/             fWordDelim,
-	/*inverted question mark 'ї'*/                     fWordDelim,
+	/*masculine ordinal indicator 'є'*/                UkrLower | RussianVowel,
+	/*right pointing double angle quotation mark '»'*/ fWordDelim,
+	/*vulgar fraction one quarter 'ј'*/                fWordDelim,
+	/*vulgar fraction one half 'Ѕ'*/                   fWordDelim,
+	/*vulgar fraction three quarters 'ѕ'*/             fWordDelim,
+	/*inverted question mark 'ї'*/                     UkrLower | RussianVowel,
 	/*latin capital letter a with grave 'А'*/          RusUpper | RussianVowel,
 	/*latin capital letter a with acute 'Б'*/          RusUpper,
 	/*latin capital letter a with circumflex 'В'*/     RusUpper | GerUpper | EngUpper | LatinVowel,
@@ -320,6 +322,7 @@ const uint16_t ASCII[256] = {
 	/*latin small letter thorn (icelandic) 'ю'*/       RusLower | RussianVowel,
 	/*latin small letter y with diaeresis  'я'*/       RusLower | RussianVowel
 };
+
 
 
 BYTE convert_latin_char_similar_russian_lower_char(BYTE ch) {
@@ -628,6 +631,7 @@ bool is_upper_vowel(BYTE x, MorphLanguageEnum Langua)
 	switch (Langua)
 	{
 	case morphFioDisclosures:
+	case morphUkrainian:
 	case morphRussian: return is_russian_upper_vowel(x);
 	case morphEnglish: return is_english_upper_vowel(x);
 	case morphGerman: return is_german_upper_vowel(x);
@@ -642,18 +646,34 @@ bool is_upper_consonant(BYTE x, MorphLanguageEnum Langua)
 	return !is_upper_vowel(x, Langua);
 };
 
+bool is_ukrainian_alpha(BYTE x)
+{
+	return (ASCII[x] & (RusUpper | RusLower | UkrUpper | UkrLower)) != 0;
+};
+
 bool is_alpha(BYTE x)
 {
-	return is_russian_alpha(x) || is_german_alpha(x);
+	return is_russian_alpha(x) || is_german_alpha(x) || is_ukrainian_alpha(x);
 };
 
 
+
+bool is_ukrainian_upper(BYTE x)
+{
+	return (ASCII[x] & (RusUpper | UkrUpper)) != 0;
+};
+
+bool is_ukrainian_lower(BYTE x)
+{
+	return (ASCII[x] & (RusLower | UkrLower)) != 0;
+};
 
 bool is_lower_alpha(BYTE x, MorphLanguageEnum Langua)
 {
 	switch (Langua)
 	{
 	case morphFioDisclosures:
+	case morphUkrainian: return is_ukrainian_lower(x);
 	case morphRussian: return is_russian_lower(x);
 	case morphEnglish: return is_english_lower(x);
 	case morphGerman: return is_german_lower(x);
@@ -668,6 +688,7 @@ bool is_upper_alpha(BYTE x, MorphLanguageEnum Langua)
 	switch (Langua)
 	{
 	case morphFioDisclosures:
+	case morphUkrainian: return is_ukrainian_upper(x);
 	case morphRussian: return is_russian_upper(x);
 	case morphEnglish: return is_english_upper(x);
 	case morphGerman: return is_german_upper(x);
@@ -831,7 +852,7 @@ void ConvertJO2Je(std::string& src)
 };
 
 std::string convert_from_utf8(const char* utf8str, const MorphLanguageEnum langua) {
-	if (langua == morphRussian || langua == morphFioDisclosures) {
+	if (langua == morphRussian || langua == morphFioDisclosures || langua == morphUkrainian) {
 		return convert_utf8_to_cp1251(utf8str);
 	}
 	return convert_utf8_to_cp1252(utf8str);
@@ -839,7 +860,7 @@ std::string convert_from_utf8(const char* utf8str, const MorphLanguageEnum langu
 
 
 std::string convert_to_utf8(const std::string& str, const MorphLanguageEnum langua) {
-	if (langua == morphRussian || langua == morphFioDisclosures) {
+	if (langua == morphRussian || langua == morphFioDisclosures || langua == morphUkrainian) {
 		return convert_cp1251_to_utf8(str);
 	}
 	return convert_cp1252_to_utf8(str);

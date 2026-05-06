@@ -4,6 +4,7 @@
 #include "morph_dict/common/util_classes.h"
 #include "morph_dict/agramtab/EngGramTab.h"
 #include "morph_dict/agramtab/RusGramTab.h"
+#include "morph_dict/agramtab/UkrGramTab.h"
 #include "morph_dict/agramtab/GerGramTab.h"
 #include "morph_dict/common/rapidjson.h"
 
@@ -58,6 +59,9 @@ void MorphoWizard::load_gramtab(bool useNationalConstants) {
     case morphFioDisclosures:
     case morphRussian:
         pGramTab = new CRusGramTab;
+        break;
+    case morphUkrainian:
+        pGramTab = new CUkrGramTab;
         break;
     case morphEnglish:
         pGramTab = new CEngGramTab;

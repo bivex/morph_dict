@@ -7,6 +7,8 @@ add_library(AgramtabLib
         EngGramTab.h
         RusGramTab.cpp
         RusGramTab.h
+        UkrGramTab.cpp
+        UkrGramTab.h
         GerGramTab.cpp
         GerGramTab.h
 
