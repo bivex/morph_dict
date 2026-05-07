@@ -126,10 +126,12 @@ size_t CUkrGramTab::GetMaxGrmCount() const {
 }
 
 CAgramtabLine*& CUkrGramTab::GetLine(size_t LineNo) {
+    if (LineNo >= uMaxGrmCount) return Lines[0];
     return Lines[LineNo];
 }
 
 const CAgramtabLine* CUkrGramTab::GetLine(size_t LineNo) const {
+    if (LineNo >= uMaxGrmCount) return nullptr;
     return Lines[LineNo];
 }
 
@@ -157,23 +159,23 @@ bool CUkrGramTab::ProcessPOSAndGrammems(const char* tab_str, part_of_speech_t& P
 // Numbers: sg, pl
 
 static bool UkrGleicheGenderNumber(const CAgramtabLine* l1, const CAgramtabLine* l2) {
-    return ((_QM(uAllNumbers) & l1->m_Grammems & l2->m_Grammems) > 0)
+    return ((uAllNumbers & l1->m_Grammems & l2->m_Grammems) > 0)
         && (((l1->m_Grammems & l2->m_Grammems & _QM(uPlural)) > 0)
-            || ((_QM(uAllGenders) & l1->m_Grammems & l2->m_Grammems) > 0));
+            || ((uAllGenders & l1->m_Grammems & l2->m_Grammems) > 0));
 }
 
 static bool UkrGleicheCase(const CAgramtabLine* l1, const CAgramtabLine* l2) {
-    return (_QM(uAllCases) & l1->m_Grammems & l2->m_Grammems) > 0;
+    return (uAllCases & l1->m_Grammems & l2->m_Grammems) > 0;
 }
 
 static bool UkrGleicheCaseNumber(const CAgramtabLine* l1, const CAgramtabLine* l2) {
-    return ((_QM(uAllCases) & l1->m_Grammems & l2->m_Grammems) > 0)
-        && ((_QM(uAllNumbers) & l1->m_Grammems & l2->m_Grammems) > 0);
+    return ((uAllCases & l1->m_Grammems & l2->m_Grammems) > 0)
+        && ((uAllNumbers & l1->m_Grammems & l2->m_Grammems) > 0);
 }
 
 static bool UkrGleichePersonNumber(const CAgramtabLine* l1, const CAgramtabLine* l2) {
-    return (_QM(uAllPersons) & l1->m_Grammems & l2->m_Grammems) > 0
-        && (_QM(uAllNumbers) & l1->m_Grammems & l2->m_Grammems) > 0;
+    return (uAllPersons & l1->m_Grammems & l2->m_Grammems) > 0
+        && (uAllNumbers & l1->m_Grammems & l2->m_Grammems) > 0;
 }
 
 static bool UkrGleicheSubjectPredicate(const CAgramtabLine* subj_l, const CAgramtabLine* verb_l) {
@@ -199,11 +201,11 @@ static bool UkrGleicheSubjectPredicate(const CAgramtabLine* subj_l, const CAgram
             || (verb & (_QM(uFirstPerson) | _QM(uSecondPerson))) > 0)
             return UkrGleichePersonNumber(subj_l, verb_l);
         else
-            return (_QM(uAllNumbers) & subj & verb) > 0;
+            return (uAllNumbers & subj & verb) > 0;
     }
     else if (verb & _QM(uImperative)) {
         return (subj & _QM(uSecondPerson)) > 0
-            && (_QM(uAllNumbers) & subj & verb) > 0;
+            && (uAllNumbers & subj & verb) > 0;
     }
 
     return false;
@@ -212,33 +214,33 @@ static bool UkrGleicheSubjectPredicate(const CAgramtabLine* subj_l, const CAgram
 static bool UkrGleicheGenderNumberCase(const CAgramtabLine* l1, const CAgramtabLine* l2) {
     const grammems_mask_t& g1 = l1->m_Grammems;
     const grammems_mask_t& g2 = l2->m_Grammems;
-    return ((_QM(uAllCases) & g1 & g2) > 0)
-        && ((_QM(uAllNumbers) & g1 & g2) > 0)
-        && (((_QM(uAllGenders) & g1 & g2) > 0)
-            || ((_QM(uAllGenders) & g1) == 0)
-            || ((_QM(uAllGenders) & g2) == 0));
+    return ((uAllCases & g1 & g2) > 0)
+        && ((uAllNumbers & g1 & g2) > 0)
+        && (((uAllGenders & g1 & g2) > 0)
+            || ((uAllGenders & g1) == 0)
+            || ((uAllGenders & g2) == 0));
 }
 
 static bool UkrGleicheGenderNumberCaseAnim(const CAgramtabLine* l1, const CAgramtabLine* l2) {
     const grammems_mask_t& g1 = l1->m_Grammems;
     const grammems_mask_t& g2 = l2->m_Grammems;
-    return ((_QM(uAllCases) & g1 & g2) > 0)
-        && ((_QM(uAllNumbers) & g1 & g2) > 0)
-        && (((_QM(uAnimative) & g2) > 0) || ((_QM(uAllAnimative) & g2) == 0))
-        && (((_QM(uAllGenders) & g1 & g2) > 0)
-            || ((_QM(uAllGenders) & g1) == 0)
-            || ((_QM(uAllGenders) & g2) == 0));
+    return ((uAllCases & g1 & g2) > 0)
+        && ((uAllNumbers & g1 & g2) > 0)
+        && ((_QM(uAnimative) & g2) > 0 || (uAllAnimative & g2) == 0)
+        && (((uAllGenders & g1 & g2) > 0)
+            || ((uAllGenders & g1) == 0)
+            || ((uAllGenders & g2) == 0));
 }
 
 static bool UkrGleicheGenderNumberCaseInanim(const CAgramtabLine* l1, const CAgramtabLine* l2) {
     const grammems_mask_t& g1 = l1->m_Grammems;
     const grammems_mask_t& g2 = l2->m_Grammems;
-    return ((_QM(uAllCases) & g1 & g2) > 0)
-        && ((_QM(uAllNumbers) & g1 & g2) > 0)
-        && (((_QM(uNonAnimative) & g2) > 0) || ((_QM(uAllAnimative) & g2) == 0))
-        && (((_QM(uAllGenders) & g1 & g2) > 0)
-            || ((_QM(uAllGenders) & g1) == 0)
-            || ((_QM(uAllGenders) & g2) == 0));
+    return ((uAllCases & g1 & g2) > 0)
+        && ((uAllNumbers & g1 & g2) > 0)
+        && ((_QM(uNonAnimative) & g2) > 0 || (uAllAnimative & g2) == 0)
+        && (((uAllGenders & g1 & g2) > 0)
+            || ((uAllGenders & g1) == 0)
+            || ((uAllGenders & g2) == 0));
 }
 
 bool CUkrGramTab::GleicheCase(const char* gram_code_noun, const char* gram_code_adj) const {
@@ -252,9 +254,12 @@ bool CUkrGramTab::GleicheCaseNumber(const char* gram_code1, const char* gram_cod
 grammems_mask_t CUkrGramTab::GleicheGenderNumberCase(const char* common_gram_code_noun, const char* gram_code_noun, const char* gram_code_adj) const {
     if (!common_gram_code_noun || !strcmp(common_gram_code_noun, "??") || strlen(common_gram_code_noun) == 0)
         return Gleiche(UkrGleicheGenderNumberCase, gram_code_noun, gram_code_adj);
-    else if ((GetLine(GramcodeToLineIndex(common_gram_code_noun))->m_Grammems & _QM(uNonAnimative)) > 0)
+    const CAgramtabLine* commonLine = GetLine(GramcodeToLineIndex(common_gram_code_noun));
+    if (!commonLine)
+        return Gleiche(UkrGleicheGenderNumberCase, gram_code_noun, gram_code_adj);
+    else if ((commonLine->m_Grammems & _QM(uNonAnimative)) > 0)
         return Gleiche(UkrGleicheGenderNumberCaseInanim, gram_code_noun, gram_code_adj);
-    else if ((GetLine(GramcodeToLineIndex(common_gram_code_noun))->m_Grammems & _QM(uAnimative)) > 0)
+    else if ((commonLine->m_Grammems & _QM(uAnimative)) > 0)
         return Gleiche(UkrGleicheGenderNumberCaseAnim, gram_code_noun, gram_code_adj);
     else
         return Gleiche(UkrGleicheGenderNumberCase, gram_code_noun, gram_code_adj);
@@ -333,7 +338,14 @@ bool CUkrGramTab::IsSimpleParticle(const std::string& lemma, part_of_speech_mask
 }
 
 bool CUkrGramTab::IsSynNoun(part_of_speech_mask_t poses, const std::string& lemma) const {
-    return IsMorphNoun(poses);
+    return IsMorphNoun(poses) ||
+           (poses & (1 << uPRONOUN)) != 0 ||
+           ((poses & (1 << uPRONOUN_P)) != 0 && 
+               (lemma == "КОЖЕН" || 
+                lemma == "ОДИН" || 
+                lemma == "ІНШИЙ" || 
+                lemma == "ТОЙ" || 
+                lemma == "ЯКИЙ"));
 }
 
 bool CUkrGramTab::IsStandardParamAbbr(const char* WordStrUpper) const {

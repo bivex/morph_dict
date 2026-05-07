@@ -376,6 +376,7 @@ grammems_mask_t CAgramtab::Gleiche(GrammemCompare CompareFunc, const char* gram_
         {
             const CAgramtabLine* l1 = GetLine(GramcodeToLineIndex(gram_codes1 + l));
             const CAgramtabLine* l2 = GetLine(GramcodeToLineIndex(gram_codes2 + m));
+            if (!l1 || !l2) continue;
             if (CompareFunc(l1, l2))
                 grammems |= (l1->m_Grammems & l2->m_Grammems);
         };

@@ -799,22 +799,39 @@ T& RegisterConverter(T& word, size_t Len, Pred P, Conv C)
 }
 
 
-template <class T>
+BYTE utoupper(BYTE ch)
+{
+        if (ch == 0xB3) return 0xB2; // і -> І
+        if (ch == 0xBA) return 0xAA; // є -> Є
+        if (ch == 0xBF) return 0xAF; // ї -> Ї
+        if (ch == 0xB4) return 0xA5; // ґ -> Ґ
+
+        return rtoupper(ch);
+};
+
+template<class T>
 T& GerEngRusMakeUpperTemplate(T& word, MorphLanguageEnum Langua, size_t Len)
 {
-	if (Len == 0) return word;
+        if (Len == 0) return word;
 
-	if (Langua == morphGerman)
-		return RegisterConverter(word, Len, is_german_lower, gtoupper);
-	else
-		for (size_t i = 0; i < Len; i++)
-			if (is_russian_lower((BYTE)word[i]))
-				word[i] = rtoupper((BYTE)word[i]);
-			else
-				if (is_english_lower((BYTE)word[i]))
-					word[i] = etoupper((BYTE)word[i]);
+        if (Langua == morphGerman)
+                return RegisterConverter(word, Len, is_german_lower, gtoupper);
+        else if (Langua == morphUkrainian)
+                for (size_t i = 0; i < Len; i++)
+                        if (is_ukrainian_lower((BYTE)word[i]))
+                                word[i] = utoupper((BYTE)word[i]);
+                        else
+                                if (is_english_lower((BYTE)word[i]))
+                                        word[i] = etoupper((BYTE)word[i]);
+        else
+                for (size_t i = 0; i < Len; i++)
+                        if (is_russian_lower((BYTE)word[i]))
+                                word[i] = rtoupper((BYTE)word[i]);
+                        else
+                                if (is_english_lower((BYTE)word[i]))
+                                        word[i] = etoupper((BYTE)word[i]);
 
-	return word;
+        return word;
 };
 
 
