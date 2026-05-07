@@ -32,7 +32,7 @@ enum UkrPartOfSpeechEnum
 enum UkrainianGrammemsEnum {
     uPlural = 0,
     uSingular = 1,
-    uAllNumbers = ((1 << uSingular) | (1 << uPlural)),
+    uAllNumbers = (((uint64_t)1 << uSingular) | ((uint64_t)1 << uPlural)),
 
     uNominativ = 2,
     uGenitiv = 3,
@@ -41,28 +41,28 @@ enum UkrainianGrammemsEnum {
     uInstrumentalis = 6,
     uLocativ = 7,
     uVocativ = 8,
-    uAllCases = ((1 << uNominativ) | (1 << uGenitiv) | (1 << uDativ) | (1 << uAccusativ) | (1 << uInstrumentalis) | (1 << uVocativ) | (1 << uLocativ)),
+    uAllCases = (((uint64_t)1 << uNominativ) | ((uint64_t)1 << uGenitiv) | ((uint64_t)1 << uDativ) | ((uint64_t)1 << uAccusativ) | ((uint64_t)1 << uInstrumentalis) | ((uint64_t)1 << uVocativ) | ((uint64_t)1 << uLocativ)),
 
     uMasculinum = 9,
     uFeminum = 10,
     uNeutrum = 11,
-    uAllGenders = ((1 << uMasculinum) | (1 << uFeminum) | (1 << uNeutrum)),
+    uAllGenders = (((uint64_t)1 << uMasculinum) | ((uint64_t)1 << uFeminum) | ((uint64_t)1 << uNeutrum)),
 
     uPresentTense = 13,
     uFutureTense = 14,
     uPastTense = 15,
-    uAllTimes = ((1 << uPresentTense) | (1 << uFutureTense) | (1 << uPastTense)),
+    uAllTimes = (((uint64_t)1 << uPresentTense) | ((uint64_t)1 << uFutureTense) | ((uint64_t)1 << uPastTense)),
 
     uFirstPerson = 16,
     uSecondPerson = 17,
     uThirdPerson = 18,
-    uAllPersons = ((1 << uFirstPerson) | (1 << uSecondPerson) | (1 << uThirdPerson)),
+    uAllPersons = (((uint64_t)1 << uFirstPerson) | ((uint64_t)1 << uSecondPerson) | ((uint64_t)1 << uThirdPerson)),
 
     uImperative = 19,
 
     uAnimative = 20,
     uNonAnimative = 21,
-    uAllAnimative = ((1 << uAnimative) | (1 << uNonAnimative)),
+    uAllAnimative = (((uint64_t)1 << uAnimative) | ((uint64_t)1 << uNonAnimative)),
 
     uComparative = 22,
 
@@ -105,6 +105,29 @@ enum UkrainianGrammemsEnum {
     UkrainianGrammemsCount = 51
 };
 
+enum UkrainianClauseTypeEnum  {
+    uVERB_PERS_T = 0,//ГЛ_ЛИЧН
+    uADVERB_PARTICIPLE_T = 1, //ДПР
+    uPARTICIPLE_SHORT_T = 2,	//КР_ПРЧ
+    uADJ_SHORT_T = 3,//КР_ПРИЛ
+    uPREDK_T = 4, //ПРЕДК
+    uPARTICIPLE_T = 5,	//ПРЧ
+    uINFINITIVE_T = 6,	//ИНФ
+    uINP_T = 7, //ВВОД
+    uDASH_T = 8,//ТИРЕ
+    uUNDETACHED_ADJ_PATIC = 9,//НСО
+    uCOMPARATIVE_T = 10,//СРАВН
+    uCOPUL_T = 11,
+    UKRAINIAN_CLAUSE_TYPE_COUNT = 12
+};
+
+struct CUkrPopularGramCodes {
+    std::string m_ProductiveNoun;
+    std::string m_ProductiveSingNoun;
+    std::string m_InanimIndeclNoun;
+    std::string m_MasAbbrNoun;
+};
+
 class CUkrGramTab : public CAgramtab {
     const static size_t uStartUp = 0x4141; 
     const static size_t uEndUp = 0x7A7B;  
@@ -113,10 +136,13 @@ protected:
     void InitLanguageSpecific(rapidjson::Document& doc) override;
 public:
     CAgramtabLine *Lines[uMaxGrmCount];
+    CUkrPopularGramCodes m_PopularGramCodes;
 
     CUkrGramTab();
     ~CUkrGramTab() override;
     void LoadFromRegistry() override;
+
+    const CUkrPopularGramCodes& GramCodes() const { return m_PopularGramCodes; };
 
     part_of_speech_t GetPartOfSpeechesCount() const override;
     const char *GetPartOfSpeechStr(part_of_speech_t i, NamingAlphabet na = naDefault) const override;
@@ -153,5 +179,9 @@ public:
     bool IsSimpleParticle(const std::string& lemma, part_of_speech_mask_t poses) const override;
     bool IsSynNoun(part_of_speech_mask_t poses, const std::string& lemma) const override;
     bool IsStandardParamAbbr(const char *WordStrUpper) const override;
+    bool FilterNounNumeral(std::string &gcNoun, const std::string &gcNum, grammems_mask_t &grammems) const override;
+    grammems_mask_t ChangeGleicheAncode1(GrammemCompare CompareFunc, const std::string &wordGramCodes, std::string &groupGramCodes, const grammems_mask_t wordGrammems) const override;
     bool PartOfSpeechIsProductive(part_of_speech_t p) const override;
+
+    std::string FilterGramCodes1(const std::string& gram_codes, grammems_mask_t positive, grammems_mask_t negative) const;
 };
