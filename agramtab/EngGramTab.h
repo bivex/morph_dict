@@ -107,7 +107,7 @@ public:
 	};
 
 	long GetClauseTypeByName(const char*) const {assert(false); return 0;};
-	const char* GetClauseNameByType(long type) const {assert(false); return 0;};
+	const char* GetClauseNameByType(long type) const { return "CLAUSE"; };
 	bool GleicheGenderNumber(const char* gram_code1, const char* gram_code2) const;
 	bool GleicheSubjectPredicate(const char* gram_code1, const char* gram_code2) const;
 	const size_t GetClauseTypesCount() const 

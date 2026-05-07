@@ -49,26 +49,36 @@ struct CStatInfo {
 bool readDat(std::istream &ifs, std::set<CStatInfo> &Infos) {
     Infos.clear();
 
-    char buf[256];
+    std::string line;
     int lin = 0;
 
-    while (ifs.getline(buf, 2048)) {
+    while (std::getline(ifs, line)) {
         lin++;
-        StringTokenizer tok(convert_from_utf8(buf, morphRussian).c_str(), ";");
+        if (line.empty()) continue;
+        StringTokenizer tok(convert_from_utf8(line.c_str(), MorphHolderRus.m_pGramTab->m_Language).c_str(), ";");
         CStatInfo I;
-        I.m_Lemma = tok();
-        std::string sgrm = tok();
-        I.m_Freq = atoi(tok());
+        const char* pLemma = tok();
+        const char* pGrm = tok();
+        const char* pFreq = tok();
+
+        if (!pLemma || !pGrm || !pFreq) {
+            std::cout << "Error in line " << lin << ": " << line << " skipped" << std::endl;
+            continue;
+        };
+
+        I.m_Lemma = pLemma;
+        std::string sgrm = pGrm;
+        I.m_Freq = atoi(pFreq);
 
         if (I.m_Lemma.empty() || sgrm.empty()) {
-            std::cout << "Error in line: " << buf << " skipped" << std::endl;
+            std::cout << "Error in line: " << line << " skipped" << std::endl;
             continue;
         };
 
         I.m_Pos = 1;
         I.m_Grammems = 0;
         if (!MorphHolderRus.m_pGramTab->ProcessPOSAndGrammemsIfCan(sgrm.c_str(), &I.m_Pos, &I.m_Grammems)) {
-            std::cout << "Error in morph. pattern line: " << buf << " skipped" << std::endl;
+            std::cout << "Error in morph. pattern line: " << line << " skipped" << std::endl;
             continue;
         };
         std::pair<std::set<CStatInfo>::iterator, bool> r = Infos.insert(I);
