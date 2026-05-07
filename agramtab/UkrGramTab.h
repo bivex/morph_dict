@@ -107,19 +107,19 @@ enum UkrainianGrammemsEnum {
 
 namespace UkrClauseType {
     enum class ClauseHeadType {
-        FiniteVerb = 0,
-        Infinitive = 1,
-        Participial = 2,
-        AdverbialParticiple = 3,
-        Predicative = 4,
-        NounPredicate = 5,
-        NumeralPredicate = 6,
-        CategoryState = 7,
-        Gerund = 8,
-        PassivePredicate = 9,
-        AnalyticVerb = 10,
-        Phraseological = 11,
-        UndetachedAdjParticiple = 12
+        FiniteVerb = 0,           // ГЛ_ЛИЧН
+        Infinitive = 1,           // ИНФ
+        Participial = 2,          // ПРЧ
+        AdverbialParticiple = 3,  // ДПР
+        Predicative = 4,          // ПРЕДК
+        NounPredicate = 5,        // ІМЕННИЙ_ПРЕДИКАТ (если определим)
+        NumeralPredicate = 6,     // ЧИСЛІВНИЙ_ПРЕДИКАТ (если определим)
+        CategoryState = 7,        // КАТ_СОСТ
+        Gerund = 8,               // ДІЄПРИСЛІВНИК (герундій)
+        PassivePredicate = 9,     // ПАСИВНИЙ_ПРЕДИКАТ
+        AnalyticVerb = 10,        // АНАЛІТИЧНЕ_ДІЄСЛОВО
+        Phraseological = 11,      // ФРАЗЕОЛОГІЗМ
+        UndetachedAdjParticiple = 12  // НЕВІДОКРЕМЛЕНЕ_ПРИЧАСТЯ
     };
 
     enum class PredicateType {
