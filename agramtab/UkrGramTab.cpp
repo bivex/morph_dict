@@ -87,18 +87,39 @@ const static TMorphConstant Grammems[] = {
 
 static std::string uClauseTypes[] =
 {
-    "ГЛ_ЛИЧН",
-    "ДПР",
-    "КР_ПРЧ",
-    "КР_ПРИЛ",
-    "ПРЕДК",
-    "ПРЧ",
-    "ИНФ",
-    "ВВОД",
-    "ТИРЕ",
-    "НСО",
-    "СРАВН",
-    "КОПУЛ"
+    "ГЛ_ЛИЧН", // FiniteVerb = 0
+    "ИНФ", // Infinitive = 1
+    "ПРЧ", // Participial = 2
+    "ДПР", // AdverbialParticiple = 3
+    "ПРЕДК", // Predicative = 4
+    "ИМ_СКАЗ", // NounPredicate = 5
+    "ЧИСЛ_СКАЗ", // NumeralPredicate = 6
+    "КАТ_СОСТ", // CategoryState = 7
+    "ГЕРУНД", // Gerund = 8
+    "ПАССИВ", // PassivePredicate = 9
+    "АНАЛИТ", // AnalyticVerb = 10
+    "ФРАЗЕОЛ", // Phraseological = 11
+    "НСО", // UndetachedAdjParticiple = 12
+
+    "ГЛ_ЛИЧН_ПРЕД", // PersonalVerb = 13
+    "БЕЗЛ_ГЛ", // ImpersonalVerb = 14
+    "КОПУЛ", // Copula = 15
+    "ЭЛЛИПС", // Ellipsis = 16
+    "НАЗЫВ", // NominativeSent = 17
+
+    "ВВОД", // Introductory = 18
+    "ТИРЕ", // Dash = 19
+    "СРАВН", // Comparative = 20
+    "ОБРАЩ", // Vocative = 21
+    "ПРЯМ_РЕЧЬ", // DirectSpeech = 22
+    "ВСТАВН", // Parenthesis = 23
+    "УСЛОВ", // Conditional = 24
+    "ПОВЕЛ", // Imperative = 25
+    "ВОПРОС", // Question = 26
+    "ВОСКЛ", // Exclamative = 27
+    "МЕЖД", // Interjection = 28
+    "МОД_СЛОВО", // ModalWord = 29
+    "ЧАСТИЦА" // Particle = 30
 };
 
 CUkrGramTab::CUkrGramTab() : CAgramtab() {
@@ -106,7 +127,7 @@ CUkrGramTab::CUkrGramTab() : CAgramtab() {
     memset(Lines, 0, sizeof(Lines));
     assert(sizeof(Grammems) / sizeof(TMorphConstant) == UkrainianGrammemsCount);
     assert(sizeof(UkrainianPartOfSpeech) / sizeof(TMorphConstant) == UKRAINIAN_PART_OF_SPEECH_COUNT);
-    assert(sizeof(uClauseTypes) / sizeof(std::string) == UKRAINIAN_CLAUSE_TYPE_COUNT);
+    assert(sizeof(uClauseTypes) / sizeof(std::string) == UkrClauseType::Count);
 }
 
 CUkrGramTab::~CUkrGramTab() {
@@ -355,7 +376,7 @@ bool CUkrGramTab::GleicheSubjectPredicate(const char* gram_code1, const char* gr
 }
 
 long CUkrGramTab::GetClauseTypeByName(const char* TypeName) const {
-    for (int i = 0; i < UKRAINIAN_CLAUSE_TYPE_COUNT; i++)
+    for (int i = 0; i < UkrClauseType::Count; i++)
     {
         if (uClauseTypes[i] == TypeName)
         {
@@ -367,7 +388,7 @@ long CUkrGramTab::GetClauseTypeByName(const char* TypeName) const {
 }
 
 const char* CUkrGramTab::GetClauseNameByType(long type) const {
-    if (type >= UKRAINIAN_CLAUSE_TYPE_COUNT) return 0;
+    if (type >= UkrClauseType::Count) return 0;
     if (type < 0) return 0;
 
     return uClauseTypes[type].c_str();

@@ -105,21 +105,49 @@ enum UkrainianGrammemsEnum {
     UkrainianGrammemsCount = 51
 };
 
-enum UkrainianClauseTypeEnum  {
-    uVERB_PERS_T = 0,//ГЛ_ЛИЧН
-    uADVERB_PARTICIPLE_T = 1, //ДПР
-    uPARTICIPLE_SHORT_T = 2,	//КР_ПРЧ
-    uADJ_SHORT_T = 3,//КР_ПРИЛ
-    uPREDK_T = 4, //ПРЕДК
-    uPARTICIPLE_T = 5,	//ПРЧ
-    uINFINITIVE_T = 6,	//ИНФ
-    uINP_T = 7, //ВВОД
-    uDASH_T = 8,//ТИРЕ
-    uUNDETACHED_ADJ_PATIC = 9,//НСО
-    uCOMPARATIVE_T = 10,//СРАВН
-    uCOPUL_T = 11,
-    UKRAINIAN_CLAUSE_TYPE_COUNT = 12
-};
+namespace UkrClauseType {
+    enum class ClauseHeadType {
+        FiniteVerb = 0,
+        Infinitive = 1,
+        Participial = 2,
+        AdverbialParticiple = 3,
+        Predicative = 4,
+        NounPredicate = 5,
+        NumeralPredicate = 6,
+        CategoryState = 7,
+        Gerund = 8,
+        PassivePredicate = 9,
+        AnalyticVerb = 10,
+        Phraseological = 11,
+        UndetachedAdjParticiple = 12
+    };
+
+    enum class PredicateType {
+        PersonalVerb = 13,
+        ImpersonalVerb = 14,
+        Copula = 15,
+        Ellipsis = 16,
+        NominativeSent = 17
+    };
+
+    enum class ClauseFunction {
+        Introductory = 18,
+        Dash = 19,
+        Comparative = 20,
+        Vocative = 21,
+        DirectSpeech = 22,
+        Parenthesis = 23,
+        Conditional = 24,
+        Imperative = 25,
+        Question = 26,
+        Exclamative = 27,
+        Interjection = 28,
+        ModalWord = 29,
+        Particle = 30
+    };
+
+    const int Count = 31;
+}
 
 struct CUkrPopularGramCodes {
     std::string m_ProductiveNoun;
