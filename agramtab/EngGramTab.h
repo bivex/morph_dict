@@ -69,6 +69,12 @@ enum EnglishGrammemsEnum {
  };
 
 
+enum EnglishClauseTypeEnum {
+	VERB_T = 0,
+	ENGLISH_CLAUSE_TYPE_COUNT = 1
+};
+
+
 class CEngGramTab : public CAgramtab
 {
 	const static size_t eStartUp = 0x6161; //aa 
@@ -107,12 +113,12 @@ public:
 	};
 
 	long GetClauseTypeByName(const char*) const {assert(false); return 0;};
-	const char* GetClauseNameByType(long type) const { return "CLAUSE"; };
+	const char* GetClauseNameByType(long type) const { return "VERB_T"; };
 	bool GleicheGenderNumber(const char* gram_code1, const char* gram_code2) const;
 	bool GleicheSubjectPredicate(const char* gram_code1, const char* gram_code2) const;
 	const size_t GetClauseTypesCount() const 
 	{
-		return 0;
+		return ENGLISH_CLAUSE_TYPE_COUNT;
 	};
 	
 	bool IsStrongClauseRoot(const part_of_speech_mask_t poses) const;

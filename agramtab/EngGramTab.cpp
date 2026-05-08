@@ -96,18 +96,18 @@ bool CEngGramTab::GleicheSubjectPredicate(const char* gram_code1, const char* gr
 
 bool CEngGramTab::IsStrongClauseRoot(const part_of_speech_mask_t poses)  const
 {
-	return	false;
+	return	is_verb_form(poses);
 };
 
 
 bool CEngGramTab::IsMorphNoun (part_of_speech_mask_t poses)  const
 {
-	return  false;
+	return  (poses & (1 << eNOUN)) != 0;
 };
 
 bool CEngGramTab::is_morph_adj (part_of_speech_mask_t poses) const
 {
-	return  false;
+	return  (poses & (1 << eADJ)) != 0;
 };
 
 bool CEngGramTab::is_morph_participle (part_of_speech_mask_t poses) const
@@ -117,28 +117,28 @@ bool CEngGramTab::is_morph_participle (part_of_speech_mask_t poses) const
  
 bool CEngGramTab::is_morph_pronoun (part_of_speech_mask_t poses) const
 {
-	return  false;
+	return  (poses & (1 << ePRON)) != 0 || (poses & (1 << ePN)) != 0;
 };
 
 bool CEngGramTab::is_morph_pronoun_adjective(part_of_speech_mask_t poses) const
 {
-	return  false;
+	return  (poses & (1 << ePN_ADJ)) != 0;
 };
 
 bool CEngGramTab::is_left_noun_modifier (part_of_speech_mask_t poses, grammems_mask_t grammems) const
 {
-	return     false;
+	return is_morph_adj(poses) || is_morph_pronoun_adjective(poses);
 }
 
 
 bool CEngGramTab::is_numeral (part_of_speech_mask_t poses) const
 { 
-	return  false;
+	return  (poses & (1 << eNUMERAL)) != 0;
 };
 
 bool CEngGramTab::is_verb_form (part_of_speech_mask_t poses) const
 {
-	return     false;
+	return  (poses & (1 << eVERB)) != 0 || (poses & (1 << eVBE)) != 0 || (poses & (1 << eMOD)) != 0;
 };
 
 
