@@ -136,8 +136,10 @@ static void loadDat(std::istream& ifs, MorphLanguageEnum langua) {
             lines.clear();
         }
         std::vector<CFormInfo> ParadigmCollection;
-        if (!MorphHolder.m_pLemmatizer->CreateParadigmCollection(true, lemma, true, false, ParadigmCollection))
-            throw CExpc(Format("Cannot lemmatize \"%s\"", lemma.c_str()));
+        if (!MorphHolder.m_pLemmatizer->CreateParadigmCollection(true, lemma, true, false, ParadigmCollection)) {
+            LOGD << "Cannot lemmatize \"" << lemma << "\" line " << lin << " skipped";
+            continue;
+        }
         size_t foundCount = 0;
         for (auto p : ParadigmCollection) {
             for (uint16_t j = 0; j < p.GetCount(); ++j) {
@@ -157,7 +159,8 @@ static void loadDat(std::istream& ifs, MorphLanguageEnum langua) {
             }
         }
         if (foundCount == 0) {
-            throw std::runtime_error(Format("Can't calculate pid/anc: Line N %i", lin));
+            LOGD << "Can't calculate pid/anc: Line N " << lin << " skipped";
+            continue;
         }
     }
     if (!str.empty() && lines.size() > 0)
