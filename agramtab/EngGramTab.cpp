@@ -90,7 +90,59 @@ bool CEngGramTab::GleicheGenderNumber(const char* gram_code1, const char* gram_c
 
 bool CEngGramTab::GleicheSubjectPredicate(const char* gram_code1, const char* gram_code2) const
 {
-	return  false;
+	size_t i1 = GramcodeToLineIndex(gram_code1);
+	size_t i2 = GramcodeToLineIndex(gram_code2);
+	if (i1 >= GetMaxGrmCount() || i2 >= GetMaxGrmCount()) return false;
+	const CAgramtabLine* l1 = GetLine(i1);
+	const CAgramtabLine* l2 = GetLine(i2);
+	if (!l1 || !l2) return false;
+
+	grammems_mask_t g1 = l1->m_Grammems;
+	grammems_mask_t g2 = l2->m_Grammems;
+
+	// 1. Predicate is 3rd person singular present (e.g. "is", "runs", "has")
+	if ((g2 & (1ULL << eThirdPerson)) && (g2 & (1ULL << eSingular)) && (g2 & (1ULL << ePresentIndef))) {
+		// Subject must be singular and NOT 1st or 2nd person
+		if (!(g1 & (1ULL << eSingular))) return false;
+		if (g1 & (1ULL << eFirstPerson)) return false;
+		if (g1 & (1ULL << eSecondPerson)) return false;
+		return true;
+	}
+
+	// 2. Predicate is base present form (e.g. "run", "have", "do")
+	// In UniMorph, these have prsa but no person/number tags
+	if ((g2 & (1ULL << ePresentIndef)) && !(g2 & (1ULL << eThirdPerson)) && !(g2 & (1ULL << eSingular)) && !(g2 & (1ULL << ePlural))) {
+		// Subject should NOT be 3rd person singular
+		if ((g1 & (1ULL << eThirdPerson)) && (g1 & (1ULL << eSingular))) return false;
+		return true;
+	}
+
+	// 3. Predicate is "am" (1st person singular present)
+	if ((g2 & (1ULL << eFirstPerson)) && (g2 & (1ULL << eSingular)) && (g2 & (1ULL << ePresentIndef))) {
+		return (g1 & (1ULL << eFirstPerson)) && (g1 & (1ULL << eSingular));
+	}
+
+	// 4. Predicate is "was" (pasa + sg)
+	if ((g2 & (1ULL << ePastIndef)) && (g2 & (1ULL << eSingular))) {
+		// Subject must be singular and NOT 2nd person
+		if (!(g1 & (1ULL << eSingular))) return false;
+		if (g1 & (1ULL << eSecondPerson)) return false;
+		return true;
+	}
+
+	// 5. Predicate is "were" (pasa + pl)
+	if ((g2 & (1ULL << ePastIndef)) && (g2 & (1ULL << ePlural))) {
+		// Subject must be plural OR 2nd person
+		return (g1 & (1ULL << ePlural)) || (g1 & (1ULL << eSecondPerson));
+	}
+
+	// 6. Predicate is "are" (prsa + pl)
+	if ((g2 & (1ULL << ePresentIndef)) && (g2 & (1ULL << ePlural))) {
+		// Subject must be plural OR 2nd person
+		return (g1 & (1ULL << ePlural)) || (g1 & (1ULL << eSecondPerson));
+	}
+
+	return  true;
 }
 
 

@@ -278,14 +278,18 @@ bool CMorphAutomat::DumpAllStrings(std::string FileName) const
 
 int CMorphAutomat::NextNode(int NodeNo, BYTE RelationChar) const
 {
+	if (m_NodesCount == 0) return -1;
+
 	if (NodeNo < ChildrenCacheSize)
 	{
 		int z = m_Alphabet2Code[RelationChar];
 		if (z == -1) return -1;
+		if (m_ChildrenCache.empty()) return -1;
 		return m_ChildrenCache[NodeNo * MaxAlphabetSize + z];
 	}
 	else
 	{
+		if (!m_pRelations || !m_pNodes) return -1;
 		const CMorphAutomRelation* start = m_pRelations + m_pNodes[NodeNo].GetChildrenStart();
 		const CMorphAutomRelation* end = start + GetChildrenCount(NodeNo);
 

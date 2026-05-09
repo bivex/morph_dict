@@ -388,7 +388,8 @@ bool CLemmatizer::CheckAbbreviation(std::string InputWordStr,std::vector<CAutomA
 
 	std::vector<CPredictTuple> res;
 	m_Predict.Find(m_pFormAutomat->GetCriticalNounLetterPack(),res); 
-	FindResults.push_back(ConvertPredictTupleToAnnot(res[0]));
+	if (!res.empty())
+		FindResults.push_back(ConvertPredictTupleToAnnot(res[0]));
 	return true;
 };
 
@@ -431,7 +432,8 @@ void CLemmatizer::PredictByDataBase(std::string InputWordStr,  std::vector<CAuto
 		)
 	{
 		m_Predict.Find(m_pFormAutomat->GetCriticalNounLetterPack(),res); 
-		FindResults.push_back(ConvertPredictTupleToAnnot(res.back()));
+		if (!res.empty())
+			FindResults.push_back(ConvertPredictTupleToAnnot(res.back()));
 	};
 
 }
