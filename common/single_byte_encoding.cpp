@@ -814,22 +814,23 @@ T& GerEngRusMakeUpperTemplate(T& word, MorphLanguageEnum Langua, size_t Len)
 {
         if (Len == 0) return word;
 
-        if (Langua == morphGerman)
+        if (Langua == morphGerman) {
                 return RegisterConverter(word, Len, is_german_lower, gtoupper);
-        else if (Langua == morphUkrainian)
-                for (size_t i = 0; i < Len; i++)
+        } else if (Langua == morphUkrainian) {
+                for (size_t i = 0; i < Len; i++) {
                         if (is_ukrainian_lower((BYTE)word[i]))
                                 word[i] = utoupper((BYTE)word[i]);
-                        else
-                                if (is_english_lower((BYTE)word[i]))
-                                        word[i] = etoupper((BYTE)word[i]);
-        else
-                for (size_t i = 0; i < Len; i++)
+                        else if (is_english_lower((BYTE)word[i]))
+                                word[i] = etoupper((BYTE)word[i]);
+                }
+        } else {
+                for (size_t i = 0; i < Len; i++) {
                         if (is_russian_lower((BYTE)word[i]))
                                 word[i] = rtoupper((BYTE)word[i]);
-                        else
-                                if (is_english_lower((BYTE)word[i]))
-                                        word[i] = etoupper((BYTE)word[i]);
+                        else if (is_english_lower((BYTE)word[i]))
+                                word[i] = etoupper((BYTE)word[i]);
+                }
+        }
 
         return word;
 };
