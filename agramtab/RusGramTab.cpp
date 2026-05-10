@@ -257,9 +257,11 @@ const CAgramtabLine* CRusGramTab::GetLine(size_t LineNo) const
 
 size_t CRusGramTab::GramcodeToLineIndex(const char* s)  const
 {
-	return  (unsigned char)s[0] * 0x100 + (unsigned char)s[1] - rStartUp;
+    if (!s || !s[0] || !s[1]) return rMaxGrmCount;
+    int idx = (unsigned char)s[0] * 0x100 + (unsigned char)s[1] - rStartUp;
+    if (idx < 0 || idx >= (int)rMaxGrmCount) return rMaxGrmCount;
+    return (size_t)idx;
 };
-
 std::string CRusGramTab::LineIndexToGramcode(uint16_t i) const
 {
 	i += rStartUp;
@@ -719,7 +721,9 @@ std::string CRusGramTab::FilterGramCodes1(const std::string& gram_codes, grammem
     std::string result;
     for (size_t l = 0; l < gram_codes.length(); l += 2)
     {
-        auto g = GetLine(GramcodeToLineIndex(gram_codes.c_str() + l))->m_Grammems;
+        const CAgramtabLine* line = GetLine(GramcodeToLineIndex(gram_codes.c_str() + l));
+        if (!line) continue;
+        auto g = line->m_Grammems;
         if ( (g & good_grammems) && !(g & bad_grammems)) {
             result.append(gram_codes.c_str() + l, 2);
         }
@@ -735,7 +739,9 @@ std::string CRusGramTab::FindGramCodesContaining(const std::string& gram_codes, 
     std::string result;
     for (size_t l = 0; l < gram_codes.length(); l += 2)
     {
-        auto g = GetLine(GramcodeToLineIndex(gram_codes.c_str() + l))->m_Grammems;
+        const CAgramtabLine* line = GetLine(GramcodeToLineIndex(gram_codes.c_str() + l));
+        if (!line) continue;
+        auto g = line->m_Grammems;
         if ( (g & grammems) == grammems) {
             result.append(gram_codes.c_str() + l, 2);
         }

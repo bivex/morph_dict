@@ -154,6 +154,7 @@ struct CUkrPopularGramCodes {
     std::string m_ProductiveSingNoun;
     std::string m_InanimIndeclNoun;
     std::string m_MasAbbrNoun;
+    std::string m_GenderNumeral;
 };
 
 class CUkrGramTab : public CAgramtab {

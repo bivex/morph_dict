@@ -165,6 +165,7 @@ static unsigned int UkrCountOfBits(grammems_mask_t n)
 void CUkrGramTab::InitLanguageSpecific(rapidjson::Document& doc) {
     m_PopularGramCodes.m_InanimIndeclNoun = doc.HasMember("inanim_indecl_noun") ? doc["inanim_indecl_noun"].GetString() : "";
     m_PopularGramCodes.m_MasAbbrNoun = doc.HasMember("mas_abbr_noun") ? doc["mas_abbr_noun"].GetString() : "";
+    m_PopularGramCodes.m_GenderNumeral = doc.HasMember("gender_numeral") ? doc["gender_numeral"].GetString() : "";
     m_PopularGramCodes.m_ProductiveNoun = "";
     m_PopularGramCodes.m_ProductiveSingNoun = "";
 
@@ -229,7 +230,10 @@ const CAgramtabLine* CUkrGramTab::GetLine(size_t LineNo) const {
 }
 
 size_t CUkrGramTab::GramcodeToLineIndex(const char* s) const {
-    return (unsigned char)s[0] * 0x100 + (unsigned char)s[1] - uStartUp;
+    if (!s || !s[0] || !s[1]) return uMaxGrmCount;
+    int idx = (unsigned char)s[0] * 0x100 + (unsigned char)s[1] - uStartUp;
+    if (idx < 0 || idx >= (int)uMaxGrmCount) return uMaxGrmCount;
+    return (size_t)idx;
 }
 
 std::string CUkrGramTab::LineIndexToGramcode(uint16_t i) const {
@@ -474,7 +478,9 @@ std::string CUkrGramTab::FilterGramCodes1(const std::string& gram_codes, grammem
     std::string result;
     for (size_t l = 0; l < gram_codes.length(); l += 2)
     {
-        auto g = GetLine(GramcodeToLineIndex(gram_codes.c_str() + l))->m_Grammems;
+        const CAgramtabLine* line = GetLine(GramcodeToLineIndex(gram_codes.c_str() + l));
+        if (!line) continue;
+        auto g = line->m_Grammems;
         if (((g & positive) == positive) && ((g & negative) == 0)) {
             result.append(gram_codes.c_str() + l, 2);
         }

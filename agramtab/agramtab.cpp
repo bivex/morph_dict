@@ -252,8 +252,9 @@ grammems_mask_t CAgramtab::GetAllGrammems(const char* gram_code) const
 
     for (size_t l = 0; l < len; l += 2)
     {
-        grammems_mask_t G = GetLine(GramcodeToLineIndex(gram_code + l))->m_Grammems;
-        grammems |= G;
+        const CAgramtabLine* line = GetLine(GramcodeToLineIndex(gram_code + l));
+        if (!line) continue;
+        grammems |= line->m_Grammems;
     };
 
     return grammems;
@@ -401,9 +402,11 @@ std::string CAgramtab::GleicheAncode1(GrammemCompare CompareFunc, std::string gr
     }
     for (size_t l = 0; l < gram_codes1.length(); l += 2) {
         const CAgramtabLine* l1 = GetLine(GramcodeToLineIndex(gram_codes1.c_str() + l));
+        if (!l1) continue;
         for (size_t m = 0; m < gram_codes2.length(); m += 2)
         {
             const CAgramtabLine* l2 = GetLine(GramcodeToLineIndex(gram_codes2.c_str() + m));
+            if (!l2) continue;
             if (CompareFunc(l1, l2))
             {
                 result.append(gram_codes1.c_str() + l, 2);
