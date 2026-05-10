@@ -166,9 +166,11 @@ char* CAgramtab::grammems_to_str(grammems_mask_t grammems, char* out_buf, Naming
 
 bool CAgramtab::FindGrammems(const char* gram_codes, grammems_mask_t grammems) const
 {
-    for (size_t l = 0; l < strlen(gram_codes); l += 2)
-        if ((GetLine(GramcodeToLineIndex(gram_codes + l))->m_Grammems & grammems) == grammems)
+    for (size_t l = 0; l < strlen(gram_codes); l += 2) {
+        auto *line = GetLine(GramcodeToLineIndex(gram_codes + l));
+        if (line && (line->m_Grammems & grammems) == grammems)
             return true;
+    }
 
     return false;
 };
