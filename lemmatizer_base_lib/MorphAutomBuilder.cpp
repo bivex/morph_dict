@@ -121,9 +121,7 @@ bool CTrieNodeBuild::CheckRegisterRecursive() const
 {
 	if (m_bRegistered)
 	{
-		assert (*m_pRegister == this);
-		if (*m_pRegister != this)
-			return false;
+		// With unordered_set we don't store m_pRegister anymore
 	};
 	
 	for (size_t i=m_FirstChildNo; i < MaxAlphabetSize; i++)
@@ -156,29 +154,41 @@ void	CTrieNodeBuild::UnregisterRecursive()
 
 
 //======================================================
-//=============		IsLessRegister	   =============
+//=============		NodeHash/NodeEqual	   =============
 //======================================================
 
+size_t NodeHash::operator ()(const CTrieNodeBuild* pNode) const
+{
+	size_t h = pNode->m_bFinal ? 0x12345678 : 0;
+	if (pNode->m_FirstChildNo == 0xff) return h;
+	
+	for (size_t i = pNode->m_FirstChildNo; i < MaxAlphabetSize; i++)
+	{
+		if (pNode->m_Children[i])
+		{
+			size_t child_val = reinterpret_cast<size_t>(pNode->m_Children[i]);
+			h ^= child_val + 0x9e3779b9 + (h << 6) + (h >> 2);
+			h ^= i + 0x9e3779b9 + (h << 6) + (h >> 2);
+		}
+	}
+	return h;
+}
 
-bool IsLessRegister::operator ()(const CTrieNodeBuild* pNodeNo1, const CTrieNodeBuild* pNodeNo2) const
+bool NodeEqual::operator ()(const CTrieNodeBuild* pNodeNo1, const CTrieNodeBuild* pNodeNo2) const
 {
 	if (pNodeNo1->m_bFinal != pNodeNo2->m_bFinal)
-		return pNodeNo1->m_bFinal < pNodeNo2->m_bFinal;
-
-	assert (pNodeNo1->m_FirstChildNo == pNodeNo2->m_FirstChildNo);
-	if (pNodeNo1->m_FirstChildNo == 0xff) return false;
-	if (pNodeNo1->m_Children[pNodeNo1->m_FirstChildNo] < pNodeNo2->m_Children[pNodeNo2->m_FirstChildNo]) 
-		return true;
-	if (pNodeNo1->m_Children[pNodeNo1->m_FirstChildNo] > pNodeNo2->m_Children[pNodeNo2->m_FirstChildNo]) 
 		return false;
 
+	if (pNodeNo1->m_FirstChildNo != pNodeNo2->m_FirstChildNo)
+		return false;
 
-	assert (pNodeNo1->m_SecondChildNo == pNodeNo1->m_SecondChildNo);
-	if (pNodeNo1->m_SecondChildNo == 0xff) return false;
+	if (pNodeNo1->m_FirstChildNo == 0xff) 
+		return true;
 
-	return std::lexicographical_compare
-			(pNodeNo1->m_Children+pNodeNo1->m_SecondChildNo, pNodeNo1->m_Children+MaxAlphabetSize,
-			pNodeNo2->m_Children+pNodeNo2->m_SecondChildNo, pNodeNo2->m_Children+MaxAlphabetSize);
+	if (pNodeNo1->m_Children[pNodeNo1->m_FirstChildNo] != pNodeNo2->m_Children[pNodeNo2->m_FirstChildNo])
+		return false;
+
+	return memcmp(pNodeNo1->m_Children, pNodeNo2->m_Children, sizeof(pNodeNo1->m_Children)) == 0;
 }
 
 //======================================================
@@ -333,45 +343,23 @@ CTrieNodeBuild* CMorphAutomatBuilder::ReplaceOrRegister(CTrieNodeBuild* pNode)
 {
 	CTrieRegister& Register = GetRegister(pNode);
 
-	CTrieRegister::const_iterator it = Register.find(pNode);
+	auto it = Register.find(pNode);
 	if (it != Register.end())
 	{
 		DeleteNode(pNode);
 		pNode  = *it;
 		assert (pNode->m_bRegistered);
-		assert (pNode->m_pRegister == it);
 	}
 	else
 	{
-		pNode->m_pRegister = Register.insert(pNode).first;
+		Register.insert(pNode);
 		pNode->m_bRegistered = true;
 		RegisterSize++;
 	}
 	
 	return  pNode;
-};
-
-
-bool CheckRegisterOrder(const CTrieRegister& Register)
-{
-	const CTrieNodeBuild* pPrevNode = 0;
-	IsLessRegister Less;
-	for (CTrieRegister::const_iterator it = Register.begin(); it != Register.end(); it++)
-	{
-		const CTrieNodeBuild* pNode = *it;
-		if (pPrevNode)
-		{	
-			if (!Less(pPrevNode,pNode))
-			{
-				assert (Less(pPrevNode,pNode));
-				return false;
-			};
-			
-		};
-		pPrevNode = pNode;
-	};
-	return true;
 }
+
 
 bool CMorphAutomatBuilder::CheckRegister() const
 {
@@ -380,7 +368,6 @@ bool CMorphAutomatBuilder::CheckRegister() const
 		for (size_t i=0; i<MaxAlphabetSize + 1; i++)
 		{
 			const CTrieRegister& Register =  m_RegisterHash[k][i];
-			if (!CheckRegisterOrder(Register)) return false;
 			
 			for (CTrieRegister::const_iterator it = Register.begin(); it != Register.end(); it++)
 			{
@@ -388,15 +375,14 @@ bool CMorphAutomatBuilder::CheckRegister() const
 						
 				if (pNode->m_bRegistered)
 				{
-					assert (pNode->m_pRegister == it);
-					if (pNode->m_pRegister != it)
-					return false;
+					// m_pRegister was removed, we just check presence
 				};
 			};
 		};
 	
 	return m_pRoot->CheckRegisterRecursive();
-};
+}
+
 
 
 bool CMorphAutomatBuilder::IsValid() const
@@ -422,7 +408,7 @@ void CMorphAutomatBuilder::UnregisterNode(CTrieNodeBuild* pNode)
 	if (pNode->m_bRegistered)
 	{
 		pNode->m_bRegistered = false;
-		GetRegister(pNode).erase(pNode->m_pRegister);
+		GetRegister(pNode).erase(pNode);
 		RegisterSize --;
 	};
 };

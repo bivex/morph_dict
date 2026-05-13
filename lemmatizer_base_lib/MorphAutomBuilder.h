@@ -14,16 +14,22 @@
 #define MorphAutomBuilder_h
 
 #include "MorphAutomat.h"
+#include <unordered_set>
 
 
 
 struct CTrieNodeBuild;
-struct IsLessRegister: public std::less<CTrieNodeBuild*>
+struct NodeHash
+{
+	size_t operator ()(const CTrieNodeBuild* pNode) const;
+};
+
+struct NodeEqual
 {
 	bool operator ()(const CTrieNodeBuild* pNodeNo1, const CTrieNodeBuild* pNodeNo2) const;
 };
 
-typedef std::set<CTrieNodeBuild*, IsLessRegister> CTrieRegister;
+typedef std::unordered_set<CTrieNodeBuild*, NodeHash, NodeEqual> CTrieRegister;
 
 
 
@@ -33,7 +39,6 @@ struct CTrieNodeBuild
 	bool						m_bFinal;
 	int							m_IncomingRelationsCount;
 	CTrieNodeBuild*				m_Children[MaxAlphabetSize];
-	CTrieRegister::iterator		m_pRegister;
 	bool						m_bRegistered;
 	int							m_NodeId;
 	BYTE						m_FirstChildNo;
