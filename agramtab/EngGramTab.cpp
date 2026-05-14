@@ -102,37 +102,42 @@ bool CEngGramTab::GleicheSubjectPredicate(const char* gram_code1, const char* gr
 
 	// 1. Predicate is 3rd person singular present (e.g. "is", "runs", "has")
 	if ((g2 & (1ULL << eThirdPerson)) && (g2 & (1ULL << eSingular)) && (g2 & (1ULL << ePresentIndef))) {
-		// Subject must be singular and NOT 1st or 2nd person
-		if (!(g1 & (1ULL << eSingular))) return false;
+		// Subject must NOT be plural
+		if (g1 & (1ULL << ePlural)) return false;
+		// Subject must NOT be 1st or 2nd person
 		if (g1 & (1ULL << eFirstPerson)) return false;
 		if (g1 & (1ULL << eSecondPerson)) return false;
 		return true;
 	}
 
 	// 2. Predicate is base present form (e.g. "run", "have", "do")
-	// In UniMorph, these have prsa but no person/number tags
 	if ((g2 & (1ULL << ePresentIndef)) && !(g2 & (1ULL << eThirdPerson)) && !(g2 & (1ULL << eSingular)) && !(g2 & (1ULL << ePlural))) {
 		// Subject should NOT be 3rd person singular
-		if ((g1 & (1ULL << eThirdPerson)) && (g1 & (1ULL << eSingular))) return false;
+		if ((g1 & (1ULL << eThirdPerson)) && (g1 & (1ULL << eSingular))) {
+			// But wait, "I" is 1st person singular, which is OK for base form.
+			// "You" is 2nd person (sg or pl), which is OK.
+			// Only 3rd person singular is blocked.
+			return false;
+		}
 		return true;
 	}
 
 	// 3. Predicate is "am" (1st person singular present)
 	if ((g2 & (1ULL << eFirstPerson)) && (g2 & (1ULL << eSingular)) && (g2 & (1ULL << ePresentIndef))) {
-		return (g1 & (1ULL << eFirstPerson)) && (g1 & (1ULL << eSingular));
+		return (g1 & (1ULL << eFirstPerson)) && !(g1 & (1ULL << ePlural));
 	}
 
 	// 4. Predicate is "was" (pasa + sg)
 	if ((g2 & (1ULL << ePastIndef)) && (g2 & (1ULL << eSingular))) {
-		// Subject must be singular and NOT 2nd person
-		if (!(g1 & (1ULL << eSingular))) return false;
+		// Subject must NOT be plural and NOT 2nd person
+		if (g1 & (1ULL << ePlural)) return false;
 		if (g1 & (1ULL << eSecondPerson)) return false;
 		return true;
 	}
 
 	// 5. Predicate is "were" (pasa + pl)
 	if ((g2 & (1ULL << ePastIndef)) && (g2 & (1ULL << ePlural))) {
-		// Subject must be plural OR 2nd person
+		// Subject must be plural OR 2nd person OR 1st person plural
 		return (g1 & (1ULL << ePlural)) || (g1 & (1ULL << eSecondPerson));
 	}
 
