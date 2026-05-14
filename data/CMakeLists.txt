@@ -22,7 +22,7 @@ macro (Runmorph_gen langua)
     )
 
     add_custom_command(
-            OUTPUT ${output_folder}/gramtab.json PRE_BUILD
+            OUTPUT ${output_folder}/gramtab.json
             COMMAND ${CMAKE_COMMAND} -E copy ${input_folder}/gramtab.json ${output_folder}/gramtab.json
             VERBATIM
     )
