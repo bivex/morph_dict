@@ -1,0 +1,11 @@
+﻿INFO  [MorphoWizard::StartSession@123] opened by guest
+INFO  [CMorphDictBuilder::BuildLemmatizer@281] Saving...
+INFO  [CMorphDictBuilder::BuildLemmatizer@284] Successful written indices of the main automat to /Volumes/External/Code/aot/Dicts/Morph/Russian/morph.bin
+
+INFO  [CMorphDictBuilder::GenPredictIdx@148] CMorphDictBuilder::GenPredictIdx
+INFO  [CMorphDictBuilder::GenPredictIdx@163] Flexia models are too sparsed
+INFO  [CMorphDictBuilder::GenPredictIdx@193] finish prepare
+INFO  [CMorphDictBuilder::GenPredictIdx@240] finish picking up data
+INFO  [CMorphDictBuilder::GenPredictIdx@249] Saving...
+INFO  [CMorphDictBuilder::BuildLemmatizer@295] writing options file /Volumes/External/Code/aot/Dicts/Morph/Russian/morph.options
+INFO  [main@60] exit with success
