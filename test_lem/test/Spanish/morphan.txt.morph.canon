@@ -1,0 +1,130 @@
+[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "CASA",
+  "morphInfo": "NOUN fem,sg",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "CASAR",
+  "morphInfo": "VERB infm,form,pos,p3,p2,impv,ind,pres,sg",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "HABLAR",
+  "morphInfo": "VERB form,p3,p2,p1,ind,fut,sg",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "GATO",
+  "morphInfo": "NOUN masc,sg",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "GATA",
+  "morphInfo": "NOUN masc,sg",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "COMER",
+  "morphInfo": "VERB form,p3,p2,p1,ind,fut,sg",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "COMER",
+  "morphInfo": "NOUN masc,sg",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "HABLAR",
+  "morphInfo": "VERB ger,pres",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "CASA",
+  "morphInfo": "NOUN fem,pl",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "CASAR",
+  "morphInfo": "VERB infm,p2,ind,pres,sg",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "HABLAR",
+  "morphInfo": "VERB ptcp,past,masc,sg",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "GATO",
+  "morphInfo": "NOUN masc,pl",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "GATA",
+  "morphInfo": "NOUN masc,pl",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "CORRER",
+  "morphInfo": "VERB ger,pres",
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]

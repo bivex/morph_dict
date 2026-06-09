@@ -634,6 +634,7 @@ bool is_upper_vowel(BYTE x, MorphLanguageEnum Langua)
 	case morphUkrainian:
 	case morphRussian: return is_russian_upper_vowel(x);
 	case morphEnglish: return is_english_upper_vowel(x);
+	case morphSpanish: return is_english_upper_vowel(x);
 	case morphGerman: return is_german_upper_vowel(x);
 	};
 	assert(false);
@@ -676,6 +677,7 @@ bool is_lower_alpha(BYTE x, MorphLanguageEnum Langua)
 	case morphUkrainian: return is_ukrainian_lower(x);
 	case morphRussian: return is_russian_lower(x);
 	case morphEnglish: return is_english_lower(x);
+	case morphSpanish: return is_english_lower(x);
 	case morphGerman: return is_german_lower(x);
 	case morphGeneric: return is_generic_lower(x);
 	};
@@ -691,6 +693,7 @@ bool is_upper_alpha(BYTE x, MorphLanguageEnum Langua)
 	case morphUkrainian: return is_ukrainian_upper(x);
 	case morphRussian: return is_russian_upper(x);
 	case morphEnglish: return is_english_upper(x);
+	case morphSpanish: return is_english_upper(x);
 	case morphGerman: return is_german_upper(x);
 	case morphGeneric: return is_generic_upper(x);
 	};

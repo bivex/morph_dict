@@ -6,6 +6,7 @@
 #include "morph_dict/agramtab/RusGramTab.h"
 #include "morph_dict/agramtab/UkrGramTab.h"
 #include "morph_dict/agramtab/GerGramTab.h"
+#include "morph_dict/agramtab/SpaGramTab.h"
 #include "morph_dict/common/rapidjson.h"
 
 #include <fstream>
@@ -68,6 +69,9 @@ void MorphoWizard::load_gramtab(bool useNationalConstants) {
         break;
     case morphGerman:
         pGramTab = new CGerGramTab;
+        break;
+    case morphSpanish:
+        pGramTab = new CSpaGramTab;
         break;
     default:
         throw CExpc("Unknown language to load gramtab: " + GetStringByLanguage(m_Language));

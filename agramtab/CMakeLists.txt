@@ -11,6 +11,8 @@ add_library(AgramtabLib
         UkrGramTab.h
         GerGramTab.cpp
         GerGramTab.h
+        SpaGramTab.cpp
+        SpaGramTab.h
 
         GramInfo.h
  )

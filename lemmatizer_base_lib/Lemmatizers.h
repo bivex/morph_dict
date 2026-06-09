@@ -103,3 +103,9 @@ public:
     virtual ~CLemmatizerGerman() {};
 };
 
+class CLemmatizerSpanish : public CLemmatizer {
+public:
+    CLemmatizerSpanish();
+    virtual ~CLemmatizerSpanish() {};
+};
+

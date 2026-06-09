@@ -31,6 +31,8 @@ TestLemLang(German test/German/morphan.txt --morphan)
 
 TestLemLang(English test/English/test.txt "")
 
+TestLemLang(Spanish test/Spanish/morphan.txt --morphan)
+
 add_subdirectory (test/PredictTest)
 
 if (BUILD_DICTS)

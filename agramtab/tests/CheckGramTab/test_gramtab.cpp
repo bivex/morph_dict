@@ -1,6 +1,7 @@
 #include "morph_dict/agramtab/RusGramTab.h"
 #include "morph_dict/agramtab/EngGramTab.h"
 #include "morph_dict/agramtab/GerGramTab.h"
+#include "morph_dict/agramtab/SpaGramTab.h"
 
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "morph_dict/contrib/doctest/doctest.h"
@@ -35,6 +36,9 @@ TEST_CASE("uniq_gram_patterns") {
 
     CEngGramTab g;
 	check_uniq(g);
+
+	CSpaGramTab s;
+	check_uniq(s);
 }
 
 TEST_CASE("russian_coordination") {

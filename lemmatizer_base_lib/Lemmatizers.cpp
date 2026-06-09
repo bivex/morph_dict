@@ -492,6 +492,10 @@ CLemmatizerGerman:: CLemmatizerGerman() : CLemmatizer(morphGerman)
 {
 };
 
+CLemmatizerSpanish::CLemmatizerSpanish() : CLemmatizer(morphSpanish)
+{
+};
+
 CLemmatizerUkrainian::CLemmatizerUkrainian() : CLemmatizer(morphUkrainian)
 {
     m_HyphenPrefixes.insert("ПОЛ-");
