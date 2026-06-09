@@ -440,6 +440,11 @@ BYTE etoupper(BYTE ch)
 		case ntilda: return Ntilda;  // N with tilda
 		case uzirkun: return Uzirkun;  // U with zirkun
 		case eacute: return Eakut;  // E acut
+		case 225: return 193; // á -> Á
+		case 237: return 205; // í -> Í
+		case 243: return 211; // ó -> Ó
+		case 250: return 218; // ú -> Ú
+		case 252: return 220; // ü -> Ü
 		default: return ch;
 		};
 };
@@ -460,6 +465,11 @@ BYTE etolower(BYTE ch)
 		case Ntilda: return ntilda;  // N with tilda
 		case Uzirkun: return uzirkun;  // U with zirkun
 		case Eakut: return eacute;  // E acut
+		case 193: return 225; // Á -> á
+		case 205: return 237; // Í -> í
+		case 211: return 243; // Ó -> ó
+		case 218: return 250; // Ú -> ú
+		case 220: return 252; // Ü -> ü
 		default: return ch;
 		};
 };
@@ -626,6 +636,22 @@ bool IsSuperEqualChar(BYTE ch1, BYTE ch2, MorphLanguageEnum langua)
 //============= General encoding functions ============
 //====================================================
 
+bool is_spanish_upper_vowel(BYTE x)
+{
+	if (is_english_upper_vowel(x)) return true;
+	switch (x) {
+	case 193: // Á
+	case 201: // É
+	case 205: // Í
+	case 211: // Ó
+	case 218: // Ú
+	case 220: // Ü
+		return true;
+	default:
+		return false;
+	}
+}
+
 bool is_upper_vowel(BYTE x, MorphLanguageEnum Langua)
 {
 	switch (Langua)
@@ -634,7 +660,7 @@ bool is_upper_vowel(BYTE x, MorphLanguageEnum Langua)
 	case morphUkrainian:
 	case morphRussian: return is_russian_upper_vowel(x);
 	case morphEnglish: return is_english_upper_vowel(x);
-	case morphSpanish: return is_english_upper_vowel(x);
+	case morphSpanish: return is_spanish_upper_vowel(x);
 	case morphGerman: return is_german_upper_vowel(x);
 	};
 	assert(false);
@@ -669,6 +695,40 @@ bool is_ukrainian_lower(BYTE x)
 	return (ASCII[x] & (RusLower | UkrLower)) != 0;
 };
 
+bool is_spanish_lower(BYTE x)
+{
+	if (is_english_lower(x)) return true;
+	switch (x) {
+	case 225: // á
+	case 233: // é
+	case 237: // í
+	case 243: // ó
+	case 250: // ú
+	case 241: // ñ
+	case 252: // ü
+		return true;
+	default:
+		return false;
+	}
+}
+
+bool is_spanish_upper(BYTE x)
+{
+	if (is_english_upper(x)) return true;
+	switch (x) {
+	case 193: // Á
+	case 201: // É
+	case 205: // Í
+	case 211: // Ó
+	case 218: // Ú
+	case 209: // Ñ
+	case 220: // Ü
+		return true;
+	default:
+		return false;
+	}
+}
+
 bool is_lower_alpha(BYTE x, MorphLanguageEnum Langua)
 {
 	switch (Langua)
@@ -677,7 +737,7 @@ bool is_lower_alpha(BYTE x, MorphLanguageEnum Langua)
 	case morphUkrainian: return is_ukrainian_lower(x);
 	case morphRussian: return is_russian_lower(x);
 	case morphEnglish: return is_english_lower(x);
-	case morphSpanish: return is_english_lower(x);
+	case morphSpanish: return is_spanish_lower(x);
 	case morphGerman: return is_german_lower(x);
 	case morphGeneric: return is_generic_lower(x);
 	};
@@ -693,7 +753,7 @@ bool is_upper_alpha(BYTE x, MorphLanguageEnum Langua)
 	case morphUkrainian: return is_ukrainian_upper(x);
 	case morphRussian: return is_russian_upper(x);
 	case morphEnglish: return is_english_upper(x);
-	case morphSpanish: return is_english_upper(x);
+	case morphSpanish: return is_spanish_upper(x);
 	case morphGerman: return is_german_upper(x);
 	case morphGeneric: return is_generic_upper(x);
 	};

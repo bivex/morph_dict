@@ -1,4 +1,4 @@
-﻿// from https://www.alphabet.se/download/UtfConv.c
+// from https://www.alphabet.se/download/UtfConv.c
 #include "base_types.h"
 #include <iostream>
 #include <string>
@@ -8265,8 +8265,29 @@ bool IsUnicodeGerman(uint16_t u) {
 	}
 }
 
+bool IsUnicodeSpanish(uint16_t u) {
+	if (IsUnicodeEnglish(u)) return true;
+	switch (u) {
+		case U'Á': return true;
+		case U'É': return true;
+		case U'Í': return true;
+		case U'Ó': return true;
+		case U'Ú': return true;
+		case U'Ñ': return true;
+		case U'Ü': return true;
+		case U'á': return true;
+		case U'é': return true;
+		case U'í': return true;
+		case U'ó': return true;
+		case U'ú': return true;
+		case U'ñ': return true;
+		case U'ü': return true;
+	default: return false;
+	}
+}
+
 bool IsUnicodeAlpha(uint16_t u) {
-	return IsUnicodeRussian(u) || IsUnicodeGerman(u);
+	return IsUnicodeRussian(u) || IsUnicodeGerman(u) || IsUnicodeSpanish(u);
 }
 
 typedef bool (*unicode_check_pred)(uint16_t u);
@@ -8319,6 +8340,10 @@ bool CheckGermanUtf8(const std::string& s) {
 	return CheckLettersUtf8<IsUnicodeGerman>(s);
 }
 
+bool CheckSpanishUtf8(const std::string& s) {
+	return CheckLettersUtf8<IsUnicodeSpanish>(s);
+}
+
 bool IsUnicodeUpperGermanVowel(uint32_t u) {
 	switch (u) {
 	case U'Ä': 
@@ -8360,8 +8385,25 @@ bool IsUnicodeUpperRussianVowel(uint32_t u) {
 	}
 }
 
+bool IsUnicodeUpperSpanishVowel(uint32_t u) {
+	switch (u) {
+	case U'Á': 
+	case U'É': 
+	case U'Í': 
+	case U'Ó': 
+	case U'Ú': 
+	case U'Ü': 
+	case U'A': 
+	case U'E': 
+	case U'U': 
+	case U'I': 
+	case U'O': return true;
+	default: return false;
+	}
+}
+
 bool IsUpperVowel(uint32_t u) {
-	return IsUnicodeUpperRussianVowel(u) || IsUnicodeUpperGermanVowel(u) || IsUnicodeUpperEnglishVowel(u);
+	return IsUnicodeUpperRussianVowel(u) || IsUnicodeUpperGermanVowel(u) || IsUnicodeUpperEnglishVowel(u) || IsUnicodeUpperSpanishVowel(u);
 }
 
 uint32_t GetFirstUnicodeLetterFromUtf8 (const std::string& s) {
@@ -8411,7 +8453,7 @@ bool CheckLanguage(const std::string& s, MorphLanguageEnum langua) {
 		case morphRussian: return CheckRussianUtf8(s);
 		case morphGerman: return CheckGermanUtf8(s);
 		case morphEnglish: return CheckEnglishUtf8(s);
-		case morphSpanish: return CheckEnglishUtf8(s);
+		case morphSpanish: return CheckSpanishUtf8(s);
 		default: 
 			assert(false);
 					return true;

@@ -3,753 +3,800 @@
   "AA": {
    "p": "NOUN",
    "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "AALENIANO"
+  },
+  "AB": {
+   "p": "NOUN",
+   "g": [
+    "masc",
+    "pl"
+   ],
+   "l": "AALENIANO"
+  },
+  "AC": {
+   "p": "ADJ",
+   "g": [
     "fem",
     "sg"
    ],
-   "l": "AA"
+   "l": "AALENIANO"
   },
-  "AB": {
+  "AD": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "pl"
+   ],
+   "l": "AALENIANO"
+  },
+  "AE": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "pl"
+   ],
+   "l": "AALENIANO"
+  },
+  "AF": {
+   "p": "NOUN",
+   "g": [
+    "fem",
+    "sg"
+   ],
+   "l": "ABABA"
+  },
+  "AG": {
    "p": "NOUN",
    "g": [
     "fem",
     "pl"
    ],
-   "l": "AA"
+   "l": "ABABA"
   },
-  "AC": {
+  "AH": {
+   "p": "ADJ",
+   "g": [
+    "pl"
+   ],
+   "l": "ABACIAL"
+  },
+  "AI": {
    "p": "VERB",
    "g": [],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
-  "AD": {
+  "AJ": {
    "p": "VERB",
    "g": [
     "ger",
     "pres"
    ],
-   "l": "AADIR"
-  },
-  "AE": {
-   "p": "VERB",
-   "g": [
-    "masc",
-    "past",
-    "ptcp",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "AF": {
-   "p": "VERB",
-   "g": [
-    "fem",
-    "past",
-    "ptcp",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "AG": {
-   "p": "VERB",
-   "g": [
-    "masc",
-    "past",
-    "pl",
-    "ptcp"
-   ],
-   "l": "AADIR"
-  },
-  "AH": {
-   "p": "VERB",
-   "g": [
-    "fem",
-    "past",
-    "pl",
-    "ptcp"
-   ],
-   "l": "AADIR"
-  },
-  "AI": {
-   "p": "VERB",
-   "g": [
-    "ind",
-    "p1",
-    "pres",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "AJ": {
-   "p": "VERB",
-   "g": [
-    "ind",
-    "infm",
-    "p2",
-    "pres",
-    "sg"
-   ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AK": {
    "p": "VERB",
    "g": [
-    "ind",
-    "p3",
-    "pres",
+    "masc",
+    "past",
+    "ptcp",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AL": {
    "p": "VERB",
    "g": [
-    "form",
-    "ind",
-    "p2",
-    "pres",
+    "fem",
+    "past",
+    "ptcp",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AM": {
    "p": "VERB",
    "g": [
-    "ind",
-    "p1",
+    "masc",
+    "past",
     "pl",
-    "pres"
+    "ptcp"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AN": {
    "p": "VERB",
    "g": [
-    "ind",
-    "p2",
+    "fem",
+    "past",
     "pl",
-    "pres"
+    "ptcp"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AO": {
    "p": "VERB",
    "g": [
     "ind",
-    "p3",
-    "pl",
-    "pres"
+    "p1",
+    "pres",
+    "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AP": {
    "p": "VERB",
    "g": [
-    "impf",
     "ind",
-    "p1",
-    "past",
+    "infm",
+    "p2",
+    "pres",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AQ": {
    "p": "VERB",
    "g": [
-    "impf",
     "ind",
-    "infm",
-    "p2",
-    "past",
+    "p3",
+    "pres",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AR": {
    "p": "VERB",
    "g": [
-    "impf",
+    "form",
     "ind",
-    "p3",
-    "past",
+    "p2",
+    "pres",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AS": {
    "p": "VERB",
    "g": [
-    "form",
-    "impf",
     "ind",
-    "p2",
-    "past",
-    "sg"
+    "p1",
+    "pl",
+    "pres"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AT": {
    "p": "VERB",
    "g": [
-    "impf",
     "ind",
-    "p1",
-    "past",
-    "pl"
+    "p2",
+    "pl",
+    "pres"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AU": {
    "p": "VERB",
    "g": [
-    "impf",
     "ind",
-    "p2",
-    "past",
-    "pl"
+    "p3",
+    "pl",
+    "pres"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AV": {
    "p": "VERB",
    "g": [
     "impf",
     "ind",
-    "p3",
+    "p1",
     "past",
-    "pl"
+    "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AW": {
    "p": "VERB",
    "g": [
-    "ind",
-    "p1",
-    "past",
-    "pfv",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "AX": {
-   "p": "VERB",
-   "g": [
+    "impf",
     "ind",
     "infm",
     "p2",
     "past",
-    "pfv",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
+  },
+  "AX": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p3",
+    "past",
+    "sg"
+   ],
+   "l": "ABACORAR"
   },
   "AY": {
    "p": "VERB",
    "g": [
+    "form",
+    "impf",
     "ind",
-    "p3",
+    "p2",
     "past",
-    "pfv",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "AZ": {
    "p": "VERB",
    "g": [
-    "form",
+    "impf",
     "ind",
-    "p2",
+    "p1",
     "past",
-    "pfv",
-    "sg"
+    "pl"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BA": {
    "p": "VERB",
    "g": [
+    "impf",
     "ind",
-    "p1",
+    "p2",
     "past",
-    "pfv",
     "pl"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BB": {
    "p": "VERB",
    "g": [
+    "impf",
     "ind",
-    "p2",
+    "p3",
     "past",
-    "pfv",
     "pl"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BC": {
    "p": "VERB",
    "g": [
     "ind",
+    "p1",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "BD": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "infm",
+    "p2",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "BE": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "BF": {
+   "p": "VERB",
+   "g": [
+    "form",
+    "ind",
+    "p2",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "BG": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "past",
+    "pfv",
+    "pl"
+   ],
+   "l": "ABACORAR"
+  },
+  "BH": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "past",
+    "pfv",
+    "pl"
+   ],
+   "l": "ABACORAR"
+  },
+  "BI": {
+   "p": "VERB",
+   "g": [
+    "ind",
     "p3",
     "past",
     "pfv",
     "pl"
    ],
-   "l": "AADIR"
-  },
-  "BD": {
-   "p": "VERB",
-   "g": [
-    "fut",
-    "ind",
-    "p1",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "BE": {
-   "p": "VERB",
-   "g": [
-    "fut",
-    "ind",
-    "infm",
-    "p2",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "BF": {
-   "p": "VERB",
-   "g": [
-    "fut",
-    "ind",
-    "p3",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "BG": {
-   "p": "VERB",
-   "g": [
-    "form",
-    "fut",
-    "ind",
-    "p2",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "BH": {
-   "p": "VERB",
-   "g": [
-    "fut",
-    "ind",
-    "p1",
-    "pl"
-   ],
-   "l": "AADIR"
-  },
-  "BI": {
-   "p": "VERB",
-   "g": [
-    "fut",
-    "ind",
-    "p2",
-    "pl"
-   ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BJ": {
    "p": "VERB",
    "g": [
     "fut",
     "ind",
-    "p3",
-    "pl"
+    "p1",
+    "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BK": {
    "p": "VERB",
    "g": [
-    "cond",
-    "p1",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "BL": {
-   "p": "VERB",
-   "g": [
-    "cond",
+    "fut",
+    "ind",
     "infm",
     "p2",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
+  },
+  "BL": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p3",
+    "sg"
+   ],
+   "l": "ABACORAR"
   },
   "BM": {
    "p": "VERB",
    "g": [
-    "cond",
-    "p3",
+    "form",
+    "fut",
+    "ind",
+    "p2",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BN": {
    "p": "VERB",
    "g": [
-    "cond",
-    "form",
-    "p2",
-    "sg"
+    "fut",
+    "ind",
+    "p1",
+    "pl"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BO": {
    "p": "VERB",
    "g": [
-    "cond",
-    "p1",
+    "fut",
+    "ind",
+    "p2",
     "pl"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BP": {
    "p": "VERB",
    "g": [
-    "cond",
-    "p2",
+    "fut",
+    "ind",
+    "p3",
     "pl"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BQ": {
    "p": "VERB",
    "g": [
     "cond",
-    "p3",
-    "pl"
+    "p1",
+    "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BR": {
    "p": "VERB",
    "g": [
-    "p1",
-    "pres",
-    "sbjv",
+    "cond",
+    "infm",
+    "p2",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BS": {
    "p": "VERB",
    "g": [
-    "infm",
-    "p2",
-    "pres",
-    "sbjv",
+    "cond",
+    "p3",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BT": {
    "p": "VERB",
    "g": [
-    "p3",
-    "pres",
-    "sbjv",
+    "cond",
+    "form",
+    "p2",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BU": {
    "p": "VERB",
    "g": [
-    "form",
-    "p2",
-    "pres",
-    "sbjv",
-    "sg"
+    "cond",
+    "p1",
+    "pl"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BV": {
    "p": "VERB",
    "g": [
-    "p1",
-    "pl",
-    "pres",
-    "sbjv"
+    "cond",
+    "p2",
+    "pl"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BW": {
    "p": "VERB",
    "g": [
-    "p2",
-    "pl",
-    "pres",
-    "sbjv"
+    "cond",
+    "p3",
+    "pl"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "BX": {
    "p": "VERB",
    "g": [
+    "p1",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "BY": {
+   "p": "VERB",
+   "g": [
+    "infm",
+    "p2",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "BZ": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "CA": {
+   "p": "VERB",
+   "g": [
+    "form",
+    "p2",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "CB": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "ABACORAR"
+  },
+  "CC": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "ABACORAR"
+  },
+  "CD": {
+   "p": "VERB",
+   "g": [
     "p3",
     "pl",
     "pres",
     "sbjv"
    ],
-   "l": "AADIR"
-  },
-  "BY": {
-   "p": "VERB",
-   "g": [
-    "p1",
-    "past",
-    "sbjv",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "BZ": {
-   "p": "VERB",
-   "g": [
-    "infm",
-    "p2",
-    "past",
-    "sbjv",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CA": {
-   "p": "VERB",
-   "g": [
-    "p3",
-    "past",
-    "sbjv",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CB": {
-   "p": "VERB",
-   "g": [
-    "form",
-    "p2",
-    "past",
-    "sbjv",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CC": {
-   "p": "VERB",
-   "g": [
-    "p1",
-    "past",
-    "pl",
-    "sbjv"
-   ],
-   "l": "AADIR"
-  },
-  "CD": {
-   "p": "VERB",
-   "g": [
-    "p2",
-    "past",
-    "pl",
-    "sbjv"
-   ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "CE": {
    "p": "VERB",
    "g": [
+    "p1",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "CF": {
+   "p": "VERB",
+   "g": [
+    "infm",
+    "p2",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "CG": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "CH": {
+   "p": "VERB",
+   "g": [
+    "form",
+    "p2",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "CI": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "ABACORAR"
+  },
+  "CJ": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "ABACORAR"
+  },
+  "CK": {
+   "p": "VERB",
+   "g": [
     "p3",
     "past",
     "pl",
     "sbjv"
    ],
-   "l": "AADIR"
-  },
-  "CF": {
-   "p": "VERB",
-   "g": [
-    "fut",
-    "p1",
-    "sbjv",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CG": {
-   "p": "VERB",
-   "g": [
-    "fut",
-    "infm",
-    "p2",
-    "sbjv",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CH": {
-   "p": "VERB",
-   "g": [
-    "fut",
-    "p3",
-    "sbjv",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CI": {
-   "p": "VERB",
-   "g": [
-    "form",
-    "fut",
-    "p2",
-    "sbjv",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CJ": {
-   "p": "VERB",
-   "g": [
-    "fut",
-    "p1",
-    "pl",
-    "sbjv"
-   ],
-   "l": "AADIR"
-  },
-  "CK": {
-   "p": "VERB",
-   "g": [
-    "fut",
-    "p2",
-    "pl",
-    "sbjv"
-   ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "CL": {
    "p": "VERB",
    "g": [
     "fut",
-    "p3",
-    "pl",
-    "sbjv"
+    "p1",
+    "sbjv",
+    "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "CM": {
    "p": "VERB",
    "g": [
-    "impv",
+    "fut",
     "infm",
     "p2",
-    "pos",
+    "sbjv",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "CN": {
    "p": "VERB",
    "g": [
+    "fut",
+    "p3",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "CO": {
+   "p": "VERB",
+   "g": [
+    "form",
+    "fut",
+    "p2",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "CP": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "p1",
+    "pl",
+    "sbjv"
+   ],
+   "l": "ABACORAR"
+  },
+  "CQ": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "p2",
+    "pl",
+    "sbjv"
+   ],
+   "l": "ABACORAR"
+  },
+  "CR": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "p3",
+    "pl",
+    "sbjv"
+   ],
+   "l": "ABACORAR"
+  },
+  "CS": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "infm",
+    "p2",
+    "pos",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "CT": {
+   "p": "VERB",
+   "g": [
     "form",
     "impv",
     "p2",
     "pos",
     "sg"
    ],
-   "l": "AADIR"
-  },
-  "CO": {
-   "p": "VERB",
-   "g": [
-    "impv",
-    "p1",
-    "pl",
-    "pos"
-   ],
-   "l": "AADIR"
-  },
-  "CP": {
-   "p": "VERB",
-   "g": [
-    "impv",
-    "infm",
-    "p2",
-    "pl",
-    "pos"
-   ],
-   "l": "AADIR"
-  },
-  "CQ": {
-   "p": "VERB",
-   "g": [
-    "form",
-    "impv",
-    "p2",
-    "pl",
-    "pos"
-   ],
-   "l": "AADIR"
-  },
-  "CR": {
-   "p": "VERB",
-   "g": [
-    "impv",
-    "infm",
-    "neg",
-    "p2",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CS": {
-   "p": "VERB",
-   "g": [
-    "form",
-    "impv",
-    "neg",
-    "p2",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CT": {
-   "p": "VERB",
-   "g": [
-    "impv",
-    "neg",
-    "p1",
-    "pl"
-   ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "CU": {
    "p": "VERB",
    "g": [
     "impv",
+    "p1",
+    "pl",
+    "pos"
+   ],
+   "l": "ABACORAR"
+  },
+  "CV": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "infm",
+    "p2",
+    "pl",
+    "pos"
+   ],
+   "l": "ABACORAR"
+  },
+  "CW": {
+   "p": "VERB",
+   "g": [
+    "form",
+    "impv",
+    "p2",
+    "pl",
+    "pos"
+   ],
+   "l": "ABACORAR"
+  },
+  "CX": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "infm",
+    "neg",
+    "p2",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "CY": {
+   "p": "VERB",
+   "g": [
+    "form",
+    "impv",
+    "neg",
+    "p2",
+    "sg"
+   ],
+   "l": "ABACORAR"
+  },
+  "CZ": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "neg",
+    "p1",
+    "pl"
+   ],
+   "l": "ABACORAR"
+  },
+  "DA": {
+   "p": "VERB",
+   "g": [
+    "impv",
     "infm",
     "neg",
     "p2",
     "pl"
    ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
-  "CV": {
+  "DB": {
    "p": "VERB",
    "g": [
     "form",
@@ -758,367 +805,301 @@
     "p2",
     "pl"
    ],
-   "l": "AADIR"
-  },
-  "CW": {
-   "p": "VERB",
-   "g": [
-    "dat",
-    "p1",
-    "pro",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CX": {
-   "p": "VERB",
-   "g": [
-    "dat",
-    "p2",
-    "pro",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CY": {
-   "p": "VERB",
-   "g": [
-    "dat",
-    "p3",
-    "pro",
-    "sg"
-   ],
-   "l": "AADIR"
-  },
-  "CZ": {
-   "p": "VERB",
-   "g": [
-    "dat",
-    "p1",
-    "pl",
-    "pro"
-   ],
-   "l": "AADIR"
-  },
-  "DA": {
-   "p": "VERB",
-   "g": [
-    "dat",
-    "p2",
-    "pl",
-    "pro"
-   ],
-   "l": "AADIR"
-  },
-  "DB": {
-   "p": "VERB",
-   "g": [
-    "dat",
-    "p3",
-    "pl",
-    "pro"
-   ],
-   "l": "AADIR"
+   "l": "ABACORAR"
   },
   "DC": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "p1",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DD": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "p2",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DE": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "p3",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DF": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "p1",
     "pl",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DG": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "p2",
     "pl",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DH": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "p3",
     "pl",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DI": {
    "p": "VERB",
    "g": [
-    "dat",
-    "ger",
+    "acc",
     "p1",
-    "pres",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DJ": {
    "p": "VERB",
    "g": [
-    "dat",
-    "ger",
+    "acc",
     "p2",
-    "pres",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DK": {
    "p": "VERB",
    "g": [
-    "dat",
-    "ger",
+    "acc",
     "p3",
-    "pres",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DL": {
    "p": "VERB",
    "g": [
-    "dat",
-    "ger",
+    "acc",
     "p1",
     "pl",
-    "pres",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DM": {
    "p": "VERB",
    "g": [
-    "dat",
-    "ger",
+    "acc",
     "p2",
     "pl",
-    "pres",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DN": {
    "p": "VERB",
    "g": [
-    "dat",
-    "ger",
+    "acc",
     "p3",
     "pl",
-    "pres",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DO": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "ger",
     "p1",
     "pres",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DP": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "ger",
     "p2",
     "pres",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DQ": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "ger",
     "p3",
     "pres",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DR": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "ger",
     "p1",
     "pl",
     "pres",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DS": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "ger",
     "p2",
     "pl",
     "pres",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DT": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "ger",
     "p3",
     "pl",
     "pres",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DU": {
    "p": "VERB",
    "g": [
-    "dat",
-    "impv",
-    "infm",
+    "acc",
+    "ger",
     "p1",
-    "p2",
+    "pres",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DV": {
    "p": "VERB",
    "g": [
-    "dat",
-    "impv",
-    "infm",
+    "acc",
+    "ger",
     "p2",
+    "pres",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DW": {
    "p": "VERB",
    "g": [
-    "dat",
-    "impv",
-    "infm",
-    "p2",
+    "acc",
+    "ger",
     "p3",
+    "pres",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DX": {
    "p": "VERB",
    "g": [
-    "dat",
-    "impv",
-    "infm",
+    "acc",
+    "ger",
     "p1",
-    "p2",
     "pl",
-    "pro",
-    "sg"
+    "pres",
+    "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DY": {
    "p": "VERB",
    "g": [
-    "dat",
-    "impv",
-    "infm",
+    "acc",
+    "ger",
     "p2",
-    "p3",
     "pl",
-    "pro",
-    "sg"
+    "pres",
+    "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "DZ": {
    "p": "VERB",
    "g": [
     "acc",
-    "impv",
-    "infm",
-    "p1",
-    "p2",
-    "pro",
-    "sg"
+    "ger",
+    "p3",
+    "pl",
+    "pres",
+    "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EA": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
+    "impv",
+    "infm",
+    "p1",
+    "p2",
+    "pro",
+    "sg"
+   ],
+   "l": "ABAJAR"
+  },
+  "EB": {
+   "p": "VERB",
+   "g": [
+    "dat",
     "impv",
     "infm",
     "p2",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
-  "EB": {
+  "EC": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "impv",
     "infm",
     "p2",
@@ -1126,12 +1107,12 @@
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
-  "EC": {
+  "ED": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "impv",
     "infm",
     "p1",
@@ -1140,134 +1121,119 @@
     "pro",
     "sg"
    ],
-   "l": "AADIR"
-  },
-  "ED": {
-   "p": "VERB",
-   "g": [
-    "acc",
-    "impv",
-    "infm",
-    "p2",
-    "p3",
-    "pl",
-    "pro",
-    "sg"
-   ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EE": {
    "p": "VERB",
    "g": [
     "dat",
-    "form",
     "impv",
-    "p1",
+    "infm",
     "p2",
+    "p3",
+    "pl",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EF": {
    "p": "VERB",
    "g": [
-    "dat",
-    "form",
+    "acc",
     "impv",
+    "infm",
+    "p1",
     "p2",
-    "p3",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EG": {
    "p": "VERB",
    "g": [
-    "dat",
-    "form",
+    "acc",
     "impv",
-    "p1",
+    "infm",
     "p2",
-    "pl",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EH": {
    "p": "VERB",
    "g": [
-    "dat",
-    "form",
+    "acc",
     "impv",
+    "infm",
     "p2",
     "p3",
-    "pl",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EI": {
    "p": "VERB",
    "g": [
     "acc",
-    "form",
     "impv",
+    "infm",
     "p1",
     "p2",
+    "pl",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EJ": {
    "p": "VERB",
    "g": [
     "acc",
-    "form",
     "impv",
+    "infm",
     "p2",
     "p3",
+    "pl",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EK": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "form",
     "impv",
     "p1",
     "p2",
-    "pl",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EL": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "form",
     "impv",
     "p2",
     "p3",
-    "pl",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EM": {
    "p": "VERB",
    "g": [
     "dat",
+    "form",
     "impv",
     "p1",
     "p2",
@@ -1275,73 +1241,93 @@
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EN": {
    "p": "VERB",
    "g": [
     "dat",
+    "form",
     "impv",
-    "p1",
+    "p2",
     "p3",
     "pl",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EO": {
    "p": "VERB",
    "g": [
-    "dat",
+    "acc",
+    "form",
     "impv",
     "p1",
-    "pl",
-    "pro"
+    "p2",
+    "pro",
+    "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EP": {
    "p": "VERB",
    "g": [
-    "dat",
+    "acc",
+    "form",
     "impv",
-    "p1",
     "p2",
-    "pl",
-    "pro"
+    "p3",
+    "pro",
+    "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EQ": {
    "p": "VERB",
    "g": [
-    "dat",
+    "acc",
+    "form",
     "impv",
     "p1",
-    "p3",
+    "p2",
     "pl",
-    "pro"
+    "pro",
+    "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "ER": {
    "p": "VERB",
    "g": [
     "acc",
+    "form",
     "impv",
-    "p1",
     "p2",
+    "p3",
     "pl",
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "ES": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
+    "impv",
+    "p1",
+    "p2",
+    "pl",
+    "pro",
+    "sg"
+   ],
+   "l": "ABAJAR"
+  },
+  "ET": {
+   "p": "VERB",
+   "g": [
+    "dat",
     "impv",
     "p1",
     "p3",
@@ -1349,162 +1335,197 @@
     "pro",
     "sg"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
-  "ET": {
+  "EU": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "impv",
     "p1",
     "pl",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
-  "EU": {
+  "EV": {
    "p": "VERB",
    "g": [
-    "acc",
+    "dat",
     "impv",
     "p1",
     "p2",
     "pl",
     "pro"
    ],
-   "l": "AADIR"
-  },
-  "EV": {
-   "p": "VERB",
-   "g": [
-    "acc",
-    "impv",
-    "p1",
-    "p3",
-    "pl",
-    "pro"
-   ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "EW": {
    "p": "VERB",
    "g": [
     "dat",
     "impv",
-    "infm",
     "p1",
-    "p2",
-    "pl",
-    "pro"
-   ],
-   "l": "AADIR"
-  },
-  "EX": {
-   "p": "VERB",
-   "g": [
-    "dat",
-    "impv",
-    "infm",
-    "p2",
-    "pl",
-    "pro"
-   ],
-   "l": "AADIR"
-  },
-  "EY": {
-   "p": "VERB",
-   "g": [
-    "dat",
-    "impv",
-    "infm",
-    "p2",
     "p3",
     "pl",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
+  },
+  "EX": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "impv",
+    "p1",
+    "p2",
+    "pl",
+    "pro",
+    "sg"
+   ],
+   "l": "ABAJAR"
+  },
+  "EY": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "impv",
+    "p1",
+    "p3",
+    "pl",
+    "pro",
+    "sg"
+   ],
+   "l": "ABAJAR"
   },
   "EZ": {
    "p": "VERB",
    "g": [
     "acc",
     "impv",
-    "infm",
     "p1",
-    "p2",
     "pl",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "FA": {
    "p": "VERB",
    "g": [
     "acc",
     "impv",
-    "infm",
+    "p1",
     "p2",
     "pl",
     "pro"
    ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "FB": {
    "p": "VERB",
    "g": [
     "acc",
     "impv",
+    "p1",
+    "p3",
+    "pl",
+    "pro"
+   ],
+   "l": "ABAJAR"
+  },
+  "FC": {
+   "p": "VERB",
+   "g": [
+    "dat",
+    "impv",
+    "infm",
+    "p1",
+    "p2",
+    "pl",
+    "pro"
+   ],
+   "l": "ABAJAR"
+  },
+  "FD": {
+   "p": "VERB",
+   "g": [
+    "dat",
+    "impv",
+    "infm",
+    "p2",
+    "pl",
+    "pro"
+   ],
+   "l": "ABAJAR"
+  },
+  "FE": {
+   "p": "VERB",
+   "g": [
+    "dat",
+    "impv",
     "infm",
     "p2",
     "p3",
     "pl",
     "pro"
    ],
-   "l": "AADIR"
-  },
-  "FC": {
-   "p": "VERB",
-   "g": [
-    "dat",
-    "form",
-    "impv",
-    "p1",
-    "p2",
-    "pl",
-    "pro"
-   ],
-   "l": "AADIR"
-  },
-  "FD": {
-   "p": "VERB",
-   "g": [
-    "dat",
-    "form",
-    "impv",
-    "p2",
-    "p3",
-    "pl",
-    "pro"
-   ],
-   "l": "AADIR"
-  },
-  "FE": {
-   "p": "VERB",
-   "g": [
-    "acc",
-    "form",
-    "impv",
-    "p1",
-    "p2",
-    "pl",
-    "pro"
-   ],
-   "l": "AADIR"
+   "l": "ABAJAR"
   },
   "FF": {
    "p": "VERB",
    "g": [
     "acc",
+    "impv",
+    "infm",
+    "p1",
+    "p2",
+    "pl",
+    "pro"
+   ],
+   "l": "ABAJAR"
+  },
+  "FG": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "impv",
+    "infm",
+    "p2",
+    "pl",
+    "pro"
+   ],
+   "l": "ABAJAR"
+  },
+  "FH": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "impv",
+    "infm",
+    "p2",
+    "p3",
+    "pl",
+    "pro"
+   ],
+   "l": "ABAJAR"
+  },
+  "FI": {
+   "p": "VERB",
+   "g": [
+    "dat",
+    "form",
+    "impv",
+    "p1",
+    "p2",
+    "pl",
+    "pro"
+   ],
+   "l": "ABAJAR"
+  },
+  "FJ": {
+   "p": "VERB",
+   "g": [
+    "dat",
     "form",
     "impv",
     "p2",
@@ -1512,54 +1533,33 @@
     "pl",
     "pro"
    ],
-   "l": "AADIR"
-  },
-  "FG": {
-   "p": "ADJ",
-   "g": [
-    "pl"
-   ],
-   "l": "AAL"
-  },
-  "FH": {
-   "p": "NOUN",
-   "g": [
-    "masc",
-    "sg"
-   ],
-   "l": "AALENIANO"
-  },
-  "FI": {
-   "p": "NOUN",
-   "g": [
-    "masc",
-    "pl"
-   ],
-   "l": "AALENIANO"
-  },
-  "FJ": {
-   "p": "ADJ",
-   "g": [
-    "fem",
-    "sg"
-   ],
-   "l": "AALENIANO"
+   "l": "ABAJAR"
   },
   "FK": {
-   "p": "ADJ",
+   "p": "VERB",
    "g": [
-    "masc",
-    "pl"
+    "acc",
+    "form",
+    "impv",
+    "p1",
+    "p2",
+    "pl",
+    "pro"
    ],
-   "l": "AALENIANO"
+   "l": "ABAJAR"
   },
   "FL": {
-   "p": "ADJ",
+   "p": "VERB",
    "g": [
-    "fem",
-    "pl"
+    "acc",
+    "form",
+    "impv",
+    "p2",
+    "p3",
+    "pl",
+    "pro"
    ],
-   "l": "AALENIANO"
+   "l": "ABAJAR"
   },
   "FM": {
    "p": "ADJ",
@@ -1574,8 +1574,8 @@
    "g": [
     "sg"
    ],
-   "l": "EXPRS"
+   "l": "EXPRÉS"
   }
  },
- "plug_noun_gram_code": "FH"
+ "plug_noun_gram_code": "AA"
 }
