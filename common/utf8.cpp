@@ -8265,6 +8265,10 @@ bool IsUnicodeGerman(uint16_t u) {
 	}
 }
 
+bool IsUnicodeLatin(uint16_t u) {
+	return IsUnicodeEnglish(u);
+}
+
 bool IsUnicodeSpanish(uint16_t u) {
 	if (IsUnicodeEnglish(u)) return true;
 	switch (u) {
@@ -8287,7 +8291,7 @@ bool IsUnicodeSpanish(uint16_t u) {
 }
 
 bool IsUnicodeAlpha(uint16_t u) {
-	return IsUnicodeRussian(u) || IsUnicodeGerman(u) || IsUnicodeSpanish(u);
+	return IsUnicodeRussian(u) || IsUnicodeGerman(u) || IsUnicodeSpanish(u) || IsUnicodeLatin(u);
 }
 
 typedef bool (*unicode_check_pred)(uint16_t u);
@@ -8342,6 +8346,10 @@ bool CheckGermanUtf8(const std::string& s) {
 
 bool CheckSpanishUtf8(const std::string& s) {
 	return CheckLettersUtf8<IsUnicodeSpanish>(s);
+}
+
+bool CheckLatinUtf8(const std::string& s) {
+	return CheckLettersUtf8<IsUnicodeLatin>(s);
 }
 
 bool IsUnicodeUpperGermanVowel(uint32_t u) {
@@ -8453,6 +8461,7 @@ bool CheckLanguage(const std::string& s, MorphLanguageEnum langua) {
 		case morphRussian: return CheckRussianUtf8(s);
 		case morphGerman: return CheckGermanUtf8(s);
 		case morphEnglish: return CheckEnglishUtf8(s);
+		case morphLatin: return CheckLatinUtf8(s);
 		case morphSpanish: return CheckSpanishUtf8(s);
 		default: 
 			assert(false);

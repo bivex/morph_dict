@@ -13,6 +13,7 @@ typedef enum {
 	morphGerman = 3,
 	morphUkrainian = 4,
 	morphGeneric = 5,
+	morphLatin = 6,
 	morphDigits = 7,
 	morphFioDisclosures = 8,
 	morphSpanish = 9,

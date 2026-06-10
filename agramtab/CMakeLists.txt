@@ -13,6 +13,8 @@ add_library(AgramtabLib
         GerGramTab.h
         SpaGramTab.cpp
         SpaGramTab.h
+        LatGramTab.cpp
+        LatGramTab.h
 
         GramInfo.h
  )

@@ -1,0 +1,2307 @@
+{
+ "gramcodes": {
+  "AA": {
+   "p": "PREP",
+   "g": [],
+   "l": "A"
+  },
+  "AB": {
+   "p": "NOUN",
+   "g": [
+    "masc",
+    "nom",
+    "sg"
+   ],
+   "l": "ABABA"
+  },
+  "AC": {
+   "p": "NOUN",
+   "g": [
+    "gen",
+    "masc",
+    "sg"
+   ],
+   "l": "ABABA"
+  },
+  "AD": {
+   "p": "NOUN",
+   "g": [
+    "dat",
+    "masc",
+    "sg"
+   ],
+   "l": "ABABA"
+  },
+  "AE": {
+   "p": "NOUN",
+   "g": [
+    "acc",
+    "masc",
+    "sg"
+   ],
+   "l": "ABABA"
+  },
+  "AF": {
+   "p": "NOUN",
+   "g": [
+    "abl",
+    "masc",
+    "sg"
+   ],
+   "l": "ABABA"
+  },
+  "AG": {
+   "p": "NOUN",
+   "g": [
+    "masc",
+    "sg",
+    "voc"
+   ],
+   "l": "ABABA"
+  },
+  "AH": {
+   "p": "NOUN",
+   "g": [
+    "loc",
+    "masc",
+    "sg"
+   ],
+   "l": "ABACAENUM"
+  },
+  "AI": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "masc",
+    "nom",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AJ": {
+   "p": "VERB",
+   "g": [
+    "fem",
+    "inf",
+    "nom",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AK": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "neut",
+    "nom",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AL": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "masc",
+    "nom",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AM": {
+   "p": "VERB",
+   "g": [
+    "fem",
+    "inf",
+    "nom",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AN": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "neut",
+    "nom",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AO": {
+   "p": "VERB",
+   "g": [
+    "gen",
+    "inf",
+    "masc",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AP": {
+   "p": "VERB",
+   "g": [
+    "dat",
+    "fem",
+    "inf",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AQ": {
+   "p": "VERB",
+   "g": [
+    "gen",
+    "inf",
+    "neut",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AR": {
+   "p": "VERB",
+   "g": [
+    "gen",
+    "inf",
+    "masc",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AS": {
+   "p": "VERB",
+   "g": [
+    "fem",
+    "gen",
+    "inf",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AT": {
+   "p": "VERB",
+   "g": [
+    "gen",
+    "inf",
+    "neut",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AU": {
+   "p": "VERB",
+   "g": [
+    "dat",
+    "inf",
+    "masc",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AV": {
+   "p": "VERB",
+   "g": [
+    "dat",
+    "inf",
+    "neut",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AW": {
+   "p": "VERB",
+   "g": [
+    "com",
+    "dat",
+    "inf",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AX": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "inf",
+    "masc",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AY": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "fem",
+    "inf",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "AZ": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "inf",
+    "neut",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BA": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "inf",
+    "masc",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BB": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "fem",
+    "inf",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BC": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "inf",
+    "neut",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BD": {
+   "p": "VERB",
+   "g": [
+    "abl",
+    "inf",
+    "masc",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BE": {
+   "p": "VERB",
+   "g": [
+    "abl",
+    "fem",
+    "inf",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BF": {
+   "p": "VERB",
+   "g": [
+    "abl",
+    "inf",
+    "neut",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BG": {
+   "p": "VERB",
+   "g": [
+    "abl",
+    "com",
+    "inf",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BH": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "masc",
+    "ptcp",
+    "sg",
+    "voc"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BI": {
+   "p": "VERB",
+   "g": [
+    "fem",
+    "inf",
+    "ptcp",
+    "sg",
+    "voc"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BJ": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "neut",
+    "ptcp",
+    "sg",
+    "voc"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BK": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "masc",
+    "pl",
+    "ptcp",
+    "voc"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BL": {
+   "p": "VERB",
+   "g": [
+    "fem",
+    "inf",
+    "pl",
+    "ptcp",
+    "voc"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BM": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "neut",
+    "pl",
+    "ptcp",
+    "voc"
+   ],
+   "l": "ABACINANDUS"
+  },
+  "BN": {
+   "p": "VERB",
+   "g": [
+    "com",
+    "inf",
+    "nom",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANS"
+  },
+  "BO": {
+   "p": "VERB",
+   "g": [
+    "com",
+    "inf",
+    "nom",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANS"
+  },
+  "BP": {
+   "p": "VERB",
+   "g": [
+    "com",
+    "gen",
+    "inf",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANS"
+  },
+  "BQ": {
+   "p": "VERB",
+   "g": [
+    "com",
+    "gen",
+    "inf",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANS"
+  },
+  "BR": {
+   "p": "VERB",
+   "g": [
+    "com",
+    "dat",
+    "inf",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANS"
+  },
+  "BS": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "com",
+    "inf",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANS"
+  },
+  "BT": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "com",
+    "inf",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABACINANS"
+  },
+  "BU": {
+   "p": "VERB",
+   "g": [
+    "abl",
+    "com",
+    "inf",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABACINANS"
+  },
+  "BV": {
+   "p": "VERB",
+   "g": [
+    "com",
+    "inf",
+    "ptcp",
+    "sg",
+    "voc"
+   ],
+   "l": "ABACINANS"
+  },
+  "BW": {
+   "p": "VERB",
+   "g": [
+    "com",
+    "inf",
+    "pl",
+    "ptcp",
+    "voc"
+   ],
+   "l": "ABACINANS"
+  },
+  "BX": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "nom",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "BY": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "nom",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "BZ": {
+   "p": "ADJ",
+   "g": [
+    "neut",
+    "nom",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CA": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "nom",
+    "pl"
+   ],
+   "l": "ABACINUS"
+  },
+  "CB": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "nom",
+    "pl"
+   ],
+   "l": "ABACINUS"
+  },
+  "CC": {
+   "p": "ADJ",
+   "g": [
+    "neut",
+    "nom",
+    "pl"
+   ],
+   "l": "ABACINUS"
+  },
+  "CD": {
+   "p": "ADJ",
+   "g": [
+    "gen",
+    "masc",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CE": {
+   "p": "ADJ",
+   "g": [
+    "dat",
+    "fem",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CF": {
+   "p": "ADJ",
+   "g": [
+    "gen",
+    "neut",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CG": {
+   "p": "ADJ",
+   "g": [
+    "gen",
+    "masc",
+    "pl"
+   ],
+   "l": "ABACINUS"
+  },
+  "CH": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "gen",
+    "pl"
+   ],
+   "l": "ABACINUS"
+  },
+  "CI": {
+   "p": "ADJ",
+   "g": [
+    "gen",
+    "neut",
+    "pl"
+   ],
+   "l": "ABACINUS"
+  },
+  "CJ": {
+   "p": "ADJ",
+   "g": [
+    "dat",
+    "masc",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CK": {
+   "p": "ADJ",
+   "g": [
+    "dat",
+    "neut",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CL": {
+   "p": "ADJ",
+   "g": [
+    "com",
+    "dat",
+    "pl"
+   ],
+   "l": "ABACINUS"
+  },
+  "CM": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "masc",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CN": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "fem",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CO": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "neut",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CP": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "masc",
+    "pl"
+   ],
+   "l": "ABACINUS"
+  },
+  "CQ": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "fem",
+    "pl"
+   ],
+   "l": "ABACINUS"
+  },
+  "CR": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "neut",
+    "pl"
+   ],
+   "l": "ABACINUS"
+  },
+  "CS": {
+   "p": "ADJ",
+   "g": [
+    "abl",
+    "masc",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CT": {
+   "p": "ADJ",
+   "g": [
+    "abl",
+    "fem",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CU": {
+   "p": "ADJ",
+   "g": [
+    "abl",
+    "neut",
+    "sg"
+   ],
+   "l": "ABACINUS"
+  },
+  "CV": {
+   "p": "ADJ",
+   "g": [
+    "abl",
+    "com",
+    "pl"
+   ],
+   "l": "ABACINUS"
+  },
+  "CW": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "sg",
+    "voc"
+   ],
+   "l": "ABACINUS"
+  },
+  "CX": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "sg",
+    "voc"
+   ],
+   "l": "ABACINUS"
+  },
+  "CY": {
+   "p": "ADJ",
+   "g": [
+    "neut",
+    "sg",
+    "voc"
+   ],
+   "l": "ABACINUS"
+  },
+  "CZ": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "pl",
+    "voc"
+   ],
+   "l": "ABACINUS"
+  },
+  "DA": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "pl",
+    "voc"
+   ],
+   "l": "ABACINUS"
+  },
+  "DB": {
+   "p": "ADJ",
+   "g": [
+    "neut",
+    "pl",
+    "voc"
+   ],
+   "l": "ABACINUS"
+  },
+  "DC": {
+   "p": "NOUN",
+   "g": [
+    "masc",
+    "nom",
+    "pl"
+   ],
+   "l": "ABACTOR"
+  },
+  "DD": {
+   "p": "NOUN",
+   "g": [
+    "gen",
+    "masc",
+    "pl"
+   ],
+   "l": "ABACTOR"
+  },
+  "DE": {
+   "p": "NOUN",
+   "g": [
+    "dat",
+    "masc",
+    "pl"
+   ],
+   "l": "ABACTOR"
+  },
+  "DF": {
+   "p": "NOUN",
+   "g": [
+    "acc",
+    "masc",
+    "pl"
+   ],
+   "l": "ABACTOR"
+  },
+  "DG": {
+   "p": "NOUN",
+   "g": [
+    "abl",
+    "masc",
+    "pl"
+   ],
+   "l": "ABACTOR"
+  },
+  "DH": {
+   "p": "NOUN",
+   "g": [
+    "masc",
+    "pl",
+    "voc"
+   ],
+   "l": "ABACTOR"
+  },
+  "DI": {
+   "p": "NOUN",
+   "g": [
+    "loc",
+    "masc",
+    "pl"
+   ],
+   "l": "ABAE"
+  },
+  "DJ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p1",
+    "pres",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "DK": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p2",
+    "pres",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "DL": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "DM": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p1",
+    "pl",
+    "pres"
+   ],
+   "l": "ABARCEO"
+  },
+  "DN": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p2",
+    "pl",
+    "pres"
+   ],
+   "l": "ABARCEO"
+  },
+  "DO": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "ABARCEO"
+  },
+  "DP": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "ind",
+    "p1",
+    "past",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "DQ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "ind",
+    "p2",
+    "past",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "DR": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "ind",
+    "p3",
+    "past",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "DS": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "ind",
+    "p1",
+    "past",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "DT": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "ind",
+    "p2",
+    "past",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "DU": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "ind",
+    "p3",
+    "past",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "DV": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p1",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "DW": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p2",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "DX": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p3",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "DY": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p1",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "DZ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p2",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "EA": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p3",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "EB": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "pass",
+    "pres",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "EC": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pass",
+    "pres",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "ED": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pass",
+    "pres",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "EE": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "pass",
+    "pl",
+    "pres"
+   ],
+   "l": "ABARCEO"
+  },
+  "EF": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pass",
+    "pl",
+    "pres"
+   ],
+   "l": "ABARCEO"
+  },
+  "EG": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pass",
+    "pl",
+    "pres"
+   ],
+   "l": "ABARCEO"
+  },
+  "EH": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p1",
+    "pass",
+    "past",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "EI": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p2",
+    "pass",
+    "past",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "EJ": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p3",
+    "pass",
+    "past",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "EK": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p1",
+    "pass",
+    "past",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "EL": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p2",
+    "pass",
+    "past",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "EM": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p3",
+    "pass",
+    "past",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "EN": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p1",
+    "pass",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "EO": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p2",
+    "pass",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "EP": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p3",
+    "pass",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "EQ": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p1",
+    "pass",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "ER": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p2",
+    "pass",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "ES": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p3",
+    "pass",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "ET": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p1",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "EU": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p2",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "EV": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p3",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "EW": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p1",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "EX": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p2",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "EY": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p3",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "EZ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "p1",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FA": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "p2",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FB": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "p3",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FC": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "p1",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "FD": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "p2",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "FE": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impf",
+    "p3",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "FF": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "pass",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FG": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "pass",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FH": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "pass",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FI": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "pass",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "FJ": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "pass",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "FK": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "pass",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "FL": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p1",
+    "pass",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FM": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p2",
+    "pass",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FN": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p3",
+    "pass",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FO": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p1",
+    "pass",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "FP": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p2",
+    "pass",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "FQ": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p3",
+    "pass",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "ABARCEO"
+  },
+  "FR": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impv",
+    "p2",
+    "pres",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FS": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "impv",
+    "p2",
+    "pl",
+    "pres"
+   ],
+   "l": "ABARCEO"
+  },
+  "FT": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "impv",
+    "p2",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FU": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "impv",
+    "p3",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FV": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "impv",
+    "p2",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "FW": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "impv",
+    "p3",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "FX": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p2",
+    "pass",
+    "pres",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "FY": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p2",
+    "pass",
+    "pl",
+    "pres"
+   ],
+   "l": "ABARCEO"
+  },
+  "FZ": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "impv",
+    "p2",
+    "pass",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "GA": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "impv",
+    "p3",
+    "pass",
+    "sg"
+   ],
+   "l": "ABARCEO"
+  },
+  "GB": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "impv",
+    "p3",
+    "pass",
+    "pl"
+   ],
+   "l": "ABARCEO"
+  },
+  "GC": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "inf",
+    "pres"
+   ],
+   "l": "ABARCEO"
+  },
+  "GD": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "pass",
+    "pres"
+   ],
+   "l": "ABARCEO"
+  },
+  "GE": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "pres",
+    "ptcp"
+   ],
+   "l": "ABARCEO"
+  },
+  "GF": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "pass",
+    "ptcp"
+   ],
+   "l": "ABARCEO"
+  },
+  "GG": {
+   "p": "VERB",
+   "g": [
+    "gen",
+    "ger",
+    "inf"
+   ],
+   "l": "ABARCEO"
+  },
+  "GH": {
+   "p": "VERB",
+   "g": [
+    "dat",
+    "ger",
+    "inf"
+   ],
+   "l": "ABARCEO"
+  },
+  "GI": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "ger",
+    "inf"
+   ],
+   "l": "ABARCEO"
+  },
+  "GJ": {
+   "p": "VERB",
+   "g": [
+    "abl",
+    "ger",
+    "inf"
+   ],
+   "l": "ABARCEO"
+  },
+  "GK": {
+   "p": "ADJ",
+   "g": [
+    "com",
+    "nom",
+    "sg"
+   ],
+   "l": "ABBATIALIS"
+  },
+  "GL": {
+   "p": "ADJ",
+   "g": [
+    "com",
+    "nom",
+    "pl"
+   ],
+   "l": "ABBATIALIS"
+  },
+  "GM": {
+   "p": "ADJ",
+   "g": [
+    "com",
+    "gen",
+    "sg"
+   ],
+   "l": "ABBATIALIS"
+  },
+  "GN": {
+   "p": "ADJ",
+   "g": [
+    "com",
+    "gen",
+    "pl"
+   ],
+   "l": "ABBATIALIS"
+  },
+  "GO": {
+   "p": "ADJ",
+   "g": [
+    "com",
+    "dat",
+    "sg"
+   ],
+   "l": "ABBATIALIS"
+  },
+  "GP": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "com",
+    "sg"
+   ],
+   "l": "ABBATIALIS"
+  },
+  "GQ": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "com",
+    "pl"
+   ],
+   "l": "ABBATIALIS"
+  },
+  "GR": {
+   "p": "ADJ",
+   "g": [
+    "abl",
+    "com",
+    "sg"
+   ],
+   "l": "ABBATIALIS"
+  },
+  "GS": {
+   "p": "ADJ",
+   "g": [
+    "com",
+    "sg",
+    "voc"
+   ],
+   "l": "ABBATIALIS"
+  },
+  "GT": {
+   "p": "ADJ",
+   "g": [
+    "com",
+    "pl",
+    "voc"
+   ],
+   "l": "ABBATIALIS"
+  },
+  "GU": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "inf",
+    "past",
+    "pfv"
+   ],
+   "l": "ABOMINOR"
+  },
+  "GV": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "inf"
+   ],
+   "l": "ABOMINOR"
+  },
+  "GW": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "past",
+    "pfv",
+    "ptcp"
+   ],
+   "l": "ABOMINOR"
+  },
+  "GX": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ptcp"
+   ],
+   "l": "ABOMINOR"
+  },
+  "GY": {
+   "p": "CONJ",
+   "g": [],
+   "l": "AC"
+  },
+  "GZ": {
+   "p": "NOUN",
+   "g": [
+    "com",
+    "nom",
+    "sg"
+   ],
+   "l": "ACCOLA"
+  },
+  "HA": {
+   "p": "NOUN",
+   "g": [
+    "com",
+    "nom",
+    "pl"
+   ],
+   "l": "ACCOLA"
+  },
+  "HB": {
+   "p": "NOUN",
+   "g": [
+    "com",
+    "gen",
+    "sg"
+   ],
+   "l": "ACCOLA"
+  },
+  "HC": {
+   "p": "NOUN",
+   "g": [
+    "com",
+    "gen",
+    "pl"
+   ],
+   "l": "ACCOLA"
+  },
+  "HD": {
+   "p": "NOUN",
+   "g": [
+    "com",
+    "dat",
+    "sg"
+   ],
+   "l": "ACCOLA"
+  },
+  "HE": {
+   "p": "NOUN",
+   "g": [
+    "com",
+    "dat",
+    "pl"
+   ],
+   "l": "ACCOLA"
+  },
+  "HF": {
+   "p": "NOUN",
+   "g": [
+    "acc",
+    "com",
+    "sg"
+   ],
+   "l": "ACCOLA"
+  },
+  "HG": {
+   "p": "NOUN",
+   "g": [
+    "acc",
+    "com",
+    "pl"
+   ],
+   "l": "ACCOLA"
+  },
+  "HH": {
+   "p": "NOUN",
+   "g": [
+    "abl",
+    "com",
+    "sg"
+   ],
+   "l": "ACCOLA"
+  },
+  "HI": {
+   "p": "NOUN",
+   "g": [
+    "abl",
+    "com",
+    "pl"
+   ],
+   "l": "ACCOLA"
+  },
+  "HJ": {
+   "p": "NOUN",
+   "g": [
+    "com",
+    "sg",
+    "voc"
+   ],
+   "l": "ACCOLA"
+  },
+  "HK": {
+   "p": "NOUN",
+   "g": [
+    "com",
+    "pl",
+    "voc"
+   ],
+   "l": "ACCOLA"
+  },
+  "HL": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "pass",
+    "past",
+    "pfv"
+   ],
+   "l": "AMOENO"
+  },
+  "HM": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "inf",
+    "pass"
+   ],
+   "l": "AMOENO"
+  },
+  "HN": {
+   "p": "VERB",
+   "g": [
+    "pass",
+    "past",
+    "pfv",
+    "ptcp"
+   ],
+   "l": "AMOENO"
+  },
+  "HO": {
+   "p": "PRON",
+   "g": [],
+   "l": "CUI"
+  },
+  "HP": {
+   "p": "NUM",
+   "g": [
+    "fem",
+    "pl"
+   ],
+   "l": "DUAE"
+  },
+  "HQ": {
+   "p": "NUM",
+   "g": [
+    "neut",
+    "pl"
+   ],
+   "l": "DUO"
+  },
+  "HR": {
+   "p": "ADV",
+   "g": [],
+   "l": "ETIAM"
+  },
+  "HS": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "impv",
+    "p2",
+    "pass",
+    "pl"
+   ],
+   "l": "EXCALFACIO"
+  },
+  "HT": {
+   "p": "NOUN",
+   "g": [
+    "com",
+    "loc",
+    "sg"
+   ],
+   "l": "MOSELLA"
+  },
+  "HU": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p1",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "HV": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p2",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "HW": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p3",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "HX": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p1",
+    "past",
+    "pfv",
+    "pl"
+   ],
+   "l": "MUTO"
+  },
+  "HY": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p2",
+    "past",
+    "pfv",
+    "pl"
+   ],
+   "l": "MUTO"
+  },
+  "HZ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p3",
+    "past",
+    "pfv",
+    "pl"
+   ],
+   "l": "MUTO"
+  },
+  "IA": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p1",
+    "pfv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "IB": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p2",
+    "pfv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "IC": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p3",
+    "pfv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "ID": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p1",
+    "pfv",
+    "pl"
+   ],
+   "l": "MUTO"
+  },
+  "IE": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p2",
+    "pfv",
+    "pl"
+   ],
+   "l": "MUTO"
+  },
+  "IF": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p3",
+    "pfv",
+    "pl"
+   ],
+   "l": "MUTO"
+  },
+  "IG": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p1",
+    "past",
+    "pfv",
+    "sbjv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "IH": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p2",
+    "past",
+    "pfv",
+    "sbjv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "II": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p3",
+    "past",
+    "pfv",
+    "sbjv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "IJ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p1",
+    "past",
+    "pfv",
+    "pl",
+    "sbjv"
+   ],
+   "l": "MUTO"
+  },
+  "IK": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p2",
+    "past",
+    "pfv",
+    "pl",
+    "sbjv"
+   ],
+   "l": "MUTO"
+  },
+  "IL": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p3",
+    "past",
+    "pfv",
+    "pl",
+    "sbjv"
+   ],
+   "l": "MUTO"
+  },
+  "IM": {
+   "p": "NUM",
+   "g": [
+    "masc",
+    "pl"
+   ],
+   "l": "TRES"
+  },
+  "IN": {
+   "p": "NUM",
+   "g": [
+    "fem",
+    "sg"
+   ],
+   "l": "UNA"
+  },
+  "IO": {
+   "p": "NUM",
+   "g": [
+    "neut",
+    "sg"
+   ],
+   "l": "UNUM"
+  },
+  "IP": {
+   "p": "NUM",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "UNUS"
+  }
+ },
+ "plug_noun_gram_code": "AB"
+}
