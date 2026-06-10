@@ -1982,6 +1982,73 @@
   "HL": {
    "p": "VERB",
    "g": [
+    "ind",
+    "p1",
+    "pl",
+    "pres"
+   ],
+   "l": "AMAMUS"
+  },
+  "HM": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "AMANT"
+  },
+  "HN": {
+   "p": "VERB",
+   "g": [
+    "inf"
+   ],
+   "l": "AMARE"
+  },
+  "HO": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pres",
+    "sg"
+   ],
+   "l": "AMAS"
+  },
+  "HP": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "AMAT"
+  },
+  "HQ": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pl",
+    "pres"
+   ],
+   "l": "AMATIS"
+  },
+  "HR": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "pres",
+    "sg"
+   ],
+   "l": "AMO"
+  },
+  "HS": {
+   "p": "VERB",
+   "g": [
     "inf",
     "pass",
     "past",
@@ -1989,7 +2056,7 @@
    ],
    "l": "AMOENO"
   },
-  "HM": {
+  "HT": {
    "p": "VERB",
    "g": [
     "fut",
@@ -1998,7 +2065,7 @@
    ],
    "l": "AMOENO"
   },
-  "HN": {
+  "HU": {
    "p": "VERB",
    "g": [
     "pass",
@@ -2008,12 +2075,12 @@
    ],
    "l": "AMOENO"
   },
-  "HO": {
+  "HV": {
    "p": "PRON",
    "g": [],
    "l": "CUI"
   },
-  "HP": {
+  "HW": {
    "p": "NUM",
    "g": [
     "fem",
@@ -2021,7 +2088,7 @@
    ],
    "l": "DUAE"
   },
-  "HQ": {
+  "HX": {
    "p": "NUM",
    "g": [
     "neut",
@@ -2029,12 +2096,12 @@
    ],
    "l": "DUO"
   },
-  "HR": {
+  "HY": {
    "p": "ADV",
    "g": [],
    "l": "ETIAM"
   },
-  "HS": {
+  "HZ": {
    "p": "VERB",
    "g": [
     "fut",
@@ -2045,7 +2112,7 @@
    ],
    "l": "EXCALFACIO"
   },
-  "HT": {
+  "IA": {
    "p": "NOUN",
    "g": [
     "com",
@@ -2054,97 +2121,13 @@
    ],
    "l": "MOSELLA"
   },
-  "HU": {
-   "p": "VERB",
-   "g": [
-    "act",
-    "ind",
-    "p1",
-    "past",
-    "pfv",
-    "sg"
-   ],
-   "l": "MUTO"
-  },
-  "HV": {
-   "p": "VERB",
-   "g": [
-    "act",
-    "ind",
-    "p2",
-    "past",
-    "pfv",
-    "sg"
-   ],
-   "l": "MUTO"
-  },
-  "HW": {
-   "p": "VERB",
-   "g": [
-    "act",
-    "ind",
-    "p3",
-    "past",
-    "pfv",
-    "sg"
-   ],
-   "l": "MUTO"
-  },
-  "HX": {
-   "p": "VERB",
-   "g": [
-    "act",
-    "ind",
-    "p1",
-    "past",
-    "pfv",
-    "pl"
-   ],
-   "l": "MUTO"
-  },
-  "HY": {
-   "p": "VERB",
-   "g": [
-    "act",
-    "ind",
-    "p2",
-    "past",
-    "pfv",
-    "pl"
-   ],
-   "l": "MUTO"
-  },
-  "HZ": {
-   "p": "VERB",
-   "g": [
-    "act",
-    "ind",
-    "p3",
-    "past",
-    "pfv",
-    "pl"
-   ],
-   "l": "MUTO"
-  },
-  "IA": {
-   "p": "VERB",
-   "g": [
-    "act",
-    "fut",
-    "ind",
-    "p1",
-    "pfv",
-    "sg"
-   ],
-   "l": "MUTO"
-  },
   "IB": {
    "p": "VERB",
    "g": [
     "act",
-    "fut",
     "ind",
-    "p2",
+    "p1",
+    "past",
     "pfv",
     "sg"
    ],
@@ -2154,9 +2137,9 @@
    "p": "VERB",
    "g": [
     "act",
-    "fut",
     "ind",
-    "p3",
+    "p2",
+    "past",
     "pfv",
     "sg"
    ],
@@ -2166,11 +2149,11 @@
    "p": "VERB",
    "g": [
     "act",
-    "fut",
     "ind",
-    "p1",
+    "p3",
+    "past",
     "pfv",
-    "pl"
+    "sg"
    ],
    "l": "MUTO"
   },
@@ -2178,9 +2161,9 @@
    "p": "VERB",
    "g": [
     "act",
-    "fut",
     "ind",
-    "p2",
+    "p1",
+    "past",
     "pfv",
     "pl"
    ],
@@ -2190,9 +2173,9 @@
    "p": "VERB",
    "g": [
     "act",
-    "fut",
     "ind",
-    "p3",
+    "p2",
+    "past",
     "pfv",
     "pl"
    ],
@@ -2202,11 +2185,11 @@
    "p": "VERB",
    "g": [
     "act",
-    "p1",
+    "ind",
+    "p3",
     "past",
     "pfv",
-    "sbjv",
-    "sg"
+    "pl"
    ],
    "l": "MUTO"
   },
@@ -2214,10 +2197,10 @@
    "p": "VERB",
    "g": [
     "act",
-    "p2",
-    "past",
+    "fut",
+    "ind",
+    "p1",
     "pfv",
-    "sbjv",
     "sg"
    ],
    "l": "MUTO"
@@ -2226,6 +2209,90 @@
    "p": "VERB",
    "g": [
     "act",
+    "fut",
+    "ind",
+    "p2",
+    "pfv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "IJ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p3",
+    "pfv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "IK": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p1",
+    "pfv",
+    "pl"
+   ],
+   "l": "MUTO"
+  },
+  "IL": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p2",
+    "pfv",
+    "pl"
+   ],
+   "l": "MUTO"
+  },
+  "IM": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fut",
+    "ind",
+    "p3",
+    "pfv",
+    "pl"
+   ],
+   "l": "MUTO"
+  },
+  "IN": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p1",
+    "past",
+    "pfv",
+    "sbjv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "IO": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p2",
+    "past",
+    "pfv",
+    "sbjv",
+    "sg"
+   ],
+   "l": "MUTO"
+  },
+  "IP": {
+   "p": "VERB",
+   "g": [
+    "act",
     "p3",
     "past",
     "pfv",
@@ -2234,7 +2301,7 @@
    ],
    "l": "MUTO"
   },
-  "IJ": {
+  "IQ": {
    "p": "VERB",
    "g": [
     "act",
@@ -2246,7 +2313,7 @@
    ],
    "l": "MUTO"
   },
-  "IK": {
+  "IR": {
    "p": "VERB",
    "g": [
     "act",
@@ -2258,7 +2325,7 @@
    ],
    "l": "MUTO"
   },
-  "IL": {
+  "IS": {
    "p": "VERB",
    "g": [
     "act",
@@ -2270,7 +2337,25 @@
    ],
    "l": "MUTO"
   },
-  "IM": {
+  "IT": {
+   "p": "NOUN",
+   "g": [
+    "fem",
+    "nom",
+    "sg"
+   ],
+   "l": "ROSA"
+  },
+  "IU": {
+   "p": "NOUN",
+   "g": [
+    "acc",
+    "fem",
+    "pl"
+   ],
+   "l": "ROSA"
+  },
+  "IV": {
    "p": "NUM",
    "g": [
     "masc",
@@ -2278,7 +2363,7 @@
    ],
    "l": "TRES"
   },
-  "IN": {
+  "IW": {
    "p": "NUM",
    "g": [
     "fem",
@@ -2286,7 +2371,7 @@
    ],
    "l": "UNA"
   },
-  "IO": {
+  "IX": {
    "p": "NUM",
    "g": [
     "neut",
@@ -2294,7 +2379,7 @@
    ],
    "l": "UNUM"
   },
-  "IP": {
+  "IY": {
    "p": "NUM",
    "g": [
     "masc",
