@@ -496,6 +496,10 @@ CLemmatizerSpanish::CLemmatizerSpanish() : CLemmatizer(morphSpanish)
 {
 };
 
+CLemmatizerFrench::CLemmatizerFrench() : CLemmatizer(morphFrench)
+{
+};
+
 CLemmatizerLatin::CLemmatizerLatin() : CLemmatizer(morphLatin)
 {
 };
