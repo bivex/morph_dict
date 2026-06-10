@@ -1,0 +1,5370 @@
+CASA	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "CASA",
+  "morphInfo": "NOUN fem,sg",
+  "paradigm": [
+   {
+    "pos": "NOUN fem",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "CASA",
+        "grm": "sg"
+       },
+       {
+        "f": "CASAS",
+        "grm": "pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "CASAR",
+  "morphInfo": "VERB infm,form,pos,p3,p2,impv,ind,pres,sg",
+  "paradigm": [
+   {
+    "pos": "VERB",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "CASA",
+        "grm": "form,p2,ind,pres,sg"
+       },
+       {
+        "f": "CASA",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "CASA",
+        "grm": "p3,ind,pres,sg"
+       },
+       {
+        "f": "CASABA",
+        "grm": "form,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "CASABA",
+        "grm": "p1,ind,impf,past,sg"
+       },
+       {
+        "f": "CASABA",
+        "grm": "p3,ind,impf,past,sg"
+       },
+       {
+        "f": "CASABAIS",
+        "grm": "p2,ind,impf,past,pl"
+       },
+       {
+        "f": "CASABAN",
+        "grm": "p3,ind,impf,past,pl"
+       },
+       {
+        "f": "CASABAS",
+        "grm": "infm,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "CASAD",
+        "grm": "infm,pos,p2,impv,pl"
+       },
+       {
+        "f": "CASADA",
+        "grm": "ptcp,past,fem,sg"
+       },
+       {
+        "f": "CASADAS",
+        "grm": "ptcp,past,fem,pl"
+       },
+       {
+        "f": "CASADLA",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASADLAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CASADLE",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CASADLES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "CASADLO",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASADLOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CASADME",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASADME",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CASADNOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "CASADNOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "CASADO",
+        "grm": "ptcp,past,masc,sg"
+       },
+       {
+        "f": "CASADOS",
+        "grm": "ptcp,past,masc,pl"
+       },
+       {
+        "f": "CASAMOS",
+        "grm": "p1,ind,pfv,past,pl"
+       },
+       {
+        "f": "CASAMOS",
+        "grm": "p1,ind,pres,pl"
+       },
+       {
+        "f": "CASAN",
+        "grm": "p3,ind,pres,pl"
+       },
+       {
+        "f": "CASANDO",
+        "grm": "ger,pres"
+       },
+       {
+        "f": "CASAOS",
+        "grm": "pro,infm,p2,impv,acc,pl"
+       },
+       {
+        "f": "CASAOS",
+        "grm": "pro,infm,p2,impv,dat,pl"
+       },
+       {
+        "f": "CASAR",
+        "grm": ""
+       },
+       {
+        "f": "CASARA",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CASARA",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "CASARA",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "CASARAIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "CASARAN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "CASARAS",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CASARE",
+        "grm": "form,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "CASARE",
+        "grm": "p1,sbjv,fut,sg"
+       },
+       {
+        "f": "CASARE",
+        "grm": "p3,sbjv,fut,sg"
+       },
+       {
+        "f": "CASAREIS",
+        "grm": "p2,sbjv,fut,pl"
+       },
+       {
+        "f": "CASAREMOS",
+        "grm": "p1,ind,fut,pl"
+       },
+       {
+        "f": "CASAREN",
+        "grm": "p3,sbjv,fut,pl"
+       },
+       {
+        "f": "CASARES",
+        "grm": "infm,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "CASARLA",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "CASARLAS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "CASARLE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "CASARLES",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "CASARLO",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "CASARLOS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "CASARME",
+        "grm": "pro,p1,acc,sg"
+       },
+       {
+        "f": "CASARME",
+        "grm": "pro,p1,dat,sg"
+       },
+       {
+        "f": "CASARNOS",
+        "grm": "pro,p1,acc,pl"
+       },
+       {
+        "f": "CASARNOS",
+        "grm": "pro,p1,dat,pl"
+       },
+       {
+        "f": "CASARON",
+        "grm": "p3,ind,pfv,past,pl"
+       },
+       {
+        "f": "CASAROS",
+        "grm": "pro,p2,acc,pl"
+       },
+       {
+        "f": "CASAROS",
+        "grm": "pro,p2,dat,pl"
+       },
+       {
+        "f": "CASARSE",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "CASARSE",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "CASARSE",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "CASARSE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "CASARTE",
+        "grm": "pro,p2,acc,sg"
+       },
+       {
+        "f": "CASARTE",
+        "grm": "pro,p2,dat,sg"
+       },
+       {
+        "f": "CASARÁ",
+        "grm": "form,p2,ind,fut,sg"
+       },
+       {
+        "f": "CASARÁ",
+        "grm": "p3,ind,fut,sg"
+       },
+       {
+        "f": "CASARÁN",
+        "grm": "p3,ind,fut,pl"
+       },
+       {
+        "f": "CASARÁS",
+        "grm": "infm,p2,ind,fut,sg"
+       },
+       {
+        "f": "CASARÉ",
+        "grm": "p1,ind,fut,sg"
+       },
+       {
+        "f": "CASARÉIS",
+        "grm": "p2,ind,fut,pl"
+       },
+       {
+        "f": "CASARÍA",
+        "grm": "form,p2,cond,sg"
+       },
+       {
+        "f": "CASARÍA",
+        "grm": "p1,cond,sg"
+       },
+       {
+        "f": "CASARÍA",
+        "grm": "p3,cond,sg"
+       },
+       {
+        "f": "CASARÍAIS",
+        "grm": "p2,cond,pl"
+       },
+       {
+        "f": "CASARÍAMOS",
+        "grm": "p1,cond,pl"
+       },
+       {
+        "f": "CASARÍAN",
+        "grm": "p3,cond,pl"
+       },
+       {
+        "f": "CASARÍAS",
+        "grm": "infm,p2,cond,sg"
+       },
+       {
+        "f": "CASAS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "CASASE",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CASASE",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "CASASE",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "CASASEIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "CASASEN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "CASASES",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CASASTE",
+        "grm": "infm,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "CASASTEIS",
+        "grm": "p2,ind,pfv,past,pl"
+       },
+       {
+        "f": "CASE",
+        "grm": "form,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "CASE",
+        "grm": "form,pos,p2,impv,sg"
+       },
+       {
+        "f": "CASE",
+        "grm": "p1,sbjv,pres,sg"
+       },
+       {
+        "f": "CASE",
+        "grm": "p3,sbjv,pres,sg"
+       },
+       {
+        "f": "CASEMOS",
+        "grm": "p1,sbjv,pres,pl"
+       },
+       {
+        "f": "CASEMOS",
+        "grm": "pos,p1,impv,pl"
+       },
+       {
+        "f": "CASEN",
+        "grm": "form,pos,p2,impv,pl"
+       },
+       {
+        "f": "CASEN",
+        "grm": "p3,sbjv,pres,pl"
+       },
+       {
+        "f": "CASES",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "CASO",
+        "grm": "p1,ind,pres,sg"
+       },
+       {
+        "f": "CASÁ",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "CASÁBAMOS",
+        "grm": "p1,ind,impf,past,pl"
+       },
+       {
+        "f": "CASÁIS",
+        "grm": "p2,ind,pres,pl"
+       },
+       {
+        "f": "CASÁNDOLA",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "CASÁNDOLAS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "CASÁNDOLE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "CASÁNDOLES",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "CASÁNDOLO",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "CASÁNDOLOS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "CASÁNDOME",
+        "grm": "pro,ger,p1,pres,acc,sg"
+       },
+       {
+        "f": "CASÁNDOME",
+        "grm": "pro,ger,p1,pres,dat,sg"
+       },
+       {
+        "f": "CASÁNDONOS",
+        "grm": "pro,ger,p1,pres,acc,pl"
+       },
+       {
+        "f": "CASÁNDONOS",
+        "grm": "pro,ger,p1,pres,dat,pl"
+       },
+       {
+        "f": "CASÁNDOOS",
+        "grm": "pro,ger,p2,pres,acc,pl"
+       },
+       {
+        "f": "CASÁNDOOS",
+        "grm": "pro,ger,p2,pres,dat,pl"
+       },
+       {
+        "f": "CASÁNDOSE",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "CASÁNDOSE",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "CASÁNDOSE",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "CASÁNDOSE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "CASÁNDOTE",
+        "grm": "pro,ger,p2,pres,acc,sg"
+       },
+       {
+        "f": "CASÁNDOTE",
+        "grm": "pro,ger,p2,pres,dat,sg"
+       },
+       {
+        "f": "CASÁRAMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "CASÁREMOS",
+        "grm": "p1,sbjv,fut,pl"
+       },
+       {
+        "f": "CASÁS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "CASÁSEMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "CASÉ",
+        "grm": "p1,ind,pfv,past,sg"
+       },
+       {
+        "f": "CASÉIS",
+        "grm": "p2,sbjv,pres,pl"
+       },
+       {
+        "f": "CASÉMONOS",
+        "grm": "pro,p1,impv,acc,pl"
+       },
+       {
+        "f": "CASÉMONOS",
+        "grm": "pro,p1,impv,dat,pl"
+       },
+       {
+        "f": "CASÉMOOS",
+        "grm": "pro,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "CASÉMOOS",
+        "grm": "pro,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "CASÉMOSLA",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASÉMOSLAS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "CASÉMOSLE",
+        "grm": "pro,p3,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CASÉMOSLES",
+        "grm": "pro,p3,p1,impv,dat,pl"
+       },
+       {
+        "f": "CASÉMOSLO",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASÉMOSLOS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "CASÉMOSTE",
+        "grm": "pro,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASÉMOSTE",
+        "grm": "pro,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CASÉS",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "CASÓ",
+        "grm": "form,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "CASÓ",
+        "grm": "p3,ind,pfv,past,sg"
+       },
+       {
+        "f": "CÁSALA",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSALAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSALE",
+        "grm": "pro,infm,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÁSALES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSALO",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSALOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSAME",
+        "grm": "pro,infm,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "CÁSAME",
+        "grm": "pro,infm,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "CÁSANOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSANOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSATE",
+        "grm": "pro,infm,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSATE",
+        "grm": "pro,infm,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÁSELA",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSELAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSELE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÁSELES",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSELO",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSELOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSEME",
+        "grm": "pro,form,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "CÁSEME",
+        "grm": "pro,form,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "CÁSENLA",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSENLAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÁSENLE",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSENLES",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "CÁSENLO",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSENLOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÁSENME",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSENME",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSENNOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "CÁSENNOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "CÁSENOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSENOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSENSE",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÁSENSE",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "CÁSESE",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSESE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "NOCASE",
+        "grm": "neg,form,p2,impv,sg"
+       },
+       {
+        "f": "NOCASEMOS",
+        "grm": "neg,p1,impv,pl"
+       },
+       {
+        "f": "NOCASEN",
+        "grm": "neg,form,p2,impv,pl"
+       },
+       {
+        "f": "NOCASES",
+        "grm": "neg,infm,p2,impv,sg"
+       },
+       {
+        "f": "NOCASÉIS",
+        "grm": "neg,infm,p2,impv,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+HABLAR	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "HABLAR",
+  "morphInfo": "VERB ",
+  "paradigm": [
+   {
+    "pos": "VERB",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "HABLA",
+        "grm": "form,p2,ind,pres,sg"
+       },
+       {
+        "f": "HABLA",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "HABLA",
+        "grm": "p3,ind,pres,sg"
+       },
+       {
+        "f": "HABLABA",
+        "grm": "form,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLABA",
+        "grm": "p1,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLABA",
+        "grm": "p3,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLABAIS",
+        "grm": "p2,ind,impf,past,pl"
+       },
+       {
+        "f": "HABLABAN",
+        "grm": "p3,ind,impf,past,pl"
+       },
+       {
+        "f": "HABLABAS",
+        "grm": "infm,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLAD",
+        "grm": "infm,pos,p2,impv,pl"
+       },
+       {
+        "f": "HABLADA",
+        "grm": "ptcp,past,fem,sg"
+       },
+       {
+        "f": "HABLADAS",
+        "grm": "ptcp,past,fem,pl"
+       },
+       {
+        "f": "HABLADLA",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLADLAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HABLADLE",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLADLES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "HABLADLO",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLADLOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HABLADME",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLADME",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLADNOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLADNOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLADO",
+        "grm": "ptcp,past,masc,sg"
+       },
+       {
+        "f": "HABLADOS",
+        "grm": "ptcp,past,masc,pl"
+       },
+       {
+        "f": "HABLAMOS",
+        "grm": "p1,ind,pfv,past,pl"
+       },
+       {
+        "f": "HABLAMOS",
+        "grm": "p1,ind,pres,pl"
+       },
+       {
+        "f": "HABLAN",
+        "grm": "p3,ind,pres,pl"
+       },
+       {
+        "f": "HABLANDO",
+        "grm": "ger,pres"
+       },
+       {
+        "f": "HABLAOS",
+        "grm": "pro,infm,p2,impv,acc,pl"
+       },
+       {
+        "f": "HABLAOS",
+        "grm": "pro,infm,p2,impv,dat,pl"
+       },
+       {
+        "f": "HABLAR",
+        "grm": ""
+       },
+       {
+        "f": "HABLARA",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARA",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARA",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARAIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "HABLARAN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "HABLARAS",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARE",
+        "grm": "form,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLARE",
+        "grm": "p1,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLARE",
+        "grm": "p3,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLAREIS",
+        "grm": "p2,sbjv,fut,pl"
+       },
+       {
+        "f": "HABLAREMOS",
+        "grm": "p1,ind,fut,pl"
+       },
+       {
+        "f": "HABLAREN",
+        "grm": "p3,sbjv,fut,pl"
+       },
+       {
+        "f": "HABLARES",
+        "grm": "infm,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLARLA",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "HABLARLAS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "HABLARLE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "HABLARLES",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "HABLARLO",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "HABLARLOS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "HABLARME",
+        "grm": "pro,p1,acc,sg"
+       },
+       {
+        "f": "HABLARME",
+        "grm": "pro,p1,dat,sg"
+       },
+       {
+        "f": "HABLARNOS",
+        "grm": "pro,p1,acc,pl"
+       },
+       {
+        "f": "HABLARNOS",
+        "grm": "pro,p1,dat,pl"
+       },
+       {
+        "f": "HABLARON",
+        "grm": "p3,ind,pfv,past,pl"
+       },
+       {
+        "f": "HABLAROS",
+        "grm": "pro,p2,acc,pl"
+       },
+       {
+        "f": "HABLAROS",
+        "grm": "pro,p2,dat,pl"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "HABLARTE",
+        "grm": "pro,p2,acc,sg"
+       },
+       {
+        "f": "HABLARTE",
+        "grm": "pro,p2,dat,sg"
+       },
+       {
+        "f": "HABLARÁ",
+        "grm": "form,p2,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÁ",
+        "grm": "p3,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÁN",
+        "grm": "p3,ind,fut,pl"
+       },
+       {
+        "f": "HABLARÁS",
+        "grm": "infm,p2,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÉ",
+        "grm": "p1,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÉIS",
+        "grm": "p2,ind,fut,pl"
+       },
+       {
+        "f": "HABLARÍA",
+        "grm": "form,p2,cond,sg"
+       },
+       {
+        "f": "HABLARÍA",
+        "grm": "p1,cond,sg"
+       },
+       {
+        "f": "HABLARÍA",
+        "grm": "p3,cond,sg"
+       },
+       {
+        "f": "HABLARÍAIS",
+        "grm": "p2,cond,pl"
+       },
+       {
+        "f": "HABLARÍAMOS",
+        "grm": "p1,cond,pl"
+       },
+       {
+        "f": "HABLARÍAN",
+        "grm": "p3,cond,pl"
+       },
+       {
+        "f": "HABLARÍAS",
+        "grm": "infm,p2,cond,sg"
+       },
+       {
+        "f": "HABLAS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "HABLASE",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASE",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASE",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASEIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "HABLASEN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "HABLASES",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASTE",
+        "grm": "infm,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "HABLASTEIS",
+        "grm": "p2,ind,pfv,past,pl"
+       },
+       {
+        "f": "HABLE",
+        "grm": "form,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLE",
+        "grm": "form,pos,p2,impv,sg"
+       },
+       {
+        "f": "HABLE",
+        "grm": "p1,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLE",
+        "grm": "p3,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLEMOS",
+        "grm": "p1,sbjv,pres,pl"
+       },
+       {
+        "f": "HABLEMOS",
+        "grm": "pos,p1,impv,pl"
+       },
+       {
+        "f": "HABLEN",
+        "grm": "form,pos,p2,impv,pl"
+       },
+       {
+        "f": "HABLEN",
+        "grm": "p3,sbjv,pres,pl"
+       },
+       {
+        "f": "HABLES",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLO",
+        "grm": "p1,ind,pres,sg"
+       },
+       {
+        "f": "HABLÁ",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "HABLÁBAMOS",
+        "grm": "p1,ind,impf,past,pl"
+       },
+       {
+        "f": "HABLÁIS",
+        "grm": "p2,ind,pres,pl"
+       },
+       {
+        "f": "HABLÁNDOLA",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOLAS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOLE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁNDOLES",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOLO",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOLOS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOME",
+        "grm": "pro,ger,p1,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOME",
+        "grm": "pro,ger,p1,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁNDONOS",
+        "grm": "pro,ger,p1,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDONOS",
+        "grm": "pro,ger,p1,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOOS",
+        "grm": "pro,ger,p2,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOOS",
+        "grm": "pro,ger,p2,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁNDOTE",
+        "grm": "pro,ger,p2,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOTE",
+        "grm": "pro,ger,p2,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁRAMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "HABLÁREMOS",
+        "grm": "p1,sbjv,fut,pl"
+       },
+       {
+        "f": "HABLÁS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "HABLÁSEMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "HABLÉ",
+        "grm": "p1,ind,pfv,past,sg"
+       },
+       {
+        "f": "HABLÉIS",
+        "grm": "p2,sbjv,pres,pl"
+       },
+       {
+        "f": "HABLÉMONOS",
+        "grm": "pro,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMONOS",
+        "grm": "pro,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLÉMOOS",
+        "grm": "pro,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMOOS",
+        "grm": "pro,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLÉMOSLA",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSLAS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMOSLE",
+        "grm": "pro,p3,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSLES",
+        "grm": "pro,p3,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLÉMOSLO",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSLOS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMOSTE",
+        "grm": "pro,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSTE",
+        "grm": "pro,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLÉS",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLÓ",
+        "grm": "form,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "HABLÓ",
+        "grm": "p3,ind,pfv,past,sg"
+       },
+       {
+        "f": "HÁBLALA",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLALAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLALE",
+        "grm": "pro,infm,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLALES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLALO",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLALOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLAME",
+        "grm": "pro,infm,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLAME",
+        "grm": "pro,infm,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLANOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLANOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLATE",
+        "grm": "pro,infm,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLATE",
+        "grm": "pro,infm,p2,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLELA",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLELAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLELE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLELES",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLELO",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLELOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLEME",
+        "grm": "pro,form,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLEME",
+        "grm": "pro,form,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLENLA",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENLAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENLE",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLENLES",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "HÁBLENLO",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENLOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENME",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENME",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLENNOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENNOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "HÁBLENOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLENSE",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENSE",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "HÁBLESE",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLESE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "NOHABLE",
+        "grm": "neg,form,p2,impv,sg"
+       },
+       {
+        "f": "NOHABLEMOS",
+        "grm": "neg,p1,impv,pl"
+       },
+       {
+        "f": "NOHABLEN",
+        "grm": "neg,form,p2,impv,pl"
+       },
+       {
+        "f": "NOHABLES",
+        "grm": "neg,infm,p2,impv,sg"
+       },
+       {
+        "f": "NOHABLÉIS",
+        "grm": "neg,infm,p2,impv,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+GATO	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "GATO",
+  "morphInfo": "NOUN masc,sg",
+  "paradigm": [
+   {
+    "pos": "NOUN",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "GATA",
+        "grm": "fem,sg"
+       },
+       {
+        "f": "GATAS",
+        "grm": "fem,pl"
+       },
+       {
+        "f": "GATO",
+        "grm": "masc,sg"
+       },
+       {
+        "f": "GATOS",
+        "grm": "masc,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "GATA",
+  "morphInfo": "NOUN masc,sg",
+  "paradigm": [
+   {
+    "pos": "NOUN",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "GATA",
+        "grm": "fem,sg"
+       },
+       {
+        "f": "GATAS",
+        "grm": "fem,pl"
+       },
+       {
+        "f": "GATO",
+        "grm": "masc,sg"
+       },
+       {
+        "f": "GATOS",
+        "grm": "masc,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+COMER	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "COMER",
+  "morphInfo": "NOUN masc,sg",
+  "paradigm": [
+   {
+    "pos": "NOUN masc",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "COMER",
+        "grm": "sg"
+       },
+       {
+        "f": "COMERES",
+        "grm": "pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "COMER",
+  "morphInfo": "VERB ",
+  "paradigm": [
+   {
+    "pos": "VERB",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "COMA",
+        "grm": "form,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "COMA",
+        "grm": "form,pos,p2,impv,sg"
+       },
+       {
+        "f": "COMA",
+        "grm": "p1,sbjv,pres,sg"
+       },
+       {
+        "f": "COMA",
+        "grm": "p3,sbjv,pres,sg"
+       },
+       {
+        "f": "COMAMOS",
+        "grm": "p1,sbjv,pres,pl"
+       },
+       {
+        "f": "COMAMOS",
+        "grm": "pos,p1,impv,pl"
+       },
+       {
+        "f": "COMAN",
+        "grm": "form,pos,p2,impv,pl"
+       },
+       {
+        "f": "COMAN",
+        "grm": "p3,sbjv,pres,pl"
+       },
+       {
+        "f": "COMAS",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "COME",
+        "grm": "form,p2,ind,pres,sg"
+       },
+       {
+        "f": "COME",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "COME",
+        "grm": "p3,ind,pres,sg"
+       },
+       {
+        "f": "COMED",
+        "grm": "infm,pos,p2,impv,pl"
+       },
+       {
+        "f": "COMEDLA",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "COMEDLAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "COMEDLE",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "COMEDLES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "COMEDLO",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "COMEDLOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "COMEDME",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "COMEDME",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "COMEDNOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "COMEDNOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "COMEMOS",
+        "grm": "p1,ind,pres,pl"
+       },
+       {
+        "f": "COMEN",
+        "grm": "p3,ind,pres,pl"
+       },
+       {
+        "f": "COMEOS",
+        "grm": "pro,infm,p2,impv,acc,pl"
+       },
+       {
+        "f": "COMEOS",
+        "grm": "pro,infm,p2,impv,dat,pl"
+       },
+       {
+        "f": "COMER",
+        "grm": ""
+       },
+       {
+        "f": "COMEREMOS",
+        "grm": "p1,ind,fut,pl"
+       },
+       {
+        "f": "COMERLA",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "COMERLAS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "COMERLE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "COMERLES",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "COMERLO",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "COMERLOS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "COMERME",
+        "grm": "pro,p1,acc,sg"
+       },
+       {
+        "f": "COMERME",
+        "grm": "pro,p1,dat,sg"
+       },
+       {
+        "f": "COMERNOS",
+        "grm": "pro,p1,acc,pl"
+       },
+       {
+        "f": "COMERNOS",
+        "grm": "pro,p1,dat,pl"
+       },
+       {
+        "f": "COMEROS",
+        "grm": "pro,p2,acc,pl"
+       },
+       {
+        "f": "COMEROS",
+        "grm": "pro,p2,dat,pl"
+       },
+       {
+        "f": "COMERSE",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "COMERSE",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "COMERSE",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "COMERSE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "COMERTE",
+        "grm": "pro,p2,acc,sg"
+       },
+       {
+        "f": "COMERTE",
+        "grm": "pro,p2,dat,sg"
+       },
+       {
+        "f": "COMERÁ",
+        "grm": "form,p2,ind,fut,sg"
+       },
+       {
+        "f": "COMERÁ",
+        "grm": "p3,ind,fut,sg"
+       },
+       {
+        "f": "COMERÁN",
+        "grm": "p3,ind,fut,pl"
+       },
+       {
+        "f": "COMERÁS",
+        "grm": "infm,p2,ind,fut,sg"
+       },
+       {
+        "f": "COMERÉ",
+        "grm": "p1,ind,fut,sg"
+       },
+       {
+        "f": "COMERÉIS",
+        "grm": "p2,ind,fut,pl"
+       },
+       {
+        "f": "COMERÍA",
+        "grm": "form,p2,cond,sg"
+       },
+       {
+        "f": "COMERÍA",
+        "grm": "p1,cond,sg"
+       },
+       {
+        "f": "COMERÍA",
+        "grm": "p3,cond,sg"
+       },
+       {
+        "f": "COMERÍAIS",
+        "grm": "p2,cond,pl"
+       },
+       {
+        "f": "COMERÍAMOS",
+        "grm": "p1,cond,pl"
+       },
+       {
+        "f": "COMERÍAN",
+        "grm": "p3,cond,pl"
+       },
+       {
+        "f": "COMERÍAS",
+        "grm": "infm,p2,cond,sg"
+       },
+       {
+        "f": "COMES",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "COMIDA",
+        "grm": "ptcp,past,fem,sg"
+       },
+       {
+        "f": "COMIDAS",
+        "grm": "ptcp,past,fem,pl"
+       },
+       {
+        "f": "COMIDO",
+        "grm": "ptcp,past,masc,sg"
+       },
+       {
+        "f": "COMIDOS",
+        "grm": "ptcp,past,masc,pl"
+       },
+       {
+        "f": "COMIENDO",
+        "grm": "ger,pres"
+       },
+       {
+        "f": "COMIERA",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "COMIERA",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "COMIERA",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "COMIERAIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "COMIERAN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "COMIERAS",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "COMIERE",
+        "grm": "form,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "COMIERE",
+        "grm": "p1,sbjv,fut,sg"
+       },
+       {
+        "f": "COMIERE",
+        "grm": "p3,sbjv,fut,sg"
+       },
+       {
+        "f": "COMIEREIS",
+        "grm": "p2,sbjv,fut,pl"
+       },
+       {
+        "f": "COMIEREN",
+        "grm": "p3,sbjv,fut,pl"
+       },
+       {
+        "f": "COMIERES",
+        "grm": "infm,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "COMIERON",
+        "grm": "p3,ind,pfv,past,pl"
+       },
+       {
+        "f": "COMIESE",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "COMIESE",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "COMIESE",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "COMIESEIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "COMIESEN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "COMIESES",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "COMIMOS",
+        "grm": "p1,ind,pfv,past,pl"
+       },
+       {
+        "f": "COMISTE",
+        "grm": "infm,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "COMISTEIS",
+        "grm": "p2,ind,pfv,past,pl"
+       },
+       {
+        "f": "COMIÉNDOLA",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "COMIÉNDOLAS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "COMIÉNDOLE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "COMIÉNDOLES",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "COMIÉNDOLO",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "COMIÉNDOLOS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "COMIÉNDOME",
+        "grm": "pro,ger,p1,pres,acc,sg"
+       },
+       {
+        "f": "COMIÉNDOME",
+        "grm": "pro,ger,p1,pres,dat,sg"
+       },
+       {
+        "f": "COMIÉNDONOS",
+        "grm": "pro,ger,p1,pres,acc,pl"
+       },
+       {
+        "f": "COMIÉNDONOS",
+        "grm": "pro,ger,p1,pres,dat,pl"
+       },
+       {
+        "f": "COMIÉNDOOS",
+        "grm": "pro,ger,p2,pres,acc,pl"
+       },
+       {
+        "f": "COMIÉNDOOS",
+        "grm": "pro,ger,p2,pres,dat,pl"
+       },
+       {
+        "f": "COMIÉNDOSE",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "COMIÉNDOSE",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "COMIÉNDOSE",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "COMIÉNDOSE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "COMIÉNDOTE",
+        "grm": "pro,ger,p2,pres,acc,sg"
+       },
+       {
+        "f": "COMIÉNDOTE",
+        "grm": "pro,ger,p2,pres,dat,sg"
+       },
+       {
+        "f": "COMIÉRAMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "COMIÉREMOS",
+        "grm": "p1,sbjv,fut,pl"
+       },
+       {
+        "f": "COMIÉSEMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "COMIÓ",
+        "grm": "form,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "COMIÓ",
+        "grm": "p3,ind,pfv,past,sg"
+       },
+       {
+        "f": "COMO",
+        "grm": "p1,ind,pres,sg"
+       },
+       {
+        "f": "COMÁIS",
+        "grm": "p2,sbjv,pres,pl"
+       },
+       {
+        "f": "COMÁMONOS",
+        "grm": "pro,p1,impv,acc,pl"
+       },
+       {
+        "f": "COMÁMONOS",
+        "grm": "pro,p1,impv,dat,pl"
+       },
+       {
+        "f": "COMÁMOOS",
+        "grm": "pro,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "COMÁMOOS",
+        "grm": "pro,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "COMÁMOSLA",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "COMÁMOSLAS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "COMÁMOSLE",
+        "grm": "pro,p3,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "COMÁMOSLES",
+        "grm": "pro,p3,p1,impv,dat,pl"
+       },
+       {
+        "f": "COMÁMOSLO",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "COMÁMOSLOS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "COMÁMOSTE",
+        "grm": "pro,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "COMÁMOSTE",
+        "grm": "pro,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "COMÁS",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "COMÉ",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "COMÉIS",
+        "grm": "p2,ind,pres,pl"
+       },
+       {
+        "f": "COMÉS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "COMÍ",
+        "grm": "p1,ind,pfv,past,sg"
+       },
+       {
+        "f": "COMÍA",
+        "grm": "form,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "COMÍA",
+        "grm": "p1,ind,impf,past,sg"
+       },
+       {
+        "f": "COMÍA",
+        "grm": "p3,ind,impf,past,sg"
+       },
+       {
+        "f": "COMÍAIS",
+        "grm": "p2,ind,impf,past,pl"
+       },
+       {
+        "f": "COMÍAMOS",
+        "grm": "p1,ind,impf,past,pl"
+       },
+       {
+        "f": "COMÍAN",
+        "grm": "p3,ind,impf,past,pl"
+       },
+       {
+        "f": "COMÍAS",
+        "grm": "infm,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "CÓMALA",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓMALAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓMALE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÓMALES",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓMALO",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓMALOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓMAME",
+        "grm": "pro,form,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "CÓMAME",
+        "grm": "pro,form,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "CÓMANLA",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓMANLAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÓMANLE",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓMANLES",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "CÓMANLO",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓMANLOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÓMANME",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓMANME",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓMANNOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "CÓMANNOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "CÓMANOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓMANOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓMANSE",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÓMANSE",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "CÓMASE",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓMASE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÓMELA",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓMELAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓMELE",
+        "grm": "pro,infm,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÓMELES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓMELO",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓMELOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓMEME",
+        "grm": "pro,infm,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "CÓMEME",
+        "grm": "pro,infm,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "CÓMENOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓMENOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓMETE",
+        "grm": "pro,infm,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓMETE",
+        "grm": "pro,infm,p2,impv,dat,sg"
+       },
+       {
+        "f": "NOCOMA",
+        "grm": "neg,form,p2,impv,sg"
+       },
+       {
+        "f": "NOCOMAMOS",
+        "grm": "neg,p1,impv,pl"
+       },
+       {
+        "f": "NOCOMAN",
+        "grm": "neg,form,p2,impv,pl"
+       },
+       {
+        "f": "NOCOMAS",
+        "grm": "neg,infm,p2,impv,sg"
+       },
+       {
+        "f": "NOCOMÁIS",
+        "grm": "neg,infm,p2,impv,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+HABLANDO	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "HABLAR",
+  "morphInfo": "VERB ger,pres",
+  "paradigm": [
+   {
+    "pos": "VERB",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "HABLA",
+        "grm": "form,p2,ind,pres,sg"
+       },
+       {
+        "f": "HABLA",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "HABLA",
+        "grm": "p3,ind,pres,sg"
+       },
+       {
+        "f": "HABLABA",
+        "grm": "form,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLABA",
+        "grm": "p1,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLABA",
+        "grm": "p3,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLABAIS",
+        "grm": "p2,ind,impf,past,pl"
+       },
+       {
+        "f": "HABLABAN",
+        "grm": "p3,ind,impf,past,pl"
+       },
+       {
+        "f": "HABLABAS",
+        "grm": "infm,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLAD",
+        "grm": "infm,pos,p2,impv,pl"
+       },
+       {
+        "f": "HABLADA",
+        "grm": "ptcp,past,fem,sg"
+       },
+       {
+        "f": "HABLADAS",
+        "grm": "ptcp,past,fem,pl"
+       },
+       {
+        "f": "HABLADLA",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLADLAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HABLADLE",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLADLES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "HABLADLO",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLADLOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HABLADME",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLADME",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLADNOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLADNOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLADO",
+        "grm": "ptcp,past,masc,sg"
+       },
+       {
+        "f": "HABLADOS",
+        "grm": "ptcp,past,masc,pl"
+       },
+       {
+        "f": "HABLAMOS",
+        "grm": "p1,ind,pfv,past,pl"
+       },
+       {
+        "f": "HABLAMOS",
+        "grm": "p1,ind,pres,pl"
+       },
+       {
+        "f": "HABLAN",
+        "grm": "p3,ind,pres,pl"
+       },
+       {
+        "f": "HABLANDO",
+        "grm": "ger,pres"
+       },
+       {
+        "f": "HABLAOS",
+        "grm": "pro,infm,p2,impv,acc,pl"
+       },
+       {
+        "f": "HABLAOS",
+        "grm": "pro,infm,p2,impv,dat,pl"
+       },
+       {
+        "f": "HABLAR",
+        "grm": ""
+       },
+       {
+        "f": "HABLARA",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARA",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARA",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARAIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "HABLARAN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "HABLARAS",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARE",
+        "grm": "form,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLARE",
+        "grm": "p1,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLARE",
+        "grm": "p3,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLAREIS",
+        "grm": "p2,sbjv,fut,pl"
+       },
+       {
+        "f": "HABLAREMOS",
+        "grm": "p1,ind,fut,pl"
+       },
+       {
+        "f": "HABLAREN",
+        "grm": "p3,sbjv,fut,pl"
+       },
+       {
+        "f": "HABLARES",
+        "grm": "infm,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLARLA",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "HABLARLAS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "HABLARLE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "HABLARLES",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "HABLARLO",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "HABLARLOS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "HABLARME",
+        "grm": "pro,p1,acc,sg"
+       },
+       {
+        "f": "HABLARME",
+        "grm": "pro,p1,dat,sg"
+       },
+       {
+        "f": "HABLARNOS",
+        "grm": "pro,p1,acc,pl"
+       },
+       {
+        "f": "HABLARNOS",
+        "grm": "pro,p1,dat,pl"
+       },
+       {
+        "f": "HABLARON",
+        "grm": "p3,ind,pfv,past,pl"
+       },
+       {
+        "f": "HABLAROS",
+        "grm": "pro,p2,acc,pl"
+       },
+       {
+        "f": "HABLAROS",
+        "grm": "pro,p2,dat,pl"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "HABLARTE",
+        "grm": "pro,p2,acc,sg"
+       },
+       {
+        "f": "HABLARTE",
+        "grm": "pro,p2,dat,sg"
+       },
+       {
+        "f": "HABLARÁ",
+        "grm": "form,p2,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÁ",
+        "grm": "p3,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÁN",
+        "grm": "p3,ind,fut,pl"
+       },
+       {
+        "f": "HABLARÁS",
+        "grm": "infm,p2,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÉ",
+        "grm": "p1,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÉIS",
+        "grm": "p2,ind,fut,pl"
+       },
+       {
+        "f": "HABLARÍA",
+        "grm": "form,p2,cond,sg"
+       },
+       {
+        "f": "HABLARÍA",
+        "grm": "p1,cond,sg"
+       },
+       {
+        "f": "HABLARÍA",
+        "grm": "p3,cond,sg"
+       },
+       {
+        "f": "HABLARÍAIS",
+        "grm": "p2,cond,pl"
+       },
+       {
+        "f": "HABLARÍAMOS",
+        "grm": "p1,cond,pl"
+       },
+       {
+        "f": "HABLARÍAN",
+        "grm": "p3,cond,pl"
+       },
+       {
+        "f": "HABLARÍAS",
+        "grm": "infm,p2,cond,sg"
+       },
+       {
+        "f": "HABLAS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "HABLASE",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASE",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASE",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASEIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "HABLASEN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "HABLASES",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASTE",
+        "grm": "infm,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "HABLASTEIS",
+        "grm": "p2,ind,pfv,past,pl"
+       },
+       {
+        "f": "HABLE",
+        "grm": "form,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLE",
+        "grm": "form,pos,p2,impv,sg"
+       },
+       {
+        "f": "HABLE",
+        "grm": "p1,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLE",
+        "grm": "p3,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLEMOS",
+        "grm": "p1,sbjv,pres,pl"
+       },
+       {
+        "f": "HABLEMOS",
+        "grm": "pos,p1,impv,pl"
+       },
+       {
+        "f": "HABLEN",
+        "grm": "form,pos,p2,impv,pl"
+       },
+       {
+        "f": "HABLEN",
+        "grm": "p3,sbjv,pres,pl"
+       },
+       {
+        "f": "HABLES",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLO",
+        "grm": "p1,ind,pres,sg"
+       },
+       {
+        "f": "HABLÁ",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "HABLÁBAMOS",
+        "grm": "p1,ind,impf,past,pl"
+       },
+       {
+        "f": "HABLÁIS",
+        "grm": "p2,ind,pres,pl"
+       },
+       {
+        "f": "HABLÁNDOLA",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOLAS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOLE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁNDOLES",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOLO",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOLOS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOME",
+        "grm": "pro,ger,p1,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOME",
+        "grm": "pro,ger,p1,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁNDONOS",
+        "grm": "pro,ger,p1,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDONOS",
+        "grm": "pro,ger,p1,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOOS",
+        "grm": "pro,ger,p2,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOOS",
+        "grm": "pro,ger,p2,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁNDOTE",
+        "grm": "pro,ger,p2,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOTE",
+        "grm": "pro,ger,p2,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁRAMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "HABLÁREMOS",
+        "grm": "p1,sbjv,fut,pl"
+       },
+       {
+        "f": "HABLÁS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "HABLÁSEMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "HABLÉ",
+        "grm": "p1,ind,pfv,past,sg"
+       },
+       {
+        "f": "HABLÉIS",
+        "grm": "p2,sbjv,pres,pl"
+       },
+       {
+        "f": "HABLÉMONOS",
+        "grm": "pro,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMONOS",
+        "grm": "pro,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLÉMOOS",
+        "grm": "pro,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMOOS",
+        "grm": "pro,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLÉMOSLA",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSLAS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMOSLE",
+        "grm": "pro,p3,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSLES",
+        "grm": "pro,p3,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLÉMOSLO",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSLOS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMOSTE",
+        "grm": "pro,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSTE",
+        "grm": "pro,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLÉS",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLÓ",
+        "grm": "form,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "HABLÓ",
+        "grm": "p3,ind,pfv,past,sg"
+       },
+       {
+        "f": "HÁBLALA",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLALAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLALE",
+        "grm": "pro,infm,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLALES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLALO",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLALOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLAME",
+        "grm": "pro,infm,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLAME",
+        "grm": "pro,infm,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLANOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLANOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLATE",
+        "grm": "pro,infm,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLATE",
+        "grm": "pro,infm,p2,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLELA",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLELAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLELE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLELES",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLELO",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLELOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLEME",
+        "grm": "pro,form,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLEME",
+        "grm": "pro,form,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLENLA",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENLAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENLE",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLENLES",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "HÁBLENLO",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENLOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENME",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENME",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLENNOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENNOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "HÁBLENOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLENSE",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENSE",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "HÁBLESE",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLESE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "NOHABLE",
+        "grm": "neg,form,p2,impv,sg"
+       },
+       {
+        "f": "NOHABLEMOS",
+        "grm": "neg,p1,impv,pl"
+       },
+       {
+        "f": "NOHABLEN",
+        "grm": "neg,form,p2,impv,pl"
+       },
+       {
+        "f": "NOHABLES",
+        "grm": "neg,infm,p2,impv,sg"
+       },
+       {
+        "f": "NOHABLÉIS",
+        "grm": "neg,infm,p2,impv,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+CASAS	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "CASA",
+  "morphInfo": "NOUN fem,pl",
+  "paradigm": [
+   {
+    "pos": "NOUN fem",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "CASA",
+        "grm": "sg"
+       },
+       {
+        "f": "CASAS",
+        "grm": "pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "CASAR",
+  "morphInfo": "VERB infm,p2,ind,pres,sg",
+  "paradigm": [
+   {
+    "pos": "VERB",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "CASA",
+        "grm": "form,p2,ind,pres,sg"
+       },
+       {
+        "f": "CASA",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "CASA",
+        "grm": "p3,ind,pres,sg"
+       },
+       {
+        "f": "CASABA",
+        "grm": "form,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "CASABA",
+        "grm": "p1,ind,impf,past,sg"
+       },
+       {
+        "f": "CASABA",
+        "grm": "p3,ind,impf,past,sg"
+       },
+       {
+        "f": "CASABAIS",
+        "grm": "p2,ind,impf,past,pl"
+       },
+       {
+        "f": "CASABAN",
+        "grm": "p3,ind,impf,past,pl"
+       },
+       {
+        "f": "CASABAS",
+        "grm": "infm,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "CASAD",
+        "grm": "infm,pos,p2,impv,pl"
+       },
+       {
+        "f": "CASADA",
+        "grm": "ptcp,past,fem,sg"
+       },
+       {
+        "f": "CASADAS",
+        "grm": "ptcp,past,fem,pl"
+       },
+       {
+        "f": "CASADLA",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASADLAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CASADLE",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CASADLES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "CASADLO",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASADLOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CASADME",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASADME",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CASADNOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "CASADNOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "CASADO",
+        "grm": "ptcp,past,masc,sg"
+       },
+       {
+        "f": "CASADOS",
+        "grm": "ptcp,past,masc,pl"
+       },
+       {
+        "f": "CASAMOS",
+        "grm": "p1,ind,pfv,past,pl"
+       },
+       {
+        "f": "CASAMOS",
+        "grm": "p1,ind,pres,pl"
+       },
+       {
+        "f": "CASAN",
+        "grm": "p3,ind,pres,pl"
+       },
+       {
+        "f": "CASANDO",
+        "grm": "ger,pres"
+       },
+       {
+        "f": "CASAOS",
+        "grm": "pro,infm,p2,impv,acc,pl"
+       },
+       {
+        "f": "CASAOS",
+        "grm": "pro,infm,p2,impv,dat,pl"
+       },
+       {
+        "f": "CASAR",
+        "grm": ""
+       },
+       {
+        "f": "CASARA",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CASARA",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "CASARA",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "CASARAIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "CASARAN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "CASARAS",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CASARE",
+        "grm": "form,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "CASARE",
+        "grm": "p1,sbjv,fut,sg"
+       },
+       {
+        "f": "CASARE",
+        "grm": "p3,sbjv,fut,sg"
+       },
+       {
+        "f": "CASAREIS",
+        "grm": "p2,sbjv,fut,pl"
+       },
+       {
+        "f": "CASAREMOS",
+        "grm": "p1,ind,fut,pl"
+       },
+       {
+        "f": "CASAREN",
+        "grm": "p3,sbjv,fut,pl"
+       },
+       {
+        "f": "CASARES",
+        "grm": "infm,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "CASARLA",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "CASARLAS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "CASARLE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "CASARLES",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "CASARLO",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "CASARLOS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "CASARME",
+        "grm": "pro,p1,acc,sg"
+       },
+       {
+        "f": "CASARME",
+        "grm": "pro,p1,dat,sg"
+       },
+       {
+        "f": "CASARNOS",
+        "grm": "pro,p1,acc,pl"
+       },
+       {
+        "f": "CASARNOS",
+        "grm": "pro,p1,dat,pl"
+       },
+       {
+        "f": "CASARON",
+        "grm": "p3,ind,pfv,past,pl"
+       },
+       {
+        "f": "CASAROS",
+        "grm": "pro,p2,acc,pl"
+       },
+       {
+        "f": "CASAROS",
+        "grm": "pro,p2,dat,pl"
+       },
+       {
+        "f": "CASARSE",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "CASARSE",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "CASARSE",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "CASARSE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "CASARTE",
+        "grm": "pro,p2,acc,sg"
+       },
+       {
+        "f": "CASARTE",
+        "grm": "pro,p2,dat,sg"
+       },
+       {
+        "f": "CASARÁ",
+        "grm": "form,p2,ind,fut,sg"
+       },
+       {
+        "f": "CASARÁ",
+        "grm": "p3,ind,fut,sg"
+       },
+       {
+        "f": "CASARÁN",
+        "grm": "p3,ind,fut,pl"
+       },
+       {
+        "f": "CASARÁS",
+        "grm": "infm,p2,ind,fut,sg"
+       },
+       {
+        "f": "CASARÉ",
+        "grm": "p1,ind,fut,sg"
+       },
+       {
+        "f": "CASARÉIS",
+        "grm": "p2,ind,fut,pl"
+       },
+       {
+        "f": "CASARÍA",
+        "grm": "form,p2,cond,sg"
+       },
+       {
+        "f": "CASARÍA",
+        "grm": "p1,cond,sg"
+       },
+       {
+        "f": "CASARÍA",
+        "grm": "p3,cond,sg"
+       },
+       {
+        "f": "CASARÍAIS",
+        "grm": "p2,cond,pl"
+       },
+       {
+        "f": "CASARÍAMOS",
+        "grm": "p1,cond,pl"
+       },
+       {
+        "f": "CASARÍAN",
+        "grm": "p3,cond,pl"
+       },
+       {
+        "f": "CASARÍAS",
+        "grm": "infm,p2,cond,sg"
+       },
+       {
+        "f": "CASAS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "CASASE",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CASASE",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "CASASE",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "CASASEIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "CASASEN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "CASASES",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CASASTE",
+        "grm": "infm,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "CASASTEIS",
+        "grm": "p2,ind,pfv,past,pl"
+       },
+       {
+        "f": "CASE",
+        "grm": "form,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "CASE",
+        "grm": "form,pos,p2,impv,sg"
+       },
+       {
+        "f": "CASE",
+        "grm": "p1,sbjv,pres,sg"
+       },
+       {
+        "f": "CASE",
+        "grm": "p3,sbjv,pres,sg"
+       },
+       {
+        "f": "CASEMOS",
+        "grm": "p1,sbjv,pres,pl"
+       },
+       {
+        "f": "CASEMOS",
+        "grm": "pos,p1,impv,pl"
+       },
+       {
+        "f": "CASEN",
+        "grm": "form,pos,p2,impv,pl"
+       },
+       {
+        "f": "CASEN",
+        "grm": "p3,sbjv,pres,pl"
+       },
+       {
+        "f": "CASES",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "CASO",
+        "grm": "p1,ind,pres,sg"
+       },
+       {
+        "f": "CASÁ",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "CASÁBAMOS",
+        "grm": "p1,ind,impf,past,pl"
+       },
+       {
+        "f": "CASÁIS",
+        "grm": "p2,ind,pres,pl"
+       },
+       {
+        "f": "CASÁNDOLA",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "CASÁNDOLAS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "CASÁNDOLE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "CASÁNDOLES",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "CASÁNDOLO",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "CASÁNDOLOS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "CASÁNDOME",
+        "grm": "pro,ger,p1,pres,acc,sg"
+       },
+       {
+        "f": "CASÁNDOME",
+        "grm": "pro,ger,p1,pres,dat,sg"
+       },
+       {
+        "f": "CASÁNDONOS",
+        "grm": "pro,ger,p1,pres,acc,pl"
+       },
+       {
+        "f": "CASÁNDONOS",
+        "grm": "pro,ger,p1,pres,dat,pl"
+       },
+       {
+        "f": "CASÁNDOOS",
+        "grm": "pro,ger,p2,pres,acc,pl"
+       },
+       {
+        "f": "CASÁNDOOS",
+        "grm": "pro,ger,p2,pres,dat,pl"
+       },
+       {
+        "f": "CASÁNDOSE",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "CASÁNDOSE",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "CASÁNDOSE",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "CASÁNDOSE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "CASÁNDOTE",
+        "grm": "pro,ger,p2,pres,acc,sg"
+       },
+       {
+        "f": "CASÁNDOTE",
+        "grm": "pro,ger,p2,pres,dat,sg"
+       },
+       {
+        "f": "CASÁRAMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "CASÁREMOS",
+        "grm": "p1,sbjv,fut,pl"
+       },
+       {
+        "f": "CASÁS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "CASÁSEMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "CASÉ",
+        "grm": "p1,ind,pfv,past,sg"
+       },
+       {
+        "f": "CASÉIS",
+        "grm": "p2,sbjv,pres,pl"
+       },
+       {
+        "f": "CASÉMONOS",
+        "grm": "pro,p1,impv,acc,pl"
+       },
+       {
+        "f": "CASÉMONOS",
+        "grm": "pro,p1,impv,dat,pl"
+       },
+       {
+        "f": "CASÉMOOS",
+        "grm": "pro,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "CASÉMOOS",
+        "grm": "pro,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "CASÉMOSLA",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASÉMOSLAS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "CASÉMOSLE",
+        "grm": "pro,p3,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CASÉMOSLES",
+        "grm": "pro,p3,p1,impv,dat,pl"
+       },
+       {
+        "f": "CASÉMOSLO",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASÉMOSLOS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "CASÉMOSTE",
+        "grm": "pro,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CASÉMOSTE",
+        "grm": "pro,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CASÉS",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "CASÓ",
+        "grm": "form,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "CASÓ",
+        "grm": "p3,ind,pfv,past,sg"
+       },
+       {
+        "f": "CÁSALA",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSALAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSALE",
+        "grm": "pro,infm,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÁSALES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSALO",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSALOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSAME",
+        "grm": "pro,infm,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "CÁSAME",
+        "grm": "pro,infm,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "CÁSANOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSANOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSATE",
+        "grm": "pro,infm,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSATE",
+        "grm": "pro,infm,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÁSELA",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSELAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSELE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÁSELES",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSELO",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSELOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSEME",
+        "grm": "pro,form,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "CÁSEME",
+        "grm": "pro,form,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "CÁSENLA",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSENLAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÁSENLE",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSENLES",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "CÁSENLO",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSENLOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÁSENME",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSENME",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSENNOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "CÁSENNOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "CÁSENOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÁSENOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÁSENSE",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÁSENSE",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "CÁSESE",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÁSESE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "NOCASE",
+        "grm": "neg,form,p2,impv,sg"
+       },
+       {
+        "f": "NOCASEMOS",
+        "grm": "neg,p1,impv,pl"
+       },
+       {
+        "f": "NOCASEN",
+        "grm": "neg,form,p2,impv,pl"
+       },
+       {
+        "f": "NOCASES",
+        "grm": "neg,infm,p2,impv,sg"
+       },
+       {
+        "f": "NOCASÉIS",
+        "grm": "neg,infm,p2,impv,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+HABLADO	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "HABLAR",
+  "morphInfo": "VERB ptcp,past,masc,sg",
+  "paradigm": [
+   {
+    "pos": "VERB",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "HABLA",
+        "grm": "form,p2,ind,pres,sg"
+       },
+       {
+        "f": "HABLA",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "HABLA",
+        "grm": "p3,ind,pres,sg"
+       },
+       {
+        "f": "HABLABA",
+        "grm": "form,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLABA",
+        "grm": "p1,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLABA",
+        "grm": "p3,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLABAIS",
+        "grm": "p2,ind,impf,past,pl"
+       },
+       {
+        "f": "HABLABAN",
+        "grm": "p3,ind,impf,past,pl"
+       },
+       {
+        "f": "HABLABAS",
+        "grm": "infm,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "HABLAD",
+        "grm": "infm,pos,p2,impv,pl"
+       },
+       {
+        "f": "HABLADA",
+        "grm": "ptcp,past,fem,sg"
+       },
+       {
+        "f": "HABLADAS",
+        "grm": "ptcp,past,fem,pl"
+       },
+       {
+        "f": "HABLADLA",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLADLAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HABLADLE",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLADLES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "HABLADLO",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLADLOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HABLADME",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLADME",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLADNOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLADNOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLADO",
+        "grm": "ptcp,past,masc,sg"
+       },
+       {
+        "f": "HABLADOS",
+        "grm": "ptcp,past,masc,pl"
+       },
+       {
+        "f": "HABLAMOS",
+        "grm": "p1,ind,pfv,past,pl"
+       },
+       {
+        "f": "HABLAMOS",
+        "grm": "p1,ind,pres,pl"
+       },
+       {
+        "f": "HABLAN",
+        "grm": "p3,ind,pres,pl"
+       },
+       {
+        "f": "HABLANDO",
+        "grm": "ger,pres"
+       },
+       {
+        "f": "HABLAOS",
+        "grm": "pro,infm,p2,impv,acc,pl"
+       },
+       {
+        "f": "HABLAOS",
+        "grm": "pro,infm,p2,impv,dat,pl"
+       },
+       {
+        "f": "HABLAR",
+        "grm": ""
+       },
+       {
+        "f": "HABLARA",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARA",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARA",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARAIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "HABLARAN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "HABLARAS",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLARE",
+        "grm": "form,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLARE",
+        "grm": "p1,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLARE",
+        "grm": "p3,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLAREIS",
+        "grm": "p2,sbjv,fut,pl"
+       },
+       {
+        "f": "HABLAREMOS",
+        "grm": "p1,ind,fut,pl"
+       },
+       {
+        "f": "HABLAREN",
+        "grm": "p3,sbjv,fut,pl"
+       },
+       {
+        "f": "HABLARES",
+        "grm": "infm,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "HABLARLA",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "HABLARLAS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "HABLARLE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "HABLARLES",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "HABLARLO",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "HABLARLOS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "HABLARME",
+        "grm": "pro,p1,acc,sg"
+       },
+       {
+        "f": "HABLARME",
+        "grm": "pro,p1,dat,sg"
+       },
+       {
+        "f": "HABLARNOS",
+        "grm": "pro,p1,acc,pl"
+       },
+       {
+        "f": "HABLARNOS",
+        "grm": "pro,p1,dat,pl"
+       },
+       {
+        "f": "HABLARON",
+        "grm": "p3,ind,pfv,past,pl"
+       },
+       {
+        "f": "HABLAROS",
+        "grm": "pro,p2,acc,pl"
+       },
+       {
+        "f": "HABLAROS",
+        "grm": "pro,p2,dat,pl"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "HABLARSE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "HABLARTE",
+        "grm": "pro,p2,acc,sg"
+       },
+       {
+        "f": "HABLARTE",
+        "grm": "pro,p2,dat,sg"
+       },
+       {
+        "f": "HABLARÁ",
+        "grm": "form,p2,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÁ",
+        "grm": "p3,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÁN",
+        "grm": "p3,ind,fut,pl"
+       },
+       {
+        "f": "HABLARÁS",
+        "grm": "infm,p2,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÉ",
+        "grm": "p1,ind,fut,sg"
+       },
+       {
+        "f": "HABLARÉIS",
+        "grm": "p2,ind,fut,pl"
+       },
+       {
+        "f": "HABLARÍA",
+        "grm": "form,p2,cond,sg"
+       },
+       {
+        "f": "HABLARÍA",
+        "grm": "p1,cond,sg"
+       },
+       {
+        "f": "HABLARÍA",
+        "grm": "p3,cond,sg"
+       },
+       {
+        "f": "HABLARÍAIS",
+        "grm": "p2,cond,pl"
+       },
+       {
+        "f": "HABLARÍAMOS",
+        "grm": "p1,cond,pl"
+       },
+       {
+        "f": "HABLARÍAN",
+        "grm": "p3,cond,pl"
+       },
+       {
+        "f": "HABLARÍAS",
+        "grm": "infm,p2,cond,sg"
+       },
+       {
+        "f": "HABLAS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "HABLASE",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASE",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASE",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASEIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "HABLASEN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "HABLASES",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "HABLASTE",
+        "grm": "infm,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "HABLASTEIS",
+        "grm": "p2,ind,pfv,past,pl"
+       },
+       {
+        "f": "HABLE",
+        "grm": "form,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLE",
+        "grm": "form,pos,p2,impv,sg"
+       },
+       {
+        "f": "HABLE",
+        "grm": "p1,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLE",
+        "grm": "p3,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLEMOS",
+        "grm": "p1,sbjv,pres,pl"
+       },
+       {
+        "f": "HABLEMOS",
+        "grm": "pos,p1,impv,pl"
+       },
+       {
+        "f": "HABLEN",
+        "grm": "form,pos,p2,impv,pl"
+       },
+       {
+        "f": "HABLEN",
+        "grm": "p3,sbjv,pres,pl"
+       },
+       {
+        "f": "HABLES",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLO",
+        "grm": "p1,ind,pres,sg"
+       },
+       {
+        "f": "HABLÁ",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "HABLÁBAMOS",
+        "grm": "p1,ind,impf,past,pl"
+       },
+       {
+        "f": "HABLÁIS",
+        "grm": "p2,ind,pres,pl"
+       },
+       {
+        "f": "HABLÁNDOLA",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOLAS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOLE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁNDOLES",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOLO",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOLOS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOME",
+        "grm": "pro,ger,p1,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOME",
+        "grm": "pro,ger,p1,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁNDONOS",
+        "grm": "pro,ger,p1,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDONOS",
+        "grm": "pro,ger,p1,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOOS",
+        "grm": "pro,ger,p2,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOOS",
+        "grm": "pro,ger,p2,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "HABLÁNDOSE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁNDOTE",
+        "grm": "pro,ger,p2,pres,acc,sg"
+       },
+       {
+        "f": "HABLÁNDOTE",
+        "grm": "pro,ger,p2,pres,dat,sg"
+       },
+       {
+        "f": "HABLÁRAMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "HABLÁREMOS",
+        "grm": "p1,sbjv,fut,pl"
+       },
+       {
+        "f": "HABLÁS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "HABLÁSEMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "HABLÉ",
+        "grm": "p1,ind,pfv,past,sg"
+       },
+       {
+        "f": "HABLÉIS",
+        "grm": "p2,sbjv,pres,pl"
+       },
+       {
+        "f": "HABLÉMONOS",
+        "grm": "pro,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMONOS",
+        "grm": "pro,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLÉMOOS",
+        "grm": "pro,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMOOS",
+        "grm": "pro,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLÉMOSLA",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSLAS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMOSLE",
+        "grm": "pro,p3,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSLES",
+        "grm": "pro,p3,p1,impv,dat,pl"
+       },
+       {
+        "f": "HABLÉMOSLO",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSLOS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "HABLÉMOSTE",
+        "grm": "pro,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HABLÉMOSTE",
+        "grm": "pro,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HABLÉS",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "HABLÓ",
+        "grm": "form,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "HABLÓ",
+        "grm": "p3,ind,pfv,past,sg"
+       },
+       {
+        "f": "HÁBLALA",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLALAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLALE",
+        "grm": "pro,infm,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLALES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLALO",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLALOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLAME",
+        "grm": "pro,infm,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLAME",
+        "grm": "pro,infm,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLANOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLANOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLATE",
+        "grm": "pro,infm,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLATE",
+        "grm": "pro,infm,p2,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLELA",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLELAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLELE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLELES",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLELO",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLELOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLEME",
+        "grm": "pro,form,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLEME",
+        "grm": "pro,form,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "HÁBLENLA",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENLAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENLE",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLENLES",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "HÁBLENLO",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENLOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENME",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENME",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLENNOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENNOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "HÁBLENOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "HÁBLENOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "HÁBLENSE",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "HÁBLENSE",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "HÁBLESE",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "HÁBLESE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "NOHABLE",
+        "grm": "neg,form,p2,impv,sg"
+       },
+       {
+        "f": "NOHABLEMOS",
+        "grm": "neg,p1,impv,pl"
+       },
+       {
+        "f": "NOHABLEN",
+        "grm": "neg,form,p2,impv,pl"
+       },
+       {
+        "f": "NOHABLES",
+        "grm": "neg,infm,p2,impv,sg"
+       },
+       {
+        "f": "NOHABLÉIS",
+        "grm": "neg,infm,p2,impv,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+GATOS	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "GATA",
+  "morphInfo": "NOUN masc,pl",
+  "paradigm": [
+   {
+    "pos": "NOUN",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "GATA",
+        "grm": "fem,sg"
+       },
+       {
+        "f": "GATAS",
+        "grm": "fem,pl"
+       },
+       {
+        "f": "GATO",
+        "grm": "masc,sg"
+       },
+       {
+        "f": "GATOS",
+        "grm": "masc,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "GATO",
+  "morphInfo": "NOUN masc,pl",
+  "paradigm": [
+   {
+    "pos": "NOUN",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "GATA",
+        "grm": "fem,sg"
+       },
+       {
+        "f": "GATAS",
+        "grm": "fem,pl"
+       },
+       {
+        "f": "GATO",
+        "grm": "masc,sg"
+       },
+       {
+        "f": "GATOS",
+        "grm": "masc,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+CORRIENDO	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "CORRER",
+  "morphInfo": "VERB ger,pres",
+  "paradigm": [
+   {
+    "pos": "VERB",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "CORRA",
+        "grm": "form,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "CORRA",
+        "grm": "form,pos,p2,impv,sg"
+       },
+       {
+        "f": "CORRA",
+        "grm": "p1,sbjv,pres,sg"
+       },
+       {
+        "f": "CORRA",
+        "grm": "p3,sbjv,pres,sg"
+       },
+       {
+        "f": "CORRAMOS",
+        "grm": "p1,sbjv,pres,pl"
+       },
+       {
+        "f": "CORRAMOS",
+        "grm": "pos,p1,impv,pl"
+       },
+       {
+        "f": "CORRAN",
+        "grm": "form,pos,p2,impv,pl"
+       },
+       {
+        "f": "CORRAN",
+        "grm": "p3,sbjv,pres,pl"
+       },
+       {
+        "f": "CORRAS",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "CORRE",
+        "grm": "form,p2,ind,pres,sg"
+       },
+       {
+        "f": "CORRE",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "CORRE",
+        "grm": "p3,ind,pres,sg"
+       },
+       {
+        "f": "CORRED",
+        "grm": "infm,pos,p2,impv,pl"
+       },
+       {
+        "f": "CORREDLA",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CORREDLAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CORREDLE",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CORREDLES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "CORREDLO",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CORREDLOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CORREDME",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CORREDME",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CORREDNOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "CORREDNOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "CORREMOS",
+        "grm": "p1,ind,pres,pl"
+       },
+       {
+        "f": "CORREN",
+        "grm": "p3,ind,pres,pl"
+       },
+       {
+        "f": "CORREOS",
+        "grm": "pro,infm,p2,impv,acc,pl"
+       },
+       {
+        "f": "CORREOS",
+        "grm": "pro,infm,p2,impv,dat,pl"
+       },
+       {
+        "f": "CORRER",
+        "grm": ""
+       },
+       {
+        "f": "CORREREMOS",
+        "grm": "p1,ind,fut,pl"
+       },
+       {
+        "f": "CORRERLA",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "CORRERLAS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "CORRERLE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "CORRERLES",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "CORRERLO",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "CORRERLOS",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "CORRERME",
+        "grm": "pro,p1,acc,sg"
+       },
+       {
+        "f": "CORRERME",
+        "grm": "pro,p1,dat,sg"
+       },
+       {
+        "f": "CORRERNOS",
+        "grm": "pro,p1,acc,pl"
+       },
+       {
+        "f": "CORRERNOS",
+        "grm": "pro,p1,dat,pl"
+       },
+       {
+        "f": "CORREROS",
+        "grm": "pro,p2,acc,pl"
+       },
+       {
+        "f": "CORREROS",
+        "grm": "pro,p2,dat,pl"
+       },
+       {
+        "f": "CORRERSE",
+        "grm": "pro,p3,acc,pl"
+       },
+       {
+        "f": "CORRERSE",
+        "grm": "pro,p3,acc,sg"
+       },
+       {
+        "f": "CORRERSE",
+        "grm": "pro,p3,dat,pl"
+       },
+       {
+        "f": "CORRERSE",
+        "grm": "pro,p3,dat,sg"
+       },
+       {
+        "f": "CORRERTE",
+        "grm": "pro,p2,acc,sg"
+       },
+       {
+        "f": "CORRERTE",
+        "grm": "pro,p2,dat,sg"
+       },
+       {
+        "f": "CORRERÁ",
+        "grm": "form,p2,ind,fut,sg"
+       },
+       {
+        "f": "CORRERÁ",
+        "grm": "p3,ind,fut,sg"
+       },
+       {
+        "f": "CORRERÁN",
+        "grm": "p3,ind,fut,pl"
+       },
+       {
+        "f": "CORRERÁS",
+        "grm": "infm,p2,ind,fut,sg"
+       },
+       {
+        "f": "CORRERÉ",
+        "grm": "p1,ind,fut,sg"
+       },
+       {
+        "f": "CORRERÉIS",
+        "grm": "p2,ind,fut,pl"
+       },
+       {
+        "f": "CORRERÍA",
+        "grm": "form,p2,cond,sg"
+       },
+       {
+        "f": "CORRERÍA",
+        "grm": "p1,cond,sg"
+       },
+       {
+        "f": "CORRERÍA",
+        "grm": "p3,cond,sg"
+       },
+       {
+        "f": "CORRERÍAIS",
+        "grm": "p2,cond,pl"
+       },
+       {
+        "f": "CORRERÍAMOS",
+        "grm": "p1,cond,pl"
+       },
+       {
+        "f": "CORRERÍAN",
+        "grm": "p3,cond,pl"
+       },
+       {
+        "f": "CORRERÍAS",
+        "grm": "infm,p2,cond,sg"
+       },
+       {
+        "f": "CORRES",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "CORRIDA",
+        "grm": "ptcp,past,fem,sg"
+       },
+       {
+        "f": "CORRIDAS",
+        "grm": "ptcp,past,fem,pl"
+       },
+       {
+        "f": "CORRIDO",
+        "grm": "ptcp,past,masc,sg"
+       },
+       {
+        "f": "CORRIDOS",
+        "grm": "ptcp,past,masc,pl"
+       },
+       {
+        "f": "CORRIENDO",
+        "grm": "ger,pres"
+       },
+       {
+        "f": "CORRIERA",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CORRIERA",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "CORRIERA",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "CORRIERAIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "CORRIERAN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "CORRIERAS",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CORRIERE",
+        "grm": "form,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "CORRIERE",
+        "grm": "p1,sbjv,fut,sg"
+       },
+       {
+        "f": "CORRIERE",
+        "grm": "p3,sbjv,fut,sg"
+       },
+       {
+        "f": "CORRIEREIS",
+        "grm": "p2,sbjv,fut,pl"
+       },
+       {
+        "f": "CORRIEREN",
+        "grm": "p3,sbjv,fut,pl"
+       },
+       {
+        "f": "CORRIERES",
+        "grm": "infm,p2,sbjv,fut,sg"
+       },
+       {
+        "f": "CORRIERON",
+        "grm": "p3,ind,pfv,past,pl"
+       },
+       {
+        "f": "CORRIESE",
+        "grm": "form,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CORRIESE",
+        "grm": "p1,sbjv,past,sg"
+       },
+       {
+        "f": "CORRIESE",
+        "grm": "p3,sbjv,past,sg"
+       },
+       {
+        "f": "CORRIESEIS",
+        "grm": "p2,sbjv,past,pl"
+       },
+       {
+        "f": "CORRIESEN",
+        "grm": "p3,sbjv,past,pl"
+       },
+       {
+        "f": "CORRIESES",
+        "grm": "infm,p2,sbjv,past,sg"
+       },
+       {
+        "f": "CORRIMOS",
+        "grm": "p1,ind,pfv,past,pl"
+       },
+       {
+        "f": "CORRISTE",
+        "grm": "infm,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "CORRISTEIS",
+        "grm": "p2,ind,pfv,past,pl"
+       },
+       {
+        "f": "CORRIÉNDOLA",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "CORRIÉNDOLAS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "CORRIÉNDOLE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "CORRIÉNDOLES",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "CORRIÉNDOLO",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "CORRIÉNDOLOS",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "CORRIÉNDOME",
+        "grm": "pro,ger,p1,pres,acc,sg"
+       },
+       {
+        "f": "CORRIÉNDOME",
+        "grm": "pro,ger,p1,pres,dat,sg"
+       },
+       {
+        "f": "CORRIÉNDONOS",
+        "grm": "pro,ger,p1,pres,acc,pl"
+       },
+       {
+        "f": "CORRIÉNDONOS",
+        "grm": "pro,ger,p1,pres,dat,pl"
+       },
+       {
+        "f": "CORRIÉNDOOS",
+        "grm": "pro,ger,p2,pres,acc,pl"
+       },
+       {
+        "f": "CORRIÉNDOOS",
+        "grm": "pro,ger,p2,pres,dat,pl"
+       },
+       {
+        "f": "CORRIÉNDOSE",
+        "grm": "pro,ger,p3,pres,acc,pl"
+       },
+       {
+        "f": "CORRIÉNDOSE",
+        "grm": "pro,ger,p3,pres,acc,sg"
+       },
+       {
+        "f": "CORRIÉNDOSE",
+        "grm": "pro,ger,p3,pres,dat,pl"
+       },
+       {
+        "f": "CORRIÉNDOSE",
+        "grm": "pro,ger,p3,pres,dat,sg"
+       },
+       {
+        "f": "CORRIÉNDOTE",
+        "grm": "pro,ger,p2,pres,acc,sg"
+       },
+       {
+        "f": "CORRIÉNDOTE",
+        "grm": "pro,ger,p2,pres,dat,sg"
+       },
+       {
+        "f": "CORRIÉRAMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "CORRIÉREMOS",
+        "grm": "p1,sbjv,fut,pl"
+       },
+       {
+        "f": "CORRIÉSEMOS",
+        "grm": "p1,sbjv,past,pl"
+       },
+       {
+        "f": "CORRIÓ",
+        "grm": "form,p2,ind,pfv,past,sg"
+       },
+       {
+        "f": "CORRIÓ",
+        "grm": "p3,ind,pfv,past,sg"
+       },
+       {
+        "f": "CORRO",
+        "grm": "p1,ind,pres,sg"
+       },
+       {
+        "f": "CORRÁIS",
+        "grm": "p2,sbjv,pres,pl"
+       },
+       {
+        "f": "CORRÁMONOS",
+        "grm": "pro,p1,impv,acc,pl"
+       },
+       {
+        "f": "CORRÁMONOS",
+        "grm": "pro,p1,impv,dat,pl"
+       },
+       {
+        "f": "CORRÁMOOS",
+        "grm": "pro,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "CORRÁMOOS",
+        "grm": "pro,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "CORRÁMOSLA",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CORRÁMOSLAS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "CORRÁMOSLE",
+        "grm": "pro,p3,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CORRÁMOSLES",
+        "grm": "pro,p3,p1,impv,dat,pl"
+       },
+       {
+        "f": "CORRÁMOSLO",
+        "grm": "pro,p3,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CORRÁMOSLOS",
+        "grm": "pro,p3,p1,impv,acc,pl"
+       },
+       {
+        "f": "CORRÁMOSTE",
+        "grm": "pro,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CORRÁMOSTE",
+        "grm": "pro,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CORRÁS",
+        "grm": "infm,p2,sbjv,pres,sg"
+       },
+       {
+        "f": "CORRÉ",
+        "grm": "infm,pos,p2,impv,sg"
+       },
+       {
+        "f": "CORRÉIS",
+        "grm": "p2,ind,pres,pl"
+       },
+       {
+        "f": "CORRÉS",
+        "grm": "infm,p2,ind,pres,sg"
+       },
+       {
+        "f": "CORRÍ",
+        "grm": "p1,ind,pfv,past,sg"
+       },
+       {
+        "f": "CORRÍA",
+        "grm": "form,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "CORRÍA",
+        "grm": "p1,ind,impf,past,sg"
+       },
+       {
+        "f": "CORRÍA",
+        "grm": "p3,ind,impf,past,sg"
+       },
+       {
+        "f": "CORRÍAIS",
+        "grm": "p2,ind,impf,past,pl"
+       },
+       {
+        "f": "CORRÍAMOS",
+        "grm": "p1,ind,impf,past,pl"
+       },
+       {
+        "f": "CORRÍAN",
+        "grm": "p3,ind,impf,past,pl"
+       },
+       {
+        "f": "CORRÍAS",
+        "grm": "infm,p2,ind,impf,past,sg"
+       },
+       {
+        "f": "CÓRRALA",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓRRALAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓRRALE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÓRRALES",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓRRALO",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓRRALOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓRRAME",
+        "grm": "pro,form,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "CÓRRAME",
+        "grm": "pro,form,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "CÓRRANLA",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓRRANLAS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÓRRANLE",
+        "grm": "pro,form,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓRRANLES",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "CÓRRANLO",
+        "grm": "pro,form,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓRRANLOS",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÓRRANME",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓRRANME",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓRRANNOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl"
+       },
+       {
+        "f": "CÓRRANNOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl"
+       },
+       {
+        "f": "CÓRRANOS",
+        "grm": "pro,form,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓRRANOS",
+        "grm": "pro,form,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓRRANSE",
+        "grm": "pro,form,p3,p2,impv,acc,pl"
+       },
+       {
+        "f": "CÓRRANSE",
+        "grm": "pro,form,p3,p2,impv,dat,pl"
+       },
+       {
+        "f": "CÓRRASE",
+        "grm": "pro,form,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓRRASE",
+        "grm": "pro,form,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÓRRELA",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓRRELAS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓRRELE",
+        "grm": "pro,infm,p3,p2,impv,dat,sg"
+       },
+       {
+        "f": "CÓRRELES",
+        "grm": "pro,infm,p3,p2,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓRRELO",
+        "grm": "pro,infm,p3,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓRRELOS",
+        "grm": "pro,infm,p3,p2,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓRREME",
+        "grm": "pro,infm,p2,p1,impv,acc,sg"
+       },
+       {
+        "f": "CÓRREME",
+        "grm": "pro,infm,p2,p1,impv,dat,sg"
+       },
+       {
+        "f": "CÓRRENOS",
+        "grm": "pro,infm,p2,p1,impv,acc,pl,sg"
+       },
+       {
+        "f": "CÓRRENOS",
+        "grm": "pro,infm,p2,p1,impv,dat,pl,sg"
+       },
+       {
+        "f": "CÓRRETE",
+        "grm": "pro,infm,p2,impv,acc,sg"
+       },
+       {
+        "f": "CÓRRETE",
+        "grm": "pro,infm,p2,impv,dat,sg"
+       },
+       {
+        "f": "NOCORRA",
+        "grm": "neg,form,p2,impv,sg"
+       },
+       {
+        "f": "NOCORRAMOS",
+        "grm": "neg,p1,impv,pl"
+       },
+       {
+        "f": "NOCORRAN",
+        "grm": "neg,form,p2,impv,pl"
+       },
+       {
+        "f": "NOCORRAS",
+        "grm": "neg,infm,p2,impv,sg"
+       },
+       {
+        "f": "NOCORRÁIS",
+        "grm": "neg,infm,p2,impv,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]

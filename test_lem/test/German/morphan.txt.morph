@@ -1,0 +1,108 @@
+Mutter	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "MUTTER",
+  "morphInfo": "SUB akk,dat,gen,nom,sin,fem",
+  "paradigm": [
+   {
+    "pos": "SUB fem",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "MUTTER",
+        "grm": "akk,sin"
+       },
+       {
+        "f": "MUTTER",
+        "grm": "dat,sin"
+       },
+       {
+        "f": "MUTTER",
+        "grm": "gen,sin"
+       },
+       {
+        "f": "MUTTER",
+        "grm": "nom,sin"
+       },
+       {
+        "f": "MÜTTER",
+        "grm": "akk,plu"
+       },
+       {
+        "f": "MÜTTER",
+        "grm": "gen,plu"
+       },
+       {
+        "f": "MÜTTER",
+        "grm": "nom,plu"
+       },
+       {
+        "f": "MÜTTERN",
+        "grm": "dat,plu"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+VÖGEL	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "VOGEL",
+  "morphInfo": "SUB akk,gen,nom,plu,mas",
+  "paradigm": [
+   {
+    "pos": "SUB mas",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "VOGEL",
+        "grm": "akk,sin"
+       },
+       {
+        "f": "VOGEL",
+        "grm": "dat,sin"
+       },
+       {
+        "f": "VOGEL",
+        "grm": "nom,sin"
+       },
+       {
+        "f": "VOGELS",
+        "grm": "gen,sin"
+       },
+       {
+        "f": "VÖGEL",
+        "grm": "akk,plu"
+       },
+       {
+        "f": "VÖGEL",
+        "grm": "gen,plu"
+       },
+       {
+        "f": "VÖGEL",
+        "grm": "nom,plu"
+       },
+       {
+        "f": "VÖGELN",
+        "grm": "dat,plu"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]

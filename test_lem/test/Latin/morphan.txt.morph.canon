@@ -1,9 +1,97 @@
-[
+ROSA	[
  {
   "found": true,
   "commonGrammems": "",
   "wordForm": "ROSA",
   "morphInfo": "NOUN voc,abl,nom,masc,sg",
+  "paradigm": [
+   {
+    "pos": "NOUN masc",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "ROSA",
+        "grm": "abl,sg"
+       },
+       {
+        "f": "ROSA",
+        "grm": "nom,sg"
+       },
+       {
+        "f": "ROSA",
+        "grm": "voc,sg"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "dat,sg"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "gen,sg"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "nom,pl"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "voc,pl"
+       },
+       {
+        "f": "ROSAM",
+        "grm": "acc,sg"
+       },
+       {
+        "f": "ROSARUM",
+        "grm": "gen,pl"
+       },
+       {
+        "f": "ROSAS",
+        "grm": "acc,pl"
+       },
+       {
+        "f": "ROSIS",
+        "grm": "abl,pl"
+       },
+       {
+        "f": "ROSIS",
+        "grm": "dat,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "ROSA",
+  "morphInfo": "NOUN nom,fem,sg",
+  "paradigm": [
+   {
+    "pos": "NOUN fem",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "ROSA",
+        "grm": "nom,sg"
+       },
+       {
+        "f": "ROSAS",
+        "grm": "acc,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  },
@@ -12,16 +100,340 @@
   "commonGrammems": "",
   "wordForm": "ROSUS",
   "morphInfo": "VERB ptcp,inf,voc,abl,acc,nom,neut,fem,pl,sg",
+  "paradigm": [
+   {
+    "pos": "VERB ptcp,inf",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "ROSA",
+        "grm": "abl,fem,sg"
+       },
+       {
+        "f": "ROSA",
+        "grm": "acc,neut,pl"
+       },
+       {
+        "f": "ROSA",
+        "grm": "nom,fem,sg"
+       },
+       {
+        "f": "ROSA",
+        "grm": "nom,neut,pl"
+       },
+       {
+        "f": "ROSA",
+        "grm": "voc,fem,sg"
+       },
+       {
+        "f": "ROSA",
+        "grm": "voc,neut,pl"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "dat,fem,sg"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "nom,fem,pl"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "voc,fem,pl"
+       },
+       {
+        "f": "ROSAM",
+        "grm": "acc,fem,sg"
+       },
+       {
+        "f": "ROSARUM",
+        "grm": "gen,fem,pl"
+       },
+       {
+        "f": "ROSAS",
+        "grm": "acc,fem,pl"
+       },
+       {
+        "f": "ROSE",
+        "grm": "voc,masc,sg"
+       },
+       {
+        "f": "ROSI",
+        "grm": "gen,masc,sg"
+       },
+       {
+        "f": "ROSI",
+        "grm": "gen,neut,sg"
+       },
+       {
+        "f": "ROSI",
+        "grm": "nom,masc,pl"
+       },
+       {
+        "f": "ROSI",
+        "grm": "voc,masc,pl"
+       },
+       {
+        "f": "ROSIS",
+        "grm": "abl,com,pl"
+       },
+       {
+        "f": "ROSIS",
+        "grm": "dat,com,pl"
+       },
+       {
+        "f": "ROSO",
+        "grm": "abl,masc,sg"
+       },
+       {
+        "f": "ROSO",
+        "grm": "abl,neut,sg"
+       },
+       {
+        "f": "ROSO",
+        "grm": "dat,masc,sg"
+       },
+       {
+        "f": "ROSO",
+        "grm": "dat,neut,sg"
+       },
+       {
+        "f": "ROSORUM",
+        "grm": "gen,masc,pl"
+       },
+       {
+        "f": "ROSORUM",
+        "grm": "gen,neut,pl"
+       },
+       {
+        "f": "ROSOS",
+        "grm": "acc,masc,pl"
+       },
+       {
+        "f": "ROSUM",
+        "grm": "acc,masc,sg"
+       },
+       {
+        "f": "ROSUM",
+        "grm": "acc,neut,sg"
+       },
+       {
+        "f": "ROSUM",
+        "grm": "nom,neut,sg"
+       },
+       {
+        "f": "ROSUM",
+        "grm": "voc,neut,sg"
+       },
+       {
+        "f": "ROSUS",
+        "grm": "nom,masc,sg"
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  }
 ]
-[
+ROSAS	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "ROSAS",
+  "morphInfo": "NOUN acc,fem,pl",
+  "paradigm": [
+   {
+    "pos": "NOUN acc,fem,pl",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "ROSAS",
+        "grm": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
  {
   "found": true,
   "commonGrammems": "",
   "wordForm": "ROSUS",
   "morphInfo": "VERB ptcp,inf,acc,fem,pl",
+  "paradigm": [
+   {
+    "pos": "VERB ptcp,inf",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "ROSA",
+        "grm": "abl,fem,sg"
+       },
+       {
+        "f": "ROSA",
+        "grm": "acc,neut,pl"
+       },
+       {
+        "f": "ROSA",
+        "grm": "nom,fem,sg"
+       },
+       {
+        "f": "ROSA",
+        "grm": "nom,neut,pl"
+       },
+       {
+        "f": "ROSA",
+        "grm": "voc,fem,sg"
+       },
+       {
+        "f": "ROSA",
+        "grm": "voc,neut,pl"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "dat,fem,sg"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "nom,fem,pl"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "voc,fem,pl"
+       },
+       {
+        "f": "ROSAM",
+        "grm": "acc,fem,sg"
+       },
+       {
+        "f": "ROSARUM",
+        "grm": "gen,fem,pl"
+       },
+       {
+        "f": "ROSAS",
+        "grm": "acc,fem,pl"
+       },
+       {
+        "f": "ROSE",
+        "grm": "voc,masc,sg"
+       },
+       {
+        "f": "ROSI",
+        "grm": "gen,masc,sg"
+       },
+       {
+        "f": "ROSI",
+        "grm": "gen,neut,sg"
+       },
+       {
+        "f": "ROSI",
+        "grm": "nom,masc,pl"
+       },
+       {
+        "f": "ROSI",
+        "grm": "voc,masc,pl"
+       },
+       {
+        "f": "ROSIS",
+        "grm": "abl,com,pl"
+       },
+       {
+        "f": "ROSIS",
+        "grm": "dat,com,pl"
+       },
+       {
+        "f": "ROSO",
+        "grm": "abl,masc,sg"
+       },
+       {
+        "f": "ROSO",
+        "grm": "abl,neut,sg"
+       },
+       {
+        "f": "ROSO",
+        "grm": "dat,masc,sg"
+       },
+       {
+        "f": "ROSO",
+        "grm": "dat,neut,sg"
+       },
+       {
+        "f": "ROSORUM",
+        "grm": "gen,masc,pl"
+       },
+       {
+        "f": "ROSORUM",
+        "grm": "gen,neut,pl"
+       },
+       {
+        "f": "ROSOS",
+        "grm": "acc,masc,pl"
+       },
+       {
+        "f": "ROSUM",
+        "grm": "acc,masc,sg"
+       },
+       {
+        "f": "ROSUM",
+        "grm": "acc,neut,sg"
+       },
+       {
+        "f": "ROSUM",
+        "grm": "nom,neut,sg"
+       },
+       {
+        "f": "ROSUM",
+        "grm": "voc,neut,sg"
+       },
+       {
+        "f": "ROSUS",
+        "grm": "nom,masc,sg"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ },
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "ROSA",
+  "morphInfo": "NOUN acc,fem,pl",
+  "paradigm": [
+   {
+    "pos": "NOUN fem",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "ROSA",
+        "grm": "nom,sg"
+       },
+       {
+        "f": "ROSAS",
+        "grm": "acc,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  },
@@ -30,16 +442,136 @@
   "commonGrammems": "",
   "wordForm": "ROSA",
   "morphInfo": "NOUN acc,masc,pl",
+  "paradigm": [
+   {
+    "pos": "NOUN masc",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "ROSA",
+        "grm": "abl,sg"
+       },
+       {
+        "f": "ROSA",
+        "grm": "nom,sg"
+       },
+       {
+        "f": "ROSA",
+        "grm": "voc,sg"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "dat,sg"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "gen,sg"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "nom,pl"
+       },
+       {
+        "f": "ROSAE",
+        "grm": "voc,pl"
+       },
+       {
+        "f": "ROSAM",
+        "grm": "acc,sg"
+       },
+       {
+        "f": "ROSARUM",
+        "grm": "gen,pl"
+       },
+       {
+        "f": "ROSAS",
+        "grm": "acc,pl"
+       },
+       {
+        "f": "ROSIS",
+        "grm": "abl,pl"
+       },
+       {
+        "f": "ROSIS",
+        "grm": "dat,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  }
 ]
-[
+DOMINUS	[
  {
   "found": true,
   "commonGrammems": "",
   "wordForm": "DOMINUS",
   "morphInfo": "NOUN nom,masc,sg",
+  "paradigm": [
+   {
+    "pos": "NOUN masc",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "DOMINE",
+        "grm": "voc,sg"
+       },
+       {
+        "f": "DOMINI",
+        "grm": "gen,sg"
+       },
+       {
+        "f": "DOMINI",
+        "grm": "nom,pl"
+       },
+       {
+        "f": "DOMINI",
+        "grm": "voc,pl"
+       },
+       {
+        "f": "DOMINIS",
+        "grm": "abl,pl"
+       },
+       {
+        "f": "DOMINIS",
+        "grm": "dat,pl"
+       },
+       {
+        "f": "DOMINO",
+        "grm": "abl,sg"
+       },
+       {
+        "f": "DOMINO",
+        "grm": "dat,sg"
+       },
+       {
+        "f": "DOMINORUM",
+        "grm": "gen,pl"
+       },
+       {
+        "f": "DOMINOS",
+        "grm": "acc,pl"
+       },
+       {
+        "f": "DOMINUM",
+        "grm": "acc,sg"
+       },
+       {
+        "f": "DOMINUS",
+        "grm": "nom,sg"
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  },
@@ -48,16 +580,112 @@
   "commonGrammems": "",
   "wordForm": "DOMINUS",
   "morphInfo": "NOUN nom,masc,sg",
+  "paradigm": [
+   {
+    "pos": "NOUN masc,sg",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "DOMINE",
+        "grm": "voc"
+       },
+       {
+        "f": "DOMINI",
+        "grm": "gen"
+       },
+       {
+        "f": "DOMINO",
+        "grm": "abl"
+       },
+       {
+        "f": "DOMINO",
+        "grm": "dat"
+       },
+       {
+        "f": "DOMINUM",
+        "grm": "acc"
+       },
+       {
+        "f": "DOMINUS",
+        "grm": "nom"
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  }
 ]
-[
+DOMINO	[
  {
   "found": true,
   "commonGrammems": "",
   "wordForm": "DOMINUS",
   "morphInfo": "NOUN abl,dat,masc,sg",
+  "paradigm": [
+   {
+    "pos": "NOUN masc",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "DOMINE",
+        "grm": "voc,sg"
+       },
+       {
+        "f": "DOMINI",
+        "grm": "gen,sg"
+       },
+       {
+        "f": "DOMINI",
+        "grm": "nom,pl"
+       },
+       {
+        "f": "DOMINI",
+        "grm": "voc,pl"
+       },
+       {
+        "f": "DOMINIS",
+        "grm": "abl,pl"
+       },
+       {
+        "f": "DOMINIS",
+        "grm": "dat,pl"
+       },
+       {
+        "f": "DOMINO",
+        "grm": "abl,sg"
+       },
+       {
+        "f": "DOMINO",
+        "grm": "dat,sg"
+       },
+       {
+        "f": "DOMINORUM",
+        "grm": "gen,pl"
+       },
+       {
+        "f": "DOMINOS",
+        "grm": "acc,pl"
+       },
+       {
+        "f": "DOMINUM",
+        "grm": "acc,sg"
+       },
+       {
+        "f": "DOMINUS",
+        "grm": "nom,sg"
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  },
@@ -66,65 +694,372 @@
   "commonGrammems": "",
   "wordForm": "DOMINUS",
   "morphInfo": "NOUN abl,dat,masc,sg",
+  "paradigm": [
+   {
+    "pos": "NOUN masc,sg",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "DOMINE",
+        "grm": "voc"
+       },
+       {
+        "f": "DOMINI",
+        "grm": "gen"
+       },
+       {
+        "f": "DOMINO",
+        "grm": "abl"
+       },
+       {
+        "f": "DOMINO",
+        "grm": "dat"
+       },
+       {
+        "f": "DOMINUM",
+        "grm": "acc"
+       },
+       {
+        "f": "DOMINUS",
+        "grm": "nom"
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  }
 ]
-[
+LAUDARE	[
  {
   "found": true,
   "commonGrammems": "",
-  "wordForm": "AMARUS",
-  "morphInfo": "ADJ voc,masc,sg",
+  "wordForm": "LAUDO",
+  "morphInfo": "VERB inf",
+  "paradigm": [
+   {
+    "pos": "VERB",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "LAUDAMUS",
+        "grm": "p1,ind,pres,pl"
+       },
+       {
+        "f": "LAUDANS",
+        "grm": "ptcp,inf,nom,fem,sg"
+       },
+       {
+        "f": "LAUDANS",
+        "grm": "ptcp,inf,nom,masc,sg"
+       },
+       {
+        "f": "LAUDANS",
+        "grm": "ptcp,inf,nom,neut,sg"
+       },
+       {
+        "f": "LAUDANT",
+        "grm": "p3,ind,pres,pl"
+       },
+       {
+        "f": "LAUDARE",
+        "grm": "inf"
+       },
+       {
+        "f": "LAUDAS",
+        "grm": "p2,ind,pres,sg"
+       },
+       {
+        "f": "LAUDAT",
+        "grm": "p3,ind,pres,sg"
+       },
+       {
+        "f": "LAUDATIS",
+        "grm": "p2,ind,pres,pl"
+       },
+       {
+        "f": "LAUDO",
+        "grm": "p1,ind,pres,sg"
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  }
 ]
-[
- {
-  "found": false,
-  "commonGrammems": "",
-  "wordForm": "AMAT",
-  "srcNorm": "ABABA",
-  "morphInfo": "NOUN voc,abl,nom,masc,sg",
-  "wordWeight": 0,
-  "homonymWeight": 0
- }
-]
-[
+LAUDAT	[
  {
   "found": true,
   "commonGrammems": "",
-  "wordForm": "AMANS",
+  "wordForm": "LAUDO",
+  "morphInfo": "VERB p3,ind,pres,sg",
+  "paradigm": [
+   {
+    "pos": "VERB",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "LAUDAMUS",
+        "grm": "p1,ind,pres,pl"
+       },
+       {
+        "f": "LAUDANS",
+        "grm": "ptcp,inf,nom,fem,sg"
+       },
+       {
+        "f": "LAUDANS",
+        "grm": "ptcp,inf,nom,masc,sg"
+       },
+       {
+        "f": "LAUDANS",
+        "grm": "ptcp,inf,nom,neut,sg"
+       },
+       {
+        "f": "LAUDANT",
+        "grm": "p3,ind,pres,pl"
+       },
+       {
+        "f": "LAUDARE",
+        "grm": "inf"
+       },
+       {
+        "f": "LAUDAS",
+        "grm": "p2,ind,pres,sg"
+       },
+       {
+        "f": "LAUDAT",
+        "grm": "p3,ind,pres,sg"
+       },
+       {
+        "f": "LAUDATIS",
+        "grm": "p2,ind,pres,pl"
+       },
+       {
+        "f": "LAUDO",
+        "grm": "p1,ind,pres,sg"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "wordWeight": 0,
+  "homonymWeight": 0
+ }
+]
+LAUDANS	[
+ {
+  "found": true,
+  "commonGrammems": "",
+  "wordForm": "LAUDANS",
   "morphInfo": "VERB ptcp,inf,voc,acc,nom,com,neut,sg",
+  "paradigm": [
+   {
+    "pos": "VERB ptcp,inf",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "LAUDANS",
+        "grm": "acc,neut,sg"
+       },
+       {
+        "f": "LAUDANS",
+        "grm": "nom,com,sg"
+       },
+       {
+        "f": "LAUDANS",
+        "grm": "voc,com,sg"
+       },
+       {
+        "f": "LAUDANTE",
+        "grm": "abl,com,sg"
+       },
+       {
+        "f": "LAUDANTEM",
+        "grm": "acc,com,sg"
+       },
+       {
+        "f": "LAUDANTES",
+        "grm": "acc,com,pl"
+       },
+       {
+        "f": "LAUDANTES",
+        "grm": "nom,com,pl"
+       },
+       {
+        "f": "LAUDANTES",
+        "grm": "voc,com,pl"
+       },
+       {
+        "f": "LAUDANTI",
+        "grm": "abl,com,sg"
+       },
+       {
+        "f": "LAUDANTI",
+        "grm": "dat,com,sg"
+       },
+       {
+        "f": "LAUDANTIA",
+        "grm": "acc,neut,pl"
+       },
+       {
+        "f": "LAUDANTIA",
+        "grm": "nom,neut,pl"
+       },
+       {
+        "f": "LAUDANTIA",
+        "grm": "voc,neut,pl"
+       },
+       {
+        "f": "LAUDANTIBUS",
+        "grm": "abl,com,pl"
+       },
+       {
+        "f": "LAUDANTIBUS",
+        "grm": "dat,com,pl"
+       },
+       {
+        "f": "LAUDANTIS",
+        "grm": "acc,com,pl"
+       },
+       {
+        "f": "LAUDANTIS",
+        "grm": "gen,com,sg"
+       },
+       {
+        "f": "LAUDANTIUM",
+        "grm": "gen,com,pl"
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  },
  {
   "found": true,
   "commonGrammems": "",
-  "wordForm": "AMANS",
-  "morphInfo": "NOUN voc,nom,com,sg",
+  "wordForm": "LAUDO",
+  "morphInfo": "VERB ptcp,inf,nom,neut,fem,masc,sg",
+  "paradigm": [
+   {
+    "pos": "VERB",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "LAUDAMUS",
+        "grm": "p1,ind,pres,pl"
+       },
+       {
+        "f": "LAUDANS",
+        "grm": "ptcp,inf,nom,fem,sg"
+       },
+       {
+        "f": "LAUDANS",
+        "grm": "ptcp,inf,nom,masc,sg"
+       },
+       {
+        "f": "LAUDANS",
+        "grm": "ptcp,inf,nom,neut,sg"
+       },
+       {
+        "f": "LAUDANT",
+        "grm": "p3,ind,pres,pl"
+       },
+       {
+        "f": "LAUDARE",
+        "grm": "inf"
+       },
+       {
+        "f": "LAUDAS",
+        "grm": "p2,ind,pres,sg"
+       },
+       {
+        "f": "LAUDAT",
+        "grm": "p3,ind,pres,sg"
+       },
+       {
+        "f": "LAUDATIS",
+        "grm": "p2,ind,pres,pl"
+       },
+       {
+        "f": "LAUDO",
+        "grm": "p1,ind,pres,sg"
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  }
 ]
-[
+ET	[
  {
   "found": true,
   "commonGrammems": "",
   "wordForm": "ET",
   "morphInfo": "CONJ ",
+  "paradigm": [
+   {
+    "pos": "CONJ",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "ET",
+        "grm": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  }
 ]
-[
+NON	[
  {
   "found": true,
   "commonGrammems": "",
   "wordForm": "NON",
   "morphInfo": "ADV ",
+  "paradigm": [
+   {
+    "pos": "ADV",
+    "formsGroups": [
+     {
+      "grm": "",
+      "forms": [
+       {
+        "f": "NON",
+        "grm": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
   "wordWeight": 0,
   "homonymWeight": 0
  }
