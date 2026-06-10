@@ -141,6 +141,7 @@ extern std::vector<std::string> split_string(const std::string& s, char delim);
 extern std::wstring utf8_to_wstring(const std::string& str);
 extern std::string wstring_to_utf8(const std::wstring& str);
 extern std::string& MakeUpperUtf8(std::string& s_utf8);
+extern std::string& StripFrenchAccents(std::string& s_utf8);
 extern std::string& MakeLowerUtf8(std::string& s_utf8);
 extern std::string& MakeTitleUtf8(std::string& s_utf8);
 extern size_t CountLettersInUtf8(const std::string& s_utf8);

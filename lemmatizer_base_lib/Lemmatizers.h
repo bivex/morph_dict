@@ -67,7 +67,7 @@ public:
     void LoadDictionariesFromPath(std::string load_path);
     void LoadDictionariesRegistry();
     bool LoadStatisticRegistry(SubjectEnum subj);
-    bool CreateParadigmCollection(bool bNorm, std::string &WordStr, bool capital, bool bUsePrediction,
+    virtual bool CreateParadigmCollection(bool bNorm, std::string &WordStr, bool capital, bool bUsePrediction,
                                   std::vector<CFormInfo> &Result) const;
     bool GetAllAncodesAndLemmasQuick(std::string &InputWordStr, bool capital, char *OutBuffer, size_t MaxBufferSize,
                                      bool bUsePrediction) const;
@@ -113,6 +113,8 @@ class CLemmatizerFrench : public CLemmatizer {
 public:
     CLemmatizerFrench();
     virtual ~CLemmatizerFrench() {};
+    bool CreateParadigmCollection(bool bNorm, std::string &WordStr, bool capital, bool bUsePrediction,
+                                  std::vector<CFormInfo> &Result) const override;
 };
 
 class CLemmatizerLatin : public CLemmatizer {

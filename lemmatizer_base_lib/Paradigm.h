@@ -56,6 +56,7 @@ public:
 
 	void    SetUserPrefix(const std::string& UserPrefix);
     void    SetUserUnknown();
+	void    SetInputWordBase(const std::string& s) { m_InputWordBase = s; }
 	std::string  GetGramInfoStr(const CAgramtab* gramtab) const;
 	std::string  FormatAsInPlmLine() const;
 };

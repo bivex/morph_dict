@@ -500,6 +500,40 @@ CLemmatizerFrench::CLemmatizerFrench() : CLemmatizer(morphFrench)
 {
 };
 
+bool CLemmatizerFrench::CreateParadigmCollection(bool bNorm, std::string& word_str, bool capital, bool bUsePrediction, std::vector<CFormInfo>& Result) const
+{
+    std::string original_word = word_str;
+    if (word_str.length() > 2 && word_str[1] == '\'') {
+        std::string prefix = word_str.substr(0, 2);
+        if (prefix == "L'" || prefix == "D'" || prefix == "S'" || prefix == "N'" ||
+            prefix == "T'" || prefix == "M'" || prefix == "C'" || prefix == "J'") {
+            word_str = word_str.substr(2);
+        }
+    } else if (word_str.length() > 3 && word_str.substr(0, 3) == "QU'") {
+        word_str = word_str.substr(3);
+    }
+    bool res = CLemmatizer::CreateParadigmCollection(bNorm, word_str, capital, bUsePrediction, Result);
+    
+    if (Result.empty() && word_str.length() > 4) {
+        std::string suffix = word_str.substr(word_str.length() - 4);
+        if (suffix == "MENT") {
+            std::vector<CFormInfo> alors_res;
+            std::string alors_str = "ALORS";
+            CLemmatizer::CreateParadigmCollection(false, alors_str, false, false, alors_res);
+            if (!alors_res.empty()) {
+                CFormInfo adv = alors_res[0];
+                adv.SetInputWordBase(word_str);
+                adv.m_bFound = false;
+                adv.SetUserUnknown();
+                Result.push_back(adv);
+            }
+        }
+    }
+
+    word_str = original_word;
+    return res;
+}
+
 CLemmatizerLatin::CLemmatizerLatin() : CLemmatizer(morphLatin)
 {
 };

@@ -8211,6 +8211,56 @@ std::string& MakeUpperUtf8(std::string& s_utf8) {
 	return s_utf8;
 }
 
+std::string& StripFrenchAccents(std::string& s_utf8) {
+	std::u32string s32 = conv_utf8_utf32.from_bytes(s_utf8);
+	std::u32string res;
+	res.reserve(s32.length());
+	for (uint32_t c : s32) {
+		switch (c) {
+			case U'É': case U'È': case U'Ê': case U'Ë':
+				res.push_back(U'E'); break;
+			case U'À': case U'Â':
+				res.push_back(U'A'); break;
+			case U'Ù': case U'Û': case U'Ü':
+				res.push_back(U'U'); break;
+			case U'Î': case U'Ï':
+				res.push_back(U'I'); break;
+			case U'Ô':
+				res.push_back(U'O'); break;
+			case U'Ç':
+				res.push_back(U'C'); break;
+			case U'Ÿ':
+				res.push_back(U'Y'); break;
+			case U'Æ':
+				res.push_back(U'A'); res.push_back(U'E'); break;
+			case U'Œ':
+				res.push_back(U'O'); res.push_back(U'E'); break;
+			case U'é': case U'è': case U'ê': case U'ë':
+				res.push_back(U'E'); break;
+			case U'à': case U'â':
+				res.push_back(U'A'); break;
+			case U'ù': case U'û': case U'ü':
+				res.push_back(U'U'); break;
+			case U'î': case U'ï':
+				res.push_back(U'I'); break;
+			case U'ô':
+				res.push_back(U'O'); break;
+			case U'ç':
+				res.push_back(U'C'); break;
+			case U'ÿ':
+				res.push_back(U'Y'); break;
+			case U'æ':
+				res.push_back(U'A'); res.push_back(U'E'); break;
+			case U'œ':
+				res.push_back(U'O'); res.push_back(U'E'); break;
+			default:
+				res.push_back(c); break;
+		}
+	}
+	s_utf8 = conv_utf8_utf32.to_bytes(res);
+	return s_utf8;
+}
+
 std::string& MakeLowerUtf8(std::string& s_utf8) {
 	std::u32string s32 = conv_utf8_utf32.from_bytes(s_utf8);
 	std::transform(s32.cbegin(), s32.cend(),
@@ -8290,8 +8340,47 @@ bool IsUnicodeSpanish(uint16_t u) {
 	}
 }
 
+bool IsUnicodeFrench(uint16_t u) {
+	if (IsUnicodeEnglish(u)) return true;
+	switch (u) {
+		case U'É':
+		case U'È':
+		case U'À':
+		case U'Ù':
+		case U'Ç':
+		case U'Â':
+		case U'Ê':
+		case U'Î':
+		case U'Ô':
+		case U'Û':
+		case U'Ë':
+		case U'Ï':
+		case U'Ü':
+		case U'Ÿ':
+		case U'Æ':
+		case U'Œ':
+		case U'é':
+		case U'è':
+		case U'à':
+		case U'ù':
+		case U'ç':
+		case U'â':
+		case U'ê':
+		case U'î':
+		case U'ô':
+		case U'û':
+		case U'ë':
+		case U'ï':
+		case U'ü':
+		case U'ÿ':
+		case U'æ':
+		case U'œ': return true;
+	default: return false;
+	}
+}
+
 bool IsUnicodeAlpha(uint16_t u) {
-	return IsUnicodeRussian(u) || IsUnicodeGerman(u) || IsUnicodeSpanish(u) || IsUnicodeLatin(u);
+	return IsUnicodeRussian(u) || IsUnicodeGerman(u) || IsUnicodeSpanish(u) || IsUnicodeLatin(u) || IsUnicodeFrench(u);
 }
 
 typedef bool (*unicode_check_pred)(uint16_t u);
@@ -8350,6 +8439,10 @@ bool CheckSpanishUtf8(const std::string& s) {
 
 bool CheckLatinUtf8(const std::string& s) {
 	return CheckLettersUtf8<IsUnicodeLatin>(s);
+}
+
+bool CheckFrenchUtf8(const std::string& s) {
+	return CheckLettersUtf8<IsUnicodeFrench>(s);
 }
 
 bool IsUnicodeUpperGermanVowel(uint32_t u) {
@@ -8463,7 +8556,7 @@ bool CheckLanguage(const std::string& s, MorphLanguageEnum langua) {
 		case morphEnglish: return CheckEnglishUtf8(s);
 		case morphLatin: return CheckLatinUtf8(s);
 		case morphSpanish: return CheckSpanishUtf8(s);
-		case morphFrench: return CheckEnglishUtf8(s);
+		case morphFrench: return CheckFrenchUtf8(s);
 		default: 
 			assert(false);
 					return true;
