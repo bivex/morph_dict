@@ -1,0 +1,562 @@
+{
+ "gramcodes": {
+  "AA": {
+   "p": "PREP",
+   "g": [],
+   "l": "A"
+  },
+  "AB": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AC": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "past",
+    "pfv",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "AD": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "AANCHRER"
+  },
+  "AE": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AF": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AG": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "past",
+    "pfv",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "AH": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AI": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AJ": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AK": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "AANCHRER"
+  },
+  "AL": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "AANCHRER"
+  },
+  "AM": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p1",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AN": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p2",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AO": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p3",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AP": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "past",
+    "pfv",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "AQ": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p1",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "AR": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p2",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "AS": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p3",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "AT": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p2",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AU": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p1",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AV": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p3",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "AW": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p2",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "AX": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p1",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "AY": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p3",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "AZ": {
+   "p": "VERB",
+   "g": [],
+   "l": "AANCHRER"
+  },
+  "BA": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pres",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "BB": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "BC": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "pres",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "BD": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "BE": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p2",
+    "pos",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "BF": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "BG": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "BH": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pl",
+    "pres"
+   ],
+   "l": "AANCHRER"
+  },
+  "BI": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p2",
+    "pl",
+    "pos"
+   ],
+   "l": "AANCHRER"
+  },
+  "BJ": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "AANCHRER"
+  },
+  "BK": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p1",
+    "past",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "BL": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p2",
+    "past",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "BM": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "AANCHRER"
+  },
+  "BN": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "AANCHRER"
+  },
+  "BO": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p3",
+    "past",
+    "pl"
+   ],
+   "l": "AANCHRER"
+  },
+  "BP": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p2",
+    "past",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "BQ": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p1",
+    "past",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "BR": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p3",
+    "past",
+    "sg"
+   ],
+   "l": "AANCHRER"
+  },
+  "BS": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "pl",
+    "pres"
+   ],
+   "l": "AANCHRER"
+  },
+  "BT": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p1",
+    "pl",
+    "pos"
+   ],
+   "l": "AANCHRER"
+  },
+  "BU": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "AANCHRER"
+  },
+  "BV": {
+   "p": "ADV",
+   "g": [],
+   "l": "ALORS"
+  },
+  "BW": {
+   "p": "CONJ",
+   "g": [],
+   "l": "CAR"
+  },
+  "BX": {
+   "p": "DET",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "CE"
+  },
+  "BY": {
+   "p": "DET",
+   "g": [
+    "pl"
+   ],
+   "l": "CES"
+  },
+  "BZ": {
+   "p": "DET",
+   "g": [
+    "fem",
+    "sg"
+   ],
+   "l": "CETTE"
+  },
+  "CA": {
+   "p": "PRON",
+   "g": [],
+   "l": "DONT"
+  },
+  "CB": {
+   "p": "PRON",
+   "g": [
+    "fem",
+    "sg"
+   ],
+   "l": "ELLE"
+  },
+  "CC": {
+   "p": "PRON",
+   "g": [
+    "fem",
+    "pl"
+   ],
+   "l": "ELLES"
+  },
+  "CD": {
+   "p": "PRON",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "IL"
+  },
+  "CE": {
+   "p": "PRON",
+   "g": [
+    "masc",
+    "pl"
+   ],
+   "l": "ILS"
+  },
+  "CF": {
+   "p": "PRON",
+   "g": [
+    "sg"
+   ],
+   "l": "JE"
+  },
+  "CG": {
+   "p": "PRON",
+   "g": [
+    "pl"
+   ],
+   "l": "LES"
+  },
+  "CH": {
+   "p": "DET",
+   "g": [
+    "sg"
+   ],
+   "l": "NOTRE"
+  }
+ },
+ "plug_noun_gram_code": "AA"
+}
