@@ -8,6 +8,7 @@
 #include "morph_dict/agramtab/GerGramTab.h"
 #include "morph_dict/agramtab/SpaGramTab.h"
 #include "morph_dict/agramtab/FreGramTab.h"
+#include "morph_dict/agramtab/PorGramTab.h"
 #include "morph_dict/agramtab/LatGramTab.h"
 #include "morph_dict/common/rapidjson.h"
 
@@ -77,6 +78,9 @@ void MorphoWizard::load_gramtab(bool useNationalConstants) {
         break;
     case morphFrench:
         pGramTab = new CFreGramTab;
+        break;
+    case morphPortuguese:
+        pGramTab = new CPorGramTab;
         break;
     case morphLatin:
         pGramTab = new CLatGramTab;

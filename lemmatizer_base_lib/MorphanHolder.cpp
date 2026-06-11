@@ -6,6 +6,7 @@
 #include "morph_dict/agramtab/EngGramTab.h"
 #include "morph_dict/agramtab/SpaGramTab.h"
 #include "morph_dict/agramtab/FreGramTab.h"
+#include "morph_dict/agramtab/PorGramTab.h"
 #include "morph_dict/agramtab/LatGramTab.h"
 #include "Paradigm.h"
 #include "Lemmatizers.h"
@@ -61,6 +62,9 @@ void CMorphanHolder::LoadOnlyGramtab(MorphLanguageEnum langua, std::string custo
     case morphFrench:
         m_pGramTab = new CFreGramTab;
         break;
+    case morphPortuguese:
+        m_pGramTab = new CPorGramTab;
+        break;
     case morphLatin:
         m_pGramTab = new CLatGramTab;
         break;
@@ -96,6 +100,9 @@ void CMorphanHolder::LoadOnlyLemmatizer(MorphLanguageEnum langua, std::string cu
         break;
     case morphFrench:
         m_pLemmatizer = new CLemmatizerFrench;
+        break;
+    case morphPortuguese:
+        m_pLemmatizer = new CLemmatizerPortuguese;
         break;
     case morphLatin:
         m_pLemmatizer = new CLemmatizerLatin;
@@ -584,6 +591,7 @@ CMorphanHolder  GerHolder;
 CMorphanHolder  UkrHolder;
 CMorphanHolder  SpaHolder;
 CMorphanHolder  FreHolder;
+CMorphanHolder  PorHolder;
 CMorphanHolder  LatHolder;
 
 static CMorphanHolder& GetHolder(MorphLanguageEnum l) {
@@ -594,6 +602,7 @@ static CMorphanHolder& GetHolder(MorphLanguageEnum l) {
         case morphUkrainian: return UkrHolder;
         case morphSpanish: return SpaHolder;
         case morphFrench: return FreHolder;
+        case morphPortuguese: return PorHolder;
         case morphLatin: return LatHolder;
         default: throw CExpc("unknown morph holder language");
     }

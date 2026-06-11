@@ -117,6 +117,12 @@ public:
                                   std::vector<CFormInfo> &Result) const override;
 };
 
+class CLemmatizerPortuguese : public CLemmatizer {
+public:
+    CLemmatizerPortuguese();
+    virtual ~CLemmatizerPortuguese() {};
+};
+
 class CLemmatizerLatin : public CLemmatizer {
 public:
     CLemmatizerLatin();

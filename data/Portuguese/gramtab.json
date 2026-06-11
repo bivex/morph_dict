@@ -1,0 +1,811 @@
+{
+ "gramcodes": {
+  "AA": {
+   "p": "PRON",
+   "g": [
+    "fem",
+    "sg"
+   ],
+   "l": "A"
+  },
+  "AB": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AC": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pres",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AD": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p2",
+    "pos",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AE": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AF": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p1",
+    "past",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AG": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p3",
+    "past",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AH": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p2",
+    "past",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AI": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p1",
+    "past",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AJ": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p3",
+    "past",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AK": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p2",
+    "past",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AL": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "pl",
+    "pres"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AM": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "past",
+    "pfv",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AN": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "past",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AO": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "past",
+    "pfv",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AP": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "past",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AQ": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p3",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AR": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p2",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AS": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "past",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AT": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "past",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AU": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p3",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AV": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "past",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AW": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AX": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "p2",
+    "pl",
+    "sbjv"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AY": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p2",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "AZ": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "past",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BA": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p1",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BB": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p1",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BC": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BD": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "p3",
+    "pl",
+    "sbjv"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BE": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BF": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "p2",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BG": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p1",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BH": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p3",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BI": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p2",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BJ": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p1",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BK": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p3",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BL": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p2",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BM": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BN": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "p1",
+    "pl",
+    "sbjv"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BO": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BP": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "p1",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BQ": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BR": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "p3",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BS": {
+   "p": "VERB",
+   "g": [],
+   "l": "AB-REAGIR"
+  },
+  "BT": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p2",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BU": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p1",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BV": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p3",
+    "past",
+    "pl",
+    "sbjv"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BW": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p2",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BX": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p1",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BY": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "p3",
+    "past",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "BZ": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "past",
+    "pfv",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CA": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CB": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pl",
+    "pres"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CC": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CD": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "past",
+    "pfv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CE": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p2",
+    "pl",
+    "pos"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CF": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p2",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CG": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CH": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p1",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CI": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p1",
+    "pl",
+    "pos"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CJ": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CK": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p3",
+    "pl"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CL": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p3",
+    "pl",
+    "pos"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CM": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "pl",
+    "pres",
+    "sbjv"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CN": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p2",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CO": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CP": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CQ": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p3",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CR": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p3",
+    "pos",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CS": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CT": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "pres",
+    "sg"
+   ],
+   "l": "AB-REAGIR"
+  },
+  "CU": {
+   "p": "ADV",
+   "g": [],
+   "l": "AGORA"
+  },
+  "CV": {
+   "p": "PREP",
+   "g": [],
+   "l": "ANTE"
+  },
+  "CW": {
+   "p": "DET",
+   "g": [
+    "fem",
+    "pl"
+   ],
+   "l": "AQUELAS"
+  },
+  "CX": {
+   "p": "PRON",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "AQUELE"
+  },
+  "CY": {
+   "p": "DET",
+   "g": [
+    "masc",
+    "pl"
+   ],
+   "l": "AQUELES"
+  },
+  "CZ": {
+   "p": "PRON",
+   "g": [
+    "neut",
+    "sg"
+   ],
+   "l": "AQUILO"
+  },
+  "DA": {
+   "p": "PRON",
+   "g": [
+    "fem",
+    "pl"
+   ],
+   "l": "AS"
+  },
+  "DB": {
+   "p": "CONJ",
+   "g": [],
+   "l": "CASO"
+  },
+  "DC": {
+   "p": "PRON",
+   "g": [
+    "masc",
+    "pl"
+   ],
+   "l": "ELES"
+  },
+  "DD": {
+   "p": "PRON",
+   "g": [
+    "sg"
+   ],
+   "l": "EU"
+  },
+  "DE": {
+   "p": "PRON",
+   "g": [
+    "pl"
+   ],
+   "l": "LHES"
+  },
+  "DF": {
+   "p": "PRON",
+   "g": [],
+   "l": "ME"
+  },
+  "DG": {
+   "p": "DET",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "MEU"
+  },
+  "DH": {
+   "p": "DET",
+   "g": [
+    "fem",
+    "sg"
+   ],
+   "l": "MINHA"
+  }
+ },
+ "plug_noun_gram_code": "AA"
+}
