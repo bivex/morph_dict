@@ -1,0 +1,1087 @@
+{
+ "gramcodes": {
+  "AA": {
+   "p": "ADJ",
+   "g": [
+    "nom",
+    "sg"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AB": {
+   "p": "ADJ",
+   "g": [
+    "nom",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AC": {
+   "p": "ADJ",
+   "g": [
+    "gen",
+    "sg"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AD": {
+   "p": "ADJ",
+   "g": [
+    "gen",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AE": {
+   "p": "ADJ",
+   "g": [
+    "par",
+    "sg"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AF": {
+   "p": "ADJ",
+   "g": [
+    "par",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AG": {
+   "p": "ADJ",
+   "g": [
+    "ine",
+    "sg"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AH": {
+   "p": "ADJ",
+   "g": [
+    "ine",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AI": {
+   "p": "ADJ",
+   "g": [
+    "ela",
+    "sg"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AJ": {
+   "p": "ADJ",
+   "g": [
+    "ela",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AK": {
+   "p": "ADJ",
+   "g": [
+    "ill",
+    "sg"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AL": {
+   "p": "ADJ",
+   "g": [
+    "ill",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AM": {
+   "p": "ADJ",
+   "g": [
+    "ade",
+    "sg"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AN": {
+   "p": "ADJ",
+   "g": [
+    "ade",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AO": {
+   "p": "ADJ",
+   "g": [
+    "abl",
+    "sg"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AP": {
+   "p": "ADJ",
+   "g": [
+    "abl",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AQ": {
+   "p": "ADJ",
+   "g": [
+    "all",
+    "sg"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AR": {
+   "p": "ADJ",
+   "g": [
+    "all",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AS": {
+   "p": "ADJ",
+   "g": [
+    "sg",
+    "tra"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AT": {
+   "p": "ADJ",
+   "g": [
+    "pl",
+    "tra"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AU": {
+   "p": "ADJ",
+   "g": [
+    "ins",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AV": {
+   "p": "ADJ",
+   "g": [
+    "abs",
+    "sg"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AW": {
+   "p": "ADJ",
+   "g": [
+    "abs",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AX": {
+   "p": "ADJ",
+   "g": [
+    "com",
+    "pl"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AY": {
+   "p": "ADJ",
+   "g": [
+    "sg"
+   ],
+   "l": "-AANTOINEN"
+  },
+  "AZ": {
+   "p": "NOUN",
+   "g": [
+    "nom",
+    "sg"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BA": {
+   "p": "NOUN",
+   "g": [
+    "nom",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BB": {
+   "p": "NOUN",
+   "g": [
+    "gen",
+    "sg"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BC": {
+   "p": "NOUN",
+   "g": [
+    "gen",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BD": {
+   "p": "NOUN",
+   "g": [
+    "par",
+    "sg"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BE": {
+   "p": "NOUN",
+   "g": [
+    "par",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BF": {
+   "p": "NOUN",
+   "g": [
+    "ine",
+    "sg"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BG": {
+   "p": "NOUN",
+   "g": [
+    "ine",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BH": {
+   "p": "NOUN",
+   "g": [
+    "ela",
+    "sg"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BI": {
+   "p": "NOUN",
+   "g": [
+    "ela",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BJ": {
+   "p": "NOUN",
+   "g": [
+    "ill",
+    "sg"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BK": {
+   "p": "NOUN",
+   "g": [
+    "ill",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BL": {
+   "p": "NOUN",
+   "g": [
+    "ade",
+    "sg"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BM": {
+   "p": "NOUN",
+   "g": [
+    "ade",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BN": {
+   "p": "NOUN",
+   "g": [
+    "abl",
+    "sg"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BO": {
+   "p": "NOUN",
+   "g": [
+    "abl",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BP": {
+   "p": "NOUN",
+   "g": [
+    "all",
+    "sg"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BQ": {
+   "p": "NOUN",
+   "g": [
+    "all",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BR": {
+   "p": "NOUN",
+   "g": [
+    "sg",
+    "tra"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BS": {
+   "p": "NOUN",
+   "g": [
+    "pl",
+    "tra"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BT": {
+   "p": "NOUN",
+   "g": [
+    "ins",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BU": {
+   "p": "NOUN",
+   "g": [
+    "abs",
+    "sg"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BV": {
+   "p": "NOUN",
+   "g": [
+    "abs",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BW": {
+   "p": "NOUN",
+   "g": [
+    "com",
+    "pl"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BX": {
+   "p": "NOUN",
+   "g": [
+    "sg"
+   ],
+   "l": "-AVIOISUUS"
+  },
+  "BY": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p1",
+    "pos",
+    "pres",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "BZ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p2",
+    "pos",
+    "pres",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CA": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p3",
+    "pos",
+    "pres",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CB": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p1",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CC": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p2",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CD": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p3",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CE": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "pass",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CF": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p1",
+    "past",
+    "pos",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CG": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p2",
+    "past",
+    "pos",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CH": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p3",
+    "past",
+    "pos",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CI": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p1",
+    "past",
+    "pl",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CJ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p2",
+    "past",
+    "pl",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CK": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "p3",
+    "past",
+    "pl",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CL": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "pass",
+    "past",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CM": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "cond",
+    "p1",
+    "pos",
+    "pres",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CN": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "cond",
+    "p2",
+    "pos",
+    "pres",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CO": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "cond",
+    "p3",
+    "pos",
+    "pres",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CP": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "cond",
+    "p1",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CQ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "cond",
+    "p2",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CR": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "cond",
+    "p3",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CS": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "pass",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CT": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "imp",
+    "p2",
+    "pos",
+    "pres",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CU": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "imp",
+    "p3",
+    "pos",
+    "pres",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CV": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "imp",
+    "p1",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CW": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "imp",
+    "p2",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CX": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "imp",
+    "p3",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CY": {
+   "p": "VERB",
+   "g": [
+    "imp",
+    "pass",
+    "pos",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "CZ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p1",
+    "pos",
+    "pot",
+    "pres",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DA": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p2",
+    "pos",
+    "pot",
+    "pres",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DB": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p3",
+    "pos",
+    "pot",
+    "pres",
+    "sg"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DC": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p1",
+    "pl",
+    "pos",
+    "pot",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DD": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p2",
+    "pl",
+    "pos",
+    "pot",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DE": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "p3",
+    "pl",
+    "pos",
+    "pot",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DF": {
+   "p": "VERB",
+   "g": [
+    "pass",
+    "pos",
+    "pot",
+    "pres"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DG": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "inf",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DH": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "inf",
+    "p1",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DI": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "p1",
+    "pass",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DJ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ine",
+    "inf",
+    "p2",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DK": {
+   "p": "VERB",
+   "g": [
+    "ine",
+    "inf",
+    "p2",
+    "pass",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DL": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "inf",
+    "ins",
+    "p2",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DM": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ine",
+    "inf",
+    "p3",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DN": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ela",
+    "inf",
+    "p3",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DO": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ill",
+    "inf",
+    "p3",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DP": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ade",
+    "inf",
+    "p3",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DQ": {
+   "p": "VERB",
+   "g": [
+    "abs",
+    "act",
+    "inf",
+    "p3",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DR": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "inf",
+    "ins",
+    "p3",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DS": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "ins",
+    "p3",
+    "pass",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DT": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "inf",
+    "nom",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DU": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "nom",
+    "pass",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DV": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "inf",
+    "par",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DW": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "par",
+    "pass",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DX": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "pass",
+    "pos"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DY": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "pos",
+    "pres",
+    "ptcp"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "DZ": {
+   "p": "VERB",
+   "g": [
+    "pass",
+    "pos",
+    "pres",
+    "ptcp"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "EA": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "past",
+    "pos",
+    "ptcp"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "EB": {
+   "p": "VERB",
+   "g": [
+    "pass",
+    "past",
+    "pos",
+    "ptcp"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "EC": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "pos",
+    "ptcp"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "ED": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "neg",
+    "ptcp"
+   ],
+   "l": "-KERTAISTAA"
+  },
+  "EE": {
+   "p": "ADV",
+   "g": [],
+   "l": "AINA"
+  },
+  "EF": {
+   "p": "ADP",
+   "g": [],
+   "l": "ALLA"
+  },
+  "EG": {
+   "p": "PART",
+   "g": [],
+   "l": "EI"
+  },
+  "EH": {
+   "p": "CONJ",
+   "g": [],
+   "l": "ETA"
+  },
+  "EI": {
+   "p": "PRON",
+   "g": [
+    "sg"
+   ],
+   "l": "HAN"
+  },
+  "EJ": {
+   "p": "NOUN",
+   "g": [
+    "ins",
+    "sg"
+   ],
+   "l": "JALKAN"
+  },
+  "EK": {
+   "p": "NUM",
+   "g": [],
+   "l": "KAKSI"
+  }
+ },
+ "plug_noun_gram_code": "AZ"
+}

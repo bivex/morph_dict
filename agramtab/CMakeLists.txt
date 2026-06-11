@@ -17,6 +17,8 @@ add_library(AgramtabLib
         FreGramTab.h
         PorGramTab.cpp
         PorGramTab.h
+        FinGramTab.cpp
+        FinGramTab.h
         LatGramTab.cpp
         LatGramTab.h
 

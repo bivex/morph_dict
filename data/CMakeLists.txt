@@ -87,10 +87,11 @@ CreateAllMorphBinFiles(Ukrainian)
 CreateAllMorphBinFiles(Spanish)
 CreateAllMorphBinFiles(French)
 CreateAllMorphBinFiles(Portuguese)
+CreateAllMorphBinFiles(Finnish)
 CreateAllMorphBinFiles(Latin)
 
 add_custom_target(
     MorphDicts
-    DEPENDS  Russian_Morph German_Morph English_Morph Ukrainian_Morph Spanish_Morph French_Morph Portuguese_Morph Latin_Morph
+    DEPENDS  Russian_Morph German_Morph English_Morph Ukrainian_Morph Spanish_Morph French_Morph Portuguese_Morph Finnish_Morph Latin_Morph
 )
 

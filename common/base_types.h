@@ -19,6 +19,7 @@ typedef enum {
 	morphSpanish = 9,
 	morphFrench = 10,
 	morphPortuguese = 11,
+	morphFinnish = 12,
 } MorphLanguageEnum;
 
 typedef enum { DontKillHomonyms = 0, CoverageKillHomonyms = 1 } KillHomonymsEnum;

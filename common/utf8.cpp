@@ -8307,6 +8307,28 @@ std::string& StripPortugueseAccents(std::string& s_utf8) {
 	return s_utf8;
 }
 
+std::string& StripFinnishAccents(std::string& s_utf8) {
+	std::u32string s32 = conv_utf8_utf32.from_bytes(s_utf8);
+	std::u32string res;
+	res.reserve(s32.length());
+	for (uint32_t c : s32) {
+		switch (c) {
+			case U'Ä': case U'Å':
+				res.push_back(U'A'); break;
+			case U'Ö':
+				res.push_back(U'O'); break;
+			case U'ä': case U'å':
+				res.push_back(U'A'); break;
+			case U'ö':
+				res.push_back(U'O'); break;
+			default:
+				res.push_back(c); break;
+		}
+	}
+	s_utf8 = conv_utf8_utf32.to_bytes(res);
+	return s_utf8;
+}
+
 std::string& MakeLowerUtf8(std::string& s_utf8) {
 	std::u32string s32 = conv_utf8_utf32.from_bytes(s_utf8);
 	std::transform(s32.cbegin(), s32.cend(),
@@ -8660,6 +8682,7 @@ bool CheckLanguage(const std::string& s, MorphLanguageEnum langua) {
 		case morphSpanish: return CheckSpanishUtf8(s);
 		case morphFrench: return CheckFrenchUtf8(s);
 		case morphPortuguese: return CheckPortugueseUtf8(s);
+		case morphFinnish: return CheckEnglishUtf8(s);
 		default: 
 			assert(false);
 					return true;
