@@ -709,16 +709,32 @@
    "l": "AB-REAGIR"
   },
   "CU": {
+   "p": "NOUN",
+   "g": [
+    "fem",
+    "sg"
+   ],
+   "l": "ADMINISTRACAO"
+  },
+  "CV": {
+   "p": "NOUN",
+   "g": [
+    "fem",
+    "pl"
+   ],
+   "l": "ADMINISTRACOES"
+  },
+  "CW": {
    "p": "ADV",
    "g": [],
    "l": "AGORA"
   },
-  "CV": {
+  "CX": {
    "p": "PREP",
    "g": [],
    "l": "ANTE"
   },
-  "CW": {
+  "CY": {
    "p": "DET",
    "g": [
     "fem",
@@ -726,7 +742,7 @@
    ],
    "l": "AQUELAS"
   },
-  "CX": {
+  "CZ": {
    "p": "PRON",
    "g": [
     "masc",
@@ -734,7 +750,7 @@
    ],
    "l": "AQUELE"
   },
-  "CY": {
+  "DA": {
    "p": "DET",
    "g": [
     "masc",
@@ -742,7 +758,7 @@
    ],
    "l": "AQUELES"
   },
-  "CZ": {
+  "DB": {
    "p": "PRON",
    "g": [
     "neut",
@@ -750,7 +766,7 @@
    ],
    "l": "AQUILO"
   },
-  "DA": {
+  "DC": {
    "p": "PRON",
    "g": [
     "fem",
@@ -758,12 +774,28 @@
    ],
    "l": "AS"
   },
-  "DB": {
+  "DD": {
    "p": "CONJ",
    "g": [],
    "l": "CASO"
   },
-  "DC": {
+  "DE": {
+   "p": "NOUN",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "CONTRATO"
+  },
+  "DF": {
+   "p": "NOUN",
+   "g": [
+    "masc",
+    "pl"
+   ],
+   "l": "CONTRATOS"
+  },
+  "DG": {
    "p": "PRON",
    "g": [
     "masc",
@@ -771,26 +803,40 @@
    ],
    "l": "ELES"
   },
-  "DD": {
+  "DH": {
    "p": "PRON",
    "g": [
     "sg"
    ],
    "l": "EU"
   },
-  "DE": {
+  "DI": {
    "p": "PRON",
    "g": [
     "pl"
    ],
    "l": "LHES"
   },
-  "DF": {
+  "DJ": {
+   "p": "ADJ",
+   "g": [
+    "pl"
+   ],
+   "l": "LOCAIS"
+  },
+  "DK": {
+   "p": "ADJ",
+   "g": [
+    "sg"
+   ],
+   "l": "LOCAL"
+  },
+  "DL": {
    "p": "PRON",
    "g": [],
    "l": "ME"
   },
-  "DG": {
+  "DM": {
    "p": "DET",
    "g": [
     "masc",
@@ -798,14 +844,46 @@
    ],
    "l": "MEU"
   },
-  "DH": {
+  "DN": {
    "p": "DET",
    "g": [
     "fem",
     "sg"
    ],
    "l": "MINHA"
+  },
+  "DO": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "sg"
+   ],
+   "l": "PUBLICA"
+  },
+  "DP": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "pl"
+   ],
+   "l": "PUBLICAS"
+  },
+  "DQ": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "PUBLICO"
+  },
+  "DR": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "pl"
+   ],
+   "l": "PUBLICOS"
   }
  },
- "plug_noun_gram_code": "AA"
+ "plug_noun_gram_code": "DE"
 }
