@@ -36,6 +36,8 @@ extern  bool is_ukrainian_upper(BYTE x);
 extern  bool is_ukrainian_lower(BYTE x);
 extern  bool is_spanish_upper(BYTE x);
 extern  bool is_spanish_lower(BYTE x);
+extern  bool is_portuguese_upper(BYTE x);
+extern  bool is_portuguese_lower(BYTE x);
 
 extern  bool is_upper_consonant(BYTE x, MorphLanguageEnum Langua);
 extern  bool is_upper_vowel(BYTE x, MorphLanguageEnum Langua);
