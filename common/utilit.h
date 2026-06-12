@@ -144,6 +144,7 @@ extern std::string& MakeUpperUtf8(std::string& s_utf8);
 extern std::string& StripFrenchAccents(std::string& s_utf8);
 extern std::string& StripPortugueseAccents(std::string& s_utf8);
 extern std::string& StripFinnishAccents(std::string& s_utf8);
+extern std::string& StripHungarianAccents(std::string& s_utf8);
 extern std::string& MakeLowerUtf8(std::string& s_utf8);
 extern std::string& MakeTitleUtf8(std::string& s_utf8);
 extern size_t CountLettersInUtf8(const std::string& s_utf8);

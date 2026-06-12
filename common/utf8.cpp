@@ -8329,6 +8329,30 @@ std::string& StripFinnishAccents(std::string& s_utf8) {
 	return s_utf8;
 }
 
+
+std::string& StripHungarianAccents(std::string& s_utf8) {
+    std::u32string s32 = conv_utf8_utf32.from_bytes(s_utf8);
+    std::u32string res;
+    res.reserve(s32.length());
+    for (uint32_t c : s32) {
+        switch (c) {
+            case U'Á': res.push_back(U'A'); break;
+            case U'É': res.push_back(U'E'); break;
+            case U'Í': res.push_back(U'I'); break;
+            case U'Ó': res.push_back(U'O'); break;
+            case U'Ú': res.push_back(U'U'); break;
+            case U'Ö': res.push_back(U'O'); break;
+            case U'Ő': res.push_back(U'O'); break;
+            case U'Ü': res.push_back(U'U'); break;
+            case U'Ű': res.push_back(U'U'); break;
+            default:
+                res.push_back(c); break;
+        }
+    }
+    s_utf8 = conv_utf8_utf32.to_bytes(res);
+    return s_utf8;
+}
+
 std::string& MakeLowerUtf8(std::string& s_utf8) {
 	std::u32string s32 = conv_utf8_utf32.from_bytes(s_utf8);
 	std::transform(s32.cbegin(), s32.cend(),
