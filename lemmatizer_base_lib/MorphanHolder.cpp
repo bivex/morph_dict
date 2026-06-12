@@ -10,6 +10,7 @@
 #include "morph_dict/agramtab/FinGramTab.h"
 #include "morph_dict/agramtab/LatGramTab.h"
 #include "morph_dict/agramtab/ItaGramTab.h"
+#include "morph_dict/agramtab/HunGramTab.h"
 #include "Paradigm.h"
 #include "Lemmatizers.h"
 #include "morph_dict/common/rapidjson.h"
@@ -76,6 +77,9 @@ void CMorphanHolder::LoadOnlyGramtab(MorphLanguageEnum langua, std::string custo
     case morphItalian:
         m_pGramTab = new CItaGramTab;
         break;
+    case morphHungarian:
+        m_pGramTab = new CHunGramTab;
+        break;
     default:
         throw CExpc("unsupported language");
     }
@@ -120,6 +124,9 @@ void CMorphanHolder::LoadOnlyLemmatizer(MorphLanguageEnum langua, std::string cu
         break;
     case morphItalian:
         m_pLemmatizer = new CLemmatizerItalian;
+        break;
+    case morphHungarian:
+        m_pLemmatizer = new CLemmatizerHungarian;
         break;
     case morphUkrainian:
         m_pLemmatizer = new CLemmatizerUkrainian;
@@ -609,6 +616,7 @@ CMorphanHolder  PorHolder;
 CMorphanHolder  FinHolder;
 CMorphanHolder  LatHolder;
 CMorphanHolder  ItaHolder;
+CMorphanHolder  HunHolder;
 
 static CMorphanHolder& GetHolder(MorphLanguageEnum l) {
     switch (l) {
@@ -622,6 +630,7 @@ static CMorphanHolder& GetHolder(MorphLanguageEnum l) {
         case morphFinnish: return FinHolder;
         case morphLatin: return LatHolder;
         case morphItalian: return ItaHolder;
+        case morphHungarian: return HunHolder;
         default: throw CExpc("unknown morph holder language");
     }
 }

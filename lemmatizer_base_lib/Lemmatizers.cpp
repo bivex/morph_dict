@@ -538,6 +538,10 @@ CLemmatizerItalian::CLemmatizerItalian() : CLemmatizer(morphItalian)
 {
 };
 
+CLemmatizerHungarian::CLemmatizerHungarian() : CLemmatizer(morphHungarian)
+{
+};
+
 CLemmatizerLatin::CLemmatizerLatin() : CLemmatizer(morphLatin)
 {
 };

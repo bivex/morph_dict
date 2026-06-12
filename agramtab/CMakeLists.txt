@@ -23,6 +23,8 @@ add_library(AgramtabLib
         LatGramTab.h
         ItaGramTab.cpp
         ItaGramTab.h
+        HunGramTab.cpp
+        HunGramTab.h
 
         GramInfo.h
  )
