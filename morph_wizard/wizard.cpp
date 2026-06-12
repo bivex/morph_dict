@@ -11,6 +11,7 @@
 #include "morph_dict/agramtab/PorGramTab.h"
 #include "morph_dict/agramtab/FinGramTab.h"
 #include "morph_dict/agramtab/LatGramTab.h"
+#include "morph_dict/agramtab/ItaGramTab.h"
 #include "morph_dict/common/rapidjson.h"
 
 #include <fstream>
@@ -88,6 +89,9 @@ void MorphoWizard::load_gramtab(bool useNationalConstants) {
         break;
     case morphLatin:
         pGramTab = new CLatGramTab;
+        break;
+    case morphItalian:
+        pGramTab = new CItaGramTab;
         break;
     default:
         throw CExpc("Unknown language to load gramtab: " + GetStringByLanguage(m_Language));

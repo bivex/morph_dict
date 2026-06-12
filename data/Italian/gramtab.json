@@ -1,0 +1,666 @@
+{
+ "gramcodes": {
+  "AA": {
+   "p": "PREP",
+   "g": [],
+   "l": "A"
+  },
+  "AB": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "past",
+    "pfv",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AC": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "past",
+    "pfv",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AD": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AE": {
+   "p": "VERB",
+   "g": [
+    "inf",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AF": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "past",
+    "pfv",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AG": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "past",
+    "pl",
+    "pos",
+    "sbjv"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AH": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "past",
+    "pos",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AI": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "past",
+    "pl",
+    "pos",
+    "sbjv"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AJ": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "past",
+    "pos",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AK": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "past",
+    "pos",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AL": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "past",
+    "pfv",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AM": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "past",
+    "pl",
+    "pos",
+    "sbjv"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AN": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "past",
+    "pfv",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AO": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AP": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p2",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AQ": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p1",
+    "past",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AR": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p3",
+    "past",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AS": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p2",
+    "past",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AT": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p3",
+    "past",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AU": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pos",
+    "pres",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AV": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p2",
+    "past",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AW": {
+   "p": "VERB",
+   "g": [
+    "impf",
+    "ind",
+    "p1",
+    "past",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AX": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p2",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AY": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p2",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "AZ": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p3",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BA": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p3",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BB": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p3",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BC": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p3",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BD": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p1",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BE": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p1",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BF": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p1",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BG": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p2",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BH": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p2",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BI": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p2",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BJ": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p1",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BK": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "pl",
+    "pos",
+    "pres"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BL": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p1",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BM": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "pl",
+    "pos",
+    "pres",
+    "sbjv"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BN": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "pl",
+    "pos",
+    "pres",
+    "sbjv"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BO": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p3",
+    "pl",
+    "pos"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BP": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "pl",
+    "pos",
+    "pres",
+    "sbjv"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BQ": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pos",
+    "pres",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BR": {
+   "p": "VERB",
+   "g": [
+    "impv",
+    "p3",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BS": {
+   "p": "VERB",
+   "g": [
+    "p1",
+    "pos",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BT": {
+   "p": "VERB",
+   "g": [
+    "p2",
+    "pos",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BU": {
+   "p": "VERB",
+   "g": [
+    "p3",
+    "pos",
+    "pres",
+    "sbjv",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BV": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "pos",
+    "pres",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BW": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "past",
+    "pfv",
+    "pos",
+    "sg"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BX": {
+   "p": "VERB",
+   "g": [
+    "ger",
+    "pos",
+    "pres"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BY": {
+   "p": "VERB",
+   "g": [
+    "pos",
+    "pres",
+    "ptcp"
+   ],
+   "l": "ABALIENARE"
+  },
+  "BZ": {
+   "p": "VERB",
+   "g": [
+    "past",
+    "pos",
+    "ptcp"
+   ],
+   "l": "ABALIENARE"
+  },
+  "CA": {
+   "p": "NOUN",
+   "g": [
+    "fem",
+    "sg"
+   ],
+   "l": "ACQUA"
+  },
+  "CB": {
+   "p": "NOUN",
+   "g": [
+    "fem",
+    "pl"
+   ],
+   "l": "ACQUE"
+  },
+  "CC": {
+   "p": "ADV",
+   "g": [],
+   "l": "ALLORA"
+  },
+  "CD": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "ALTO"
+  },
+  "CE": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "sg"
+   ],
+   "l": "ALTO"
+  },
+  "CF": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "pl"
+   ],
+   "l": "ALTO"
+  },
+  "CG": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "pl"
+   ],
+   "l": "ALTO"
+  },
+  "CH": {
+   "p": "NOUN",
+   "g": [
+    "masc",
+    "pl"
+   ],
+   "l": "AMICI"
+  },
+  "CI": {
+   "p": "NOUN",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "AMICO"
+  },
+  "CJ": {
+   "p": "CONJ",
+   "g": [],
+   "l": "ANCHE"
+  },
+  "CK": {
+   "p": "PRON",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "CHE"
+  },
+  "CL": {
+   "p": "DET",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "GLI"
+  },
+  "CM": {
+   "p": "PART",
+   "g": [],
+   "l": "NON"
+  },
+  "CN": {
+   "p": "NUM",
+   "g": [
+    "masc",
+    "sg"
+   ],
+   "l": "UNO"
+  }
+ },
+ "plug_noun_gram_code": "CI"
+}

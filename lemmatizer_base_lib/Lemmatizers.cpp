@@ -534,6 +534,10 @@ bool CLemmatizerFrench::CreateParadigmCollection(bool bNorm, std::string& word_s
     return res;
 }
 
+CLemmatizerItalian::CLemmatizerItalian() : CLemmatizer(morphItalian)
+{
+};
+
 CLemmatizerLatin::CLemmatizerLatin() : CLemmatizer(morphLatin)
 {
 };

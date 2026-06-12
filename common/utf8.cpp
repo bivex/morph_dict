@@ -8683,7 +8683,8 @@ bool CheckLanguage(const std::string& s, MorphLanguageEnum langua) {
 		case morphFrench: return CheckFrenchUtf8(s);
 		case morphPortuguese: return CheckPortugueseUtf8(s);
 		case morphFinnish: return CheckEnglishUtf8(s);
-		default: 
+		case morphItalian: return CheckEnglishUtf8(s);
+		default:
 			assert(false);
 					return true;
 	};

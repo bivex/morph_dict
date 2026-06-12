@@ -129,6 +129,12 @@ public:
     virtual ~CLemmatizerFinnish() {};
 };
 
+class CLemmatizerItalian : public CLemmatizer {
+public:
+    CLemmatizerItalian();
+    virtual ~CLemmatizerItalian() {};
+};
+
 class CLemmatizerLatin : public CLemmatizer {
 public:
     CLemmatizerLatin();
