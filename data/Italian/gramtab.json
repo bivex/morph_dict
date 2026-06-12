@@ -575,31 +575,31 @@
    "l": "ACQUE"
   },
   "CC": {
-   "p": "ADV",
-   "g": [],
-   "l": "ALLORA"
-  },
-  "CD": {
-   "p": "ADJ",
+   "p": "NOUN",
    "g": [
     "masc",
     "sg"
    ],
-   "l": "ALTO"
+   "l": "ADEMPIENTO"
   },
-  "CE": {
-   "p": "ADJ",
+  "CD": {
+   "p": "DET",
    "g": [
-    "fem",
+    "masc",
     "sg"
    ],
-   "l": "ALTO"
+   "l": "AI"
+  },
+  "CE": {
+   "p": "ADV",
+   "g": [],
+   "l": "ALLORA"
   },
   "CF": {
    "p": "ADJ",
    "g": [
     "masc",
-    "pl"
+    "sg"
    ],
    "l": "ALTO"
   },
@@ -607,11 +607,27 @@
    "p": "ADJ",
    "g": [
     "fem",
-    "pl"
+    "sg"
    ],
    "l": "ALTO"
   },
   "CH": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "pl"
+   ],
+   "l": "ALTO"
+  },
+  "CI": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "pl"
+   ],
+   "l": "ALTO"
+  },
+  "CJ": {
    "p": "NOUN",
    "g": [
     "masc",
@@ -619,34 +635,18 @@
    ],
    "l": "AMICI"
   },
-  "CI": {
-   "p": "NOUN",
-   "g": [
-    "masc",
-    "sg"
-   ],
-   "l": "AMICO"
-  },
-  "CJ": {
+  "CK": {
    "p": "CONJ",
    "g": [],
    "l": "ANCHE"
   },
-  "CK": {
+  "CL": {
    "p": "PRON",
    "g": [
     "masc",
     "sg"
    ],
    "l": "CHE"
-  },
-  "CL": {
-   "p": "DET",
-   "g": [
-    "masc",
-    "sg"
-   ],
-   "l": "GLI"
   },
   "CM": {
    "p": "PART",
@@ -662,5 +662,5 @@
    "l": "UNO"
   }
  },
- "plug_noun_gram_code": "CI"
+ "plug_noun_gram_code": "CC"
 }
