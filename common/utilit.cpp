@@ -356,6 +356,10 @@ bool GetLanguageByString (std::string s, MorphLanguageEnum& Result)
 			Result = morphHungarian;
 			return true;
 		}
+		else if(s == "POLISH"){
+			Result = morphPolish;
+			return true;
+		}
 		else
 			return false;
 	
@@ -377,6 +381,7 @@ std::string GetStringByLanguage (MorphLanguageEnum Langua)
 		case morphFinnish: return "Finnish";
 		case morphItalian: return "Italian";
 		case morphHungarian: return "Hungarian";
+		case morphPolish: return "Polish";
 		default :return "unk";
 	}
 };

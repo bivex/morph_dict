@@ -1,0 +1,940 @@
+{
+ "gramcodes": {
+  "AA": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "nom",
+    "pl",
+    "vir"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AB": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "fem",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AC": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "ins",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AD": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "nom",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AE": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "masc",
+    "nanim",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AF": {
+   "p": "ADJ",
+   "g": [
+    "masc",
+    "nom",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AG": {
+   "p": "ADJ",
+   "g": [
+    "loc",
+    "pl"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AH": {
+   "p": "ADJ",
+   "g": [
+    "gen",
+    "pl"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AI": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "masc",
+    "pl",
+    "vir"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AJ": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "pl"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AK": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "neut",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AL": {
+   "p": "ADJ",
+   "g": [
+    "neut",
+    "nom",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AM": {
+   "p": "ADJ",
+   "g": [
+    "nom",
+    "pl"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AN": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "anim",
+    "masc",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AO": {
+   "p": "ADJ",
+   "g": [
+    "gen",
+    "masc",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AP": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "masc",
+    "sg",
+    "vir"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AQ": {
+   "p": "ADJ",
+   "g": [
+    "gen",
+    "neut",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AR": {
+   "p": "ADJ",
+   "g": [
+    "dat",
+    "fem",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AS": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "loc",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AT": {
+   "p": "ADJ",
+   "g": [
+    "fem",
+    "gen",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AU": {
+   "p": "ADJ",
+   "g": [
+    "dat",
+    "masc",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AV": {
+   "p": "ADJ",
+   "g": [
+    "dat",
+    "neut",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AW": {
+   "p": "ADJ",
+   "g": [
+    "dat",
+    "pl"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AX": {
+   "p": "ADJ",
+   "g": [
+    "loc",
+    "masc",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AY": {
+   "p": "ADJ",
+   "g": [
+    "ins",
+    "masc",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "AZ": {
+   "p": "ADJ",
+   "g": [
+    "loc",
+    "neut",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "BA": {
+   "p": "ADJ",
+   "g": [
+    "ins",
+    "neut",
+    "sg"
+   ],
+   "l": "AALBORSKI"
+  },
+  "BB": {
+   "p": "ADJ",
+   "g": [
+    "ins",
+    "pl"
+   ],
+   "l": "AALBORSKI"
+  },
+  "BC": {
+   "p": "NOUN",
+   "g": [
+    "ins",
+    "sg"
+   ],
+   "l": "AALEN"
+  },
+  "BD": {
+   "p": "NOUN",
+   "g": [
+    "loc",
+    "sg"
+   ],
+   "l": "AALEN"
+  },
+  "BE": {
+   "p": "NOUN",
+   "g": [
+    "sg",
+    "voc"
+   ],
+   "l": "AALEN"
+  },
+  "BF": {
+   "p": "NOUN",
+   "g": [
+    "acc",
+    "sg"
+   ],
+   "l": "AALEN"
+  },
+  "BG": {
+   "p": "NOUN",
+   "g": [
+    "nom",
+    "sg"
+   ],
+   "l": "AALEN"
+  },
+  "BH": {
+   "p": "NOUN",
+   "g": [
+    "dat",
+    "sg"
+   ],
+   "l": "AALEN"
+  },
+  "BI": {
+   "p": "NOUN",
+   "g": [
+    "gen",
+    "sg"
+   ],
+   "l": "AALEN"
+  },
+  "BJ": {
+   "p": "NOUN",
+   "g": [
+    "loc",
+    "pl"
+   ],
+   "l": "ABAKA"
+  },
+  "BK": {
+   "p": "NOUN",
+   "g": [
+    "ins",
+    "pl"
+   ],
+   "l": "ABAKA"
+  },
+  "BL": {
+   "p": "NOUN",
+   "g": [
+    "acc",
+    "pl"
+   ],
+   "l": "ABAKA"
+  },
+  "BM": {
+   "p": "NOUN",
+   "g": [
+    "nom",
+    "pl"
+   ],
+   "l": "ABAKA"
+  },
+  "BN": {
+   "p": "NOUN",
+   "g": [
+    "pl",
+    "voc"
+   ],
+   "l": "ABAKA"
+  },
+  "BO": {
+   "p": "NOUN",
+   "g": [
+    "gen",
+    "pl"
+   ],
+   "l": "ABAKA"
+  },
+  "BP": {
+   "p": "NOUN",
+   "g": [
+    "dat",
+    "pl"
+   ],
+   "l": "ABAKA"
+  },
+  "BQ": {
+   "p": "VERB",
+   "g": [
+    "inf"
+   ],
+   "l": "ABONOWAC"
+  },
+  "BR": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "fem",
+    "p1",
+    "pres",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "BS": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "fem",
+    "p2",
+    "pres",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "BT": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "fem",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "BU": {
+   "p": "VERB",
+   "g": [
+    "fem",
+    "ind",
+    "p1",
+    "past",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "BV": {
+   "p": "VERB",
+   "g": [
+    "fem",
+    "ind",
+    "p2",
+    "past",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "BW": {
+   "p": "VERB",
+   "g": [
+    "fem",
+    "ind",
+    "p3",
+    "past",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "BX": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "masc",
+    "p1",
+    "pres",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "BY": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "masc",
+    "p2",
+    "pres",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "BZ": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "masc",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CA": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "masc",
+    "p1",
+    "past",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CB": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "masc",
+    "p2",
+    "past",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CC": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "masc",
+    "p2",
+    "pl",
+    "pres",
+    "vir"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CD": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "masc",
+    "p1",
+    "pl",
+    "pres",
+    "vir"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CE": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "masc",
+    "p3",
+    "pl",
+    "pres",
+    "vir"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CF": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "masc",
+    "p2",
+    "past",
+    "pl",
+    "vir"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CG": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "masc",
+    "p1",
+    "past",
+    "pl",
+    "vir"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CH": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "masc",
+    "p3",
+    "past",
+    "pl",
+    "vir"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CI": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "neut",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CJ": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "neut",
+    "p3",
+    "past",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CK": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "masc",
+    "p3",
+    "past",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CL": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p2",
+    "pl",
+    "pres"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CM": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p1",
+    "pl",
+    "pres"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CN": {
+   "p": "VERB",
+   "g": [
+    "cond",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CO": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "past",
+    "pl"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CP": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "past",
+    "pl"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CQ": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "past",
+    "pl"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CR": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CS": {
+   "p": "VERB",
+   "g": [
+    "imp",
+    "p2",
+    "pl",
+    "pres"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CT": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pl",
+    "pres"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CU": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "pl",
+    "pres"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CV": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p2",
+    "pres",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CW": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p1",
+    "pres",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CX": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CY": {
+   "p": "VERB",
+   "g": [
+    "imp",
+    "p1",
+    "pl",
+    "pres"
+   ],
+   "l": "ABONOWAC"
+  },
+  "CZ": {
+   "p": "VERB",
+   "g": [
+    "imp",
+    "p2",
+    "pres",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DA": {
+   "p": "VERB",
+   "g": [
+    "fem",
+    "pass",
+    "past",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DB": {
+   "p": "VERB",
+   "g": [
+    "pass",
+    "past",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DC": {
+   "p": "VERB",
+   "g": [
+    "neut",
+    "pass",
+    "past",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DD": {
+   "p": "VERB",
+   "g": [
+    "masc",
+    "pass",
+    "past",
+    "pl",
+    "ptcp",
+    "vir"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DE": {
+   "p": "VERB",
+   "g": [
+    "pass",
+    "past",
+    "ptcp"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DF": {
+   "p": "VERB",
+   "g": [
+    "masc",
+    "pass",
+    "past",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DG": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fem",
+    "past",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DH": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "past",
+    "pl",
+    "ptcp"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DI": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "neut",
+    "past",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DJ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "masc",
+    "past",
+    "pl",
+    "ptcp",
+    "vir"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DK": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "masc",
+    "past",
+    "ptcp",
+    "sg"
+   ],
+   "l": "ABONOWAC"
+  },
+  "DL": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p1",
+    "sg"
+   ],
+   "l": "BOHATYRNAC"
+  },
+  "DM": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p3",
+    "pl"
+   ],
+   "l": "BOHATYRNAC"
+  },
+  "DN": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p2",
+    "pl"
+   ],
+   "l": "BOHATYRNAC"
+  },
+  "DO": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p1",
+    "pl"
+   ],
+   "l": "BOHATYRNAC"
+  },
+  "DP": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p2",
+    "sg"
+   ],
+   "l": "BOHATYRNAC"
+  },
+  "DQ": {
+   "p": "VERB",
+   "g": [
+    "fut",
+    "ind",
+    "p3",
+    "sg"
+   ],
+   "l": "BOHATYRNAC"
+  },
+  "DR": {
+   "p": "VERB",
+   "g": [
+    "ind",
+    "p3",
+    "past",
+    "sg"
+   ],
+   "l": "BOHATYRNAC"
+  }
+ },
+ "plug_noun_gram_code": "BG"
+}

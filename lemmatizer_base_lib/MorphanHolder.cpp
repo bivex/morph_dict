@@ -80,6 +80,9 @@ void CMorphanHolder::LoadOnlyGramtab(MorphLanguageEnum langua, std::string custo
     case morphHungarian:
         m_pGramTab = new CHunGramTab;
         break;
+    case morphPolish:
+        m_pGramTab = new CPolGramTab;
+        break;
     default:
         throw CExpc("unsupported language");
     }
@@ -127,6 +130,9 @@ void CMorphanHolder::LoadOnlyLemmatizer(MorphLanguageEnum langua, std::string cu
         break;
     case morphHungarian:
         m_pLemmatizer = new CLemmatizerHungarian;
+        break;
+    case morphPolish:
+        m_pLemmatizer = new CLemmatizerPolish;
         break;
     case morphUkrainian:
         m_pLemmatizer = new CLemmatizerUkrainian;
@@ -617,6 +623,7 @@ CMorphanHolder  FinHolder;
 CMorphanHolder  LatHolder;
 CMorphanHolder  ItaHolder;
 CMorphanHolder  HunHolder;
+CMorphanHolder  PolHolder;
 
 static CMorphanHolder& GetHolder(MorphLanguageEnum l) {
     switch (l) {
@@ -631,6 +638,7 @@ static CMorphanHolder& GetHolder(MorphLanguageEnum l) {
         case morphLatin: return LatHolder;
         case morphItalian: return ItaHolder;
         case morphHungarian: return HunHolder;
+        case morphPolish: return PolHolder;
         default: throw CExpc("unknown morph holder language");
     }
 }

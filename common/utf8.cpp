@@ -8353,6 +8353,40 @@ std::string& StripHungarianAccents(std::string& s_utf8) {
     return s_utf8;
 }
 
+std::string& StripPolishAccents(std::string& s_utf8) {
+    std::u32string s32 = conv_utf8_utf32.from_bytes(s_utf8);
+    std::u32string res;
+    res.reserve(s32.length());
+    for (uint32_t c : s32) {
+        switch (c) {
+            // upper
+            case U'Ą': res.push_back(U'A'); break;
+            case U'Ć': res.push_back(U'C'); break;
+            case U'Ę': res.push_back(U'E'); break;
+            case U'Ł': res.push_back(U'L'); break;
+            case U'Ń': res.push_back(U'N'); break;
+            case U'Ó': res.push_back(U'O'); break;
+            case U'Ś': res.push_back(U'S'); break;
+            case U'Ź': res.push_back(U'Z'); break;
+            case U'Ż': res.push_back(U'Z'); break;
+            // lower
+            case U'ą': res.push_back(U'a'); break;
+            case U'ć': res.push_back(U'c'); break;
+            case U'ę': res.push_back(U'e'); break;
+            case U'ł': res.push_back(U'l'); break;
+            case U'ń': res.push_back(U'n'); break;
+            case U'ó': res.push_back(U'o'); break;
+            case U'ś': res.push_back(U's'); break;
+            case U'ź': res.push_back(U'z'); break;
+            case U'ż': res.push_back(U'z'); break;
+            default:
+                res.push_back(c); break;
+        }
+    }
+    s_utf8 = conv_utf8_utf32.to_bytes(res);
+    return s_utf8;
+}
+
 std::string& MakeLowerUtf8(std::string& s_utf8) {
 	std::u32string s32 = conv_utf8_utf32.from_bytes(s_utf8);
 	std::transform(s32.cbegin(), s32.cend(),
@@ -8709,6 +8743,7 @@ bool CheckLanguage(const std::string& s, MorphLanguageEnum langua) {
 		case morphFinnish: return CheckEnglishUtf8(s);
 		case morphItalian: return CheckEnglishUtf8(s);
 		case morphHungarian: return CheckEnglishUtf8(s);
+		case morphPolish: return CheckEnglishUtf8(s);
 		default:
 			assert(false);
 					return true;
