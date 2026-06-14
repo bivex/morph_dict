@@ -934,6 +934,445 @@
     "sg"
    ],
    "l": "BOHATYRNAC"
+  },
+  "DS": {
+   "p": "ADJ",
+   "g": [
+    "acc",
+    "masc",
+    "sg"
+   ],
+   "l": "CALY"
+  },
+  "DT": {
+   "p": "ADJ",
+   "g": [
+    "gen",
+    "masc",
+    "pl",
+    "vir"
+   ],
+   "l": "CALY"
+  },
+  "DU": {
+   "p": "ADJ",
+   "g": [
+    "dat",
+    "masc",
+    "pl",
+    "vir"
+   ],
+   "l": "CALY"
+  },
+  "DV": {
+   "p": "ADJ",
+   "g": [
+    "ins",
+    "masc",
+    "pl",
+    "vir"
+   ],
+   "l": "CALY"
+  },
+  "DW": {
+   "p": "ADJ",
+   "g": [
+    "loc",
+    "masc",
+    "pl",
+    "vir"
+   ],
+   "l": "CALY"
+  },
+  "DX": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "masc",
+    "nom",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "DY": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "gen",
+    "ind",
+    "masc",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "DZ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "dat",
+    "ind",
+    "masc",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EA": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "act",
+    "ind",
+    "masc",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EB": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "ins",
+    "masc",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EC": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "loc",
+    "masc",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "ED": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fem",
+    "ind",
+    "nom",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EE": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fem",
+    "gen",
+    "ind",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EF": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "dat",
+    "fem",
+    "ind",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EG": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "act",
+    "fem",
+    "ind",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EH": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fem",
+    "ind",
+    "ins",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EI": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "fem",
+    "ind",
+    "loc",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EJ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "neut",
+    "nom",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EK": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "gen",
+    "ind",
+    "neut",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EL": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "dat",
+    "ind",
+    "neut",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EM": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "act",
+    "ind",
+    "neut",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EN": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "ins",
+    "neut",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EO": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "loc",
+    "neut",
+    "p3",
+    "pres",
+    "sg"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EP": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "masc",
+    "nom",
+    "p3",
+    "pl",
+    "pres",
+    "vir"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EQ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "gen",
+    "ind",
+    "masc",
+    "p3",
+    "pl",
+    "pres",
+    "vir"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "ER": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "dat",
+    "ind",
+    "masc",
+    "p3",
+    "pl",
+    "pres",
+    "vir"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "ES": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "act",
+    "ind",
+    "masc",
+    "p3",
+    "pl",
+    "pres",
+    "vir"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "ET": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "ins",
+    "masc",
+    "p3",
+    "pl",
+    "pres",
+    "vir"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EU": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "loc",
+    "masc",
+    "p3",
+    "pl",
+    "pres",
+    "vir"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EV": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "nom",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EW": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "gen",
+    "ind",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EX": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "dat",
+    "ind",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EY": {
+   "p": "VERB",
+   "g": [
+    "acc",
+    "act",
+    "ind",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "EZ": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "ins",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "DOTYCZYC"
+  },
+  "FA": {
+   "p": "VERB",
+   "g": [
+    "act",
+    "ind",
+    "loc",
+    "p3",
+    "pl",
+    "pres"
+   ],
+   "l": "DOTYCZYC"
   }
  },
  "plug_noun_gram_code": "BG"
