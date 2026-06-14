@@ -11,6 +11,7 @@
 #include "morph_dict/agramtab/LatGramTab.h"
 #include "morph_dict/agramtab/ItaGramTab.h"
 #include "morph_dict/agramtab/HunGramTab.h"
+#include "morph_dict/agramtab/PolGramTab.h"
 #include "Paradigm.h"
 #include "Lemmatizers.h"
 #include "morph_dict/common/rapidjson.h"
